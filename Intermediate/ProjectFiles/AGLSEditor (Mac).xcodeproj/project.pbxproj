@@ -1,0 +1,1252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		ABD172FF29B6411A19EC17F6 = {isa = PBXBuildFile; fileRef = C7B00C34A7FE9B7DF45D58D9; }; /* AGLS_NavLinkCustomComponent.cpp */
+		574FB16578E6A2A2AD3211C3 = {isa = PBXBuildFile; fileRef = 4DACFEEE64C1055C94684C5D; }; /* AISense_BetterSight.cpp */
+		81B867718007FB6353788ACE = {isa = PBXBuildFile; fileRef = E296D07B7B914EFF65586941; }; /* AdvancedAI_TasksAndFunctions.cpp */
+		D9F636E032DDB4F34BA88FE3 = {isa = PBXBuildFile; fileRef = 40311AE3B7565EA5EC0BA576; }; /* BTService_BlueprintCustom.cpp */
+		9B64283BB48A4E0886C97140 = {isa = PBXBuildFile; fileRef = 9FFB45640DD8D50C72EAA022; }; /* ClimbNavigationStorageActor.cpp */
+		F1217868E49506EE025455AA = {isa = PBXBuildFile; fileRef = FBBDD153D1F80765E4D53BB3; }; /* ClimbingNavigation.cpp */
+		1F0A5239C8A19ADB12922E77 = {isa = PBXBuildFile; fileRef = 6D2F10ABAF362C4FF804F066; }; /* ClimbingNavigationBPLibrary.cpp */
+		E75060A1D5A116A8D0D5CB4B = {isa = PBXBuildFile; fileRef = 4C4B62D51F2851B5E16B717D; }; /* DynamicNavLinkComponent.cpp */
+		83E3BE1571D0CB76537A552C = {isa = PBXBuildFile; fileRef = E729803695F7E85FD4E1358B; }; /* EnvQueryGenerator_NavCoverPoints.cpp */
+		2DC2F5751013A50EC4DA8C3F = {isa = PBXBuildFile; fileRef = A4A36ECBE05E849DCF166287; }; /* EnvQueryTest_Composite.cpp */
+		F46C0218FBA74D58EA3F6663 = {isa = PBXBuildFile; fileRef = 568017D9C4D886475C604577; }; /* EnvQueryTest_CustomScore.cpp */
+		6BBDAFAB732F96E0FD2E5AB7 = {isa = PBXBuildFile; fileRef = D571A64C6BBC62D9B4787206; }; /* EnvQueryTest_DotToContextRot.cpp */
+		1C90EF64C5197603582F849A = {isa = PBXBuildFile; fileRef = A7F53BAA7242F76A0BB83C76; }; /* EnvQueryTest_PathsOverlapping.cpp */
+		510202DB6344CAB0C4055464 = {isa = PBXBuildFile; fileRef = 29AC33E4B3C870C930F917C2; }; /* EnvQueryTest_PointInsideCylinder.cpp */
+		86E2295ABDA510284E264A6D = {isa = PBXBuildFile; fileRef = 534609BCEEBC7D2236550639; }; /* EnvQuery_CSD_CheckPath.cpp */
+		4438945262B261F5D994EF35 = {isa = PBXBuildFile; fileRef = 7AA3C320759361D8383BB1CA; }; /* EnvQuery_CSD_Distance.cpp */
+		03AE821E78651693278B9517 = {isa = PBXBuildFile; fileRef = E937E71A74EF10DC2AEAF19B; }; /* EnvQuery_CSD_DistanceToVector.cpp */
+		E1211266B0758617606D31D8 = {isa = PBXBuildFile; fileRef = 7F52AC117897660FB339503C; }; /* EnvQuery_CompositeScoreDefine.cpp */
+		980F98F05856A1AED90822F4 = {isa = PBXBuildFile; fileRef = 98656F11E78043A29D94B668; }; /* EnvQuery_CustomScoreDefine.cpp */
+		2116E52E1C67E31BE6C5C120 = {isa = PBXBuildFile; fileRef = 2065F06C1C68A9D8C92172D8; }; /* HidingLocSearch_EnemyProperties.cpp */
+		2713B3B45A968ACD51C05F7A = {isa = PBXBuildFile; fileRef = 75427244AC2B8FC8A64C0021; }; /* MyEnvQueryTest_PointsNearEdges.cpp */
+		E8B942F2C66D61FFA30D6B3B = {isa = PBXBuildFile; fileRef = E2D76D0B6C8BA1D6E508BC14; }; /* NavClimbingComponentCore.cpp */
+		10CDEAE5D1596119BCE7C729 = {isa = PBXBuildFile; fileRef = B3B01B41E8F26AB72623CCC7; }; /* NavLinksAutoGenerator.cpp */
+		75FFED4A99EA417CDEE24FD2 = {isa = PBXBuildFile; fileRef = 9F3B448C0B1A8747F6FEAC72; }; /* NavLinksStorage.cpp */
+		22D2D9EACEDEEA30DCF03BB2 = {isa = PBXBuildFile; fileRef = 52D660AD8B6E5AC117914FBE; }; /* NavQuery_FullNavPathFinding.cpp */
+		A6C474A1FE9537EC0122F4AF = {isa = PBXBuildFile; fileRef = E0F83427E1D9265F5B70452A; }; /* NavQuery_HidingLocSearchParams.cpp */
+		C3E0840BAEDB58367E4980E7 = {isa = PBXBuildFile; fileRef = B008D0993FD8C91B3714067B; }; /* SmoothPathFollowingComponent.cpp */
+		7232A25BD50EB039EEB65DEA = {isa = PBXBuildFile; fileRef = F0CF226B1E21DE8047D00EF0; }; /* AGLS_EditorCommands.cpp */
+		A07B09B696AF5D849F5F532B = {isa = PBXBuildFile; fileRef = D2CA30C335EC5F6852678C53; }; /* GraphDebbuger.cpp */
+		58ACBF8D623441314D52835F = {isa = PBXBuildFile; fileRef = B545F99F6000C873DC08A11B; }; /* GraphDebbugerBPLibrary.cpp */
+		F3C007529E1977500BA31B30 = {isa = PBXBuildFile; fileRef = 91E55B3FA14A70FEE70FAF91; }; /* GraphDebuggerCore.cpp */
+		8FB4F17BC480AF9FF16691BA = {isa = PBXBuildFile; fileRef = 3BCACFEDC48A46628E10D5F8; }; /* AGLS_AI_AnimInstanceBase.cpp */
+		CCFF74E6E0A3E32CFC52F530 = {isa = PBXBuildFile; fileRef = 38EF619AE4BDF12E402C0D0D; }; /* AGLS_AI_CharacterInterface.cpp */
+		9F0497566C78004562928A49 = {isa = PBXBuildFile; fileRef = C42B1E7B87265A8BA8853997; }; /* AGLS_AI_HumanCharInterface.cpp */
+		B088F3BA0FCF4526FC5F2E7D = {isa = PBXBuildFile; fileRef = F76BF9D467542F4ED89B7F10; }; /* AGLS_AIsMeleeFightCore.cpp */
+		7BDA170CC9C05A723ECD89A7 = {isa = PBXBuildFile; fileRef = 1D13A66926C05F5D5987DA4C; }; /* AGLS_CharacterMovementComponent.cpp */
+		219AC52C5039D122B9FB5F5F = {isa = PBXBuildFile; fileRef = 9FA9121F88F14FD538B6AFEF; }; /* AGLS_HumanAI_CharacterBase.cpp */
+		637688289B840B7FDFF800EA = {isa = PBXBuildFile; fileRef = 69A2D6310C1F7B6E4127CFB0; }; /* AGLS_ZombieAttacksComponentCore.cpp */
+		F20C557D2E45AB8FE3006136 = {isa = PBXBuildFile; fileRef = 97D54C527A9C0E48B2308E0C; }; /* AGLS_ZombieCharacterCore.cpp */
+		38B709D736EA9CC17D48704F = {isa = PBXBuildFile; fileRef = 06445AE2BD317793BFA0BB31; }; /* AGLS_Zombie_ControllerAI.cpp */
+		48C0AC375EAA9D28DDB7E382 = {isa = PBXBuildFile; fileRef = 2665E693BE6CAC5FED177284; }; /* AI_MeleeFightSequencesData.cpp */
+		C2909CCD0518EAE36634F04A = {isa = PBXBuildFile; fileRef = 6ACAEE4BE35193F20C2CEEB0; }; /* ALS_BaseAI_CharacterCpp.cpp */
+		327645EFE974B585FA0704BC = {isa = PBXBuildFile; fileRef = D97ED2FC983F924D89B52382; }; /* ALS_BaseComponentsInterfaceCpp.cpp */
+		D5B32C58D41B260BFC807E89 = {isa = PBXBuildFile; fileRef = 242F4F51CE49F10588B8CB06; }; /* ALS_DamageConfigData.cpp */
+		684ACC333FF10A03D0E49E7D = {isa = PBXBuildFile; fileRef = DB7610F7BF63A39E46091941; }; /* ALS_HookActorInterface.cpp */
+		BEDBA04CDE271888BC648FC9 = {isa = PBXBuildFile; fileRef = F1F6343887DEC5A5AE1D146A; }; /* ALS_HumanAI_ControllerCpp.cpp */
+		ECB326B49D3912AD92820ED0 = {isa = PBXBuildFile; fileRef = 7E4CF18F5953F389FF69256D; }; /* ALS_HumanAI_InterfaceCpp.cpp */
+		1A4CAC63EB742F838DB9F20D = {isa = PBXBuildFile; fileRef = 9D45A77A972B69495CA6258E; }; /* ALS_StructuresAndEnumsCpp.cpp */
+		896E18525CC1877D53C33086 = {isa = PBXBuildFile; fileRef = 1C3910FDFB49B28FCF859D33; }; /* AsyncFunctionsPlayer.cpp */
+		2657E08DD79AED314E27FBFC = {isa = PBXBuildFile; fileRef = DE97587D2C7C4DAF749AD2EA; }; /* AsyncLoadAssetsNode.cpp */
+		EA2E513A0C6C0B3CA6D744BF = {isa = PBXBuildFile; fileRef = 483DCE67590DEA9FF983F9DA; }; /* Cpp_CoverSystemV2.cpp */
+		A9195AE1C3A45373261EFD42 = {isa = PBXBuildFile; fileRef = CE82AE5A595C6BB192EE0E10; }; /* Cpp_DynamicClimbingComponent.cpp */
+		9EE25685FD62661DE825E16D = {isa = PBXBuildFile; fileRef = 00F95FB4044CEE3634A2863E; }; /* Cpp_FallDamageAndSliding.cpp */
+		75F15208B8ECC619CA008704 = {isa = PBXBuildFile; fileRef = BF291D78B5850A837445324E; }; /* Cpp_LadderClimbingComponent.cpp */
+		0DDE3F6734004330BF0315AC = {isa = PBXBuildFile; fileRef = 9648EB8554F820BEC7E7E1DF; }; /* Cpp_MatchedMontageComponent.cpp */
+		17B6AE56DDE090A0C63670B9 = {isa = PBXBuildFile; fileRef = 87768949E3936DD92F12776E; }; /* Cpp_TraversalActionComponent.cpp */
+		E4DC3CCDB0779FF3FFCAA852 = {isa = PBXBuildFile; fileRef = 3731D6BAC20AC82513BBFF84; }; /* HelpfulFunctions.cpp */
+		38A22B6B706D591509E31CD1 = {isa = PBXBuildFile; fileRef = CEAFB6AE3F95811F444BDD85; }; /* HelpfulFunctionsBPLibrary.cpp */
+		76661A2DAC477C319BEEFBAD = {isa = PBXBuildFile; fileRef = CB8F8A15643BD9A4EEEEAAB5; }; /* InteractionWidgetCondition.cpp */
+		8EB025D135E12AEF20D8DF78 = {isa = PBXBuildFile; fileRef = 7FFD8F9A89BFFD99D8E11DA2; }; /* InteractionWidgetDisplay.cpp */
+		542567185C0E8E6BEAD56051 = {isa = PBXBuildFile; fileRef = C4EB42161733634CB3E1E799; }; /* InteractionWidgetInterface.cpp */
+		CF68B8D628E9DD043E40B6D9 = {isa = PBXBuildFile; fileRef = 4839344E362A57F4EC3F84B8; }; /* InteractiveActor.cpp */
+		B4DFE5106C5C04CDE27DF206 = {isa = PBXBuildFile; fileRef = E3B95D48C231F99B3304962E; }; /* InteractiveActorsInterface.cpp */
+		65A8A5ADD5336096A1ECB2B9 = {isa = PBXBuildFile; fileRef = 6B87F8F2046CBDB1D8E0AD9E; }; /* InteractiveStaticMeshActor.cpp */
+		2002DCD060F7E75E308A47D5 = {isa = PBXBuildFile; fileRef = 256C77CFE4ED3425CEEE67EE; }; /* JacobMotionWarpingComponent.cpp */
+		C36463DDFE917F8B85F5FE26 = {isa = PBXBuildFile; fileRef = 741BFC6CFC0BDB05B7DFFE2F; }; /* JakubW_ASyncFunctions.cpp */
+		DB25A0A1FF7381FB5C17C721 = {isa = PBXBuildFile; fileRef = C1193EC00D58B19C6A95C30D; }; /* MantleAssetData.cpp */
+		BE63577C75FC0CBA0A49AE4C = {isa = PBXBuildFile; fileRef = 5F648AB2687848C77DF180DA; }; /* ModifyClimbingParamsVolume.cpp */
+		EC69CC9E8C0100B049B6A722 = {isa = PBXBuildFile; fileRef = 8FD08DF072EE35FE1BE06D4B; }; /* SimpleMovementParamsData.cpp */
+		3B61CC06D05F8A663476F14B = {isa = PBXBuildFile; fileRef = C0D4DDFB3A1BE2905A4C40F3; }; /* TraversalActionsParamsData.cpp */
+		9D3E01956F4E2098FBD726AD = {isa = PBXBuildFile; fileRef = F6E2B2AD034A53A616DDEB51; }; /* TraversalInteractionInterface.cpp */
+		99804C42176C55B07BEA6448 = {isa = PBXBuildFile; fileRef = 7F2370DE6C2E3D33F018BBE7; }; /* AbilityTask_DelayWithTick.cpp */
+		880B7D3F44419E25E3C308FD = {isa = PBXBuildFile; fileRef = B0A2DC048E23378C5FA31841; }; /* AbilityTask_MoveByInputWithRot.cpp */
+		4D44574956B9D437382E07F5 = {isa = PBXBuildFile; fileRef = C2EAA6F6C648F00E2106883B; }; /* AbilityTask_MovePawnByInput.cpp */
+		1630FCEC59A4B63F79DC785D = {isa = PBXBuildFile; fileRef = D50EFC2398A0B3DA6D1B026C; }; /* AbilityTask_TimerFunction.cpp */
+		AD1A494B1D103B16D5B03456 = {isa = PBXBuildFile; fileRef = B4990BF2FD5B9A9525B3422A; }; /* AsyncAnimInstance.cpp */
+		356A61E9EE16B4C9D47FBAC5 = {isa = PBXBuildFile; fileRef = FA3E58785BE943D2FB6BE63E; }; /* GAS_InteractionsComponent.cpp */
+		05AC49D162315B47BC1B9CE8 = {isa = PBXBuildFile; fileRef = 939A353AC399D16A474F4403; }; /* GAS_MainCharacterCpp.cpp */
+		D2F66C7A787C10C983226DB7 = {isa = PBXBuildFile; fileRef = 10697591F5452551D3217B81; }; /* IWALS_AbilityInterface.cpp */
+		7B37064A54428974A0A86A37 = {isa = PBXBuildFile; fileRef = FDDAD313D50E1141873CBD29; }; /* IWALS_AbilitySystem.cpp */
+		11D054EA695AD1E5F33BEEA1 = {isa = PBXBuildFile; fileRef = E153D3E7AA76739B831F41BA; }; /* IWALS_AnimInstanceCpp.cpp */
+		8DDF6CECB4AFDEF9D81FAB6D = {isa = PBXBuildFile; fileRef = 5CD451A7817DEF6E75C30BED; }; /* IWALS_AnimLayersClassData.cpp */
+		31EFB49FA15FC3C2298AD8E5 = {isa = PBXBuildFile; fileRef = C14201B8672A6FC864BC4F0C; }; /* IWALS_BaseAttributeSet.cpp */
+		C163D5F09B080BF18F990D22 = {isa = PBXBuildFile; fileRef = A6088C5B60ACA20F19533F7C; }; /* IWALS_EnumsAndStruct.cpp */
+		AD6E263902FE6B6E2358A257 = {isa = PBXBuildFile; fileRef = B1C29BD5C4D5E97700969876; }; /* IWALS_GameplayAbility.cpp */
+		A0AFB366C52E2EB667462447 = {isa = PBXBuildFile; fileRef = E70F2AABE08612E366DE8529; }; /* IWALS_GameplayAbilitySet.cpp */
+		DD47B3C95898DA41FFD13980 = {isa = PBXBuildFile; fileRef = A72E282F4339C987E5A50E85; }; /* IWALS_OverlayLayerInterface.cpp */
+		51A3604A51FC189189151FBC = {isa = PBXBuildFile; fileRef = C2D346EFD8954A7F660FA38E; }; /* InteractionAbilitiesSet.cpp */
+		5377CB696A56C20605293DB5 = {isa = PBXBuildFile; fileRef = 7CEBB438F4839C27422865E7; }; /* JWAN_CurveSmootherGraph.cpp */
+		45D71234981D4DD48FE6ACA2 = {isa = PBXBuildFile; fileRef = 7E23430E4F6BD68322C62794; }; /* JWAN_LayerBlendingGraph.cpp */
+		1964039B8B10012EC7EB0B4F = {isa = PBXBuildFile; fileRef = 7DEC55B02BB50F6E36593024; }; /* JWAN_ModifyLayeringGraph.cpp */
+		BC5A4FC3ED0C8B7FAF7DE021 = {isa = PBXBuildFile; fileRef = 52E4693824A69D55E58D9263; }; /* JWAN_PoseSnapShotGraph.cpp */
+		B79E8F9F29FF522A11E4AD10 = {isa = PBXBuildFile; fileRef = 07FF19F89EBE05FE0B92E50F; }; /* JakubAnimNodes.cpp */
+		8DA4B72788945824B87F85C5 = {isa = PBXBuildFile; fileRef = FBB69E01E27F481CF3CA7BB1; }; /* JakubAnimNodesBPLibrary.cpp */
+		C995D7838C8E204C5542572C = {isa = PBXBuildFile; fileRef = 0EEFCBE40AFF689E2EC390AE; }; /* MyAnimGraphNode.cpp */
+		D9820AB854FBFE6DBB16C563 = {isa = PBXBuildFile; fileRef = 83450AB8E5E18A74C1B48B48; }; /* JWAN_CurveSmootherLogic.cpp */
+		B111422F380D4BA459D495C7 = {isa = PBXBuildFile; fileRef = 18F089423569551E370541F0; }; /* JWAN_LayerBlendingLogic.cpp */
+		33A75316FB9240A23ED580E9 = {isa = PBXBuildFile; fileRef = 93EFC689B15A736683DB6A57; }; /* JWAN_ModifyLayeringLogic.cpp */
+		AE81223F72490A10BDD724B6 = {isa = PBXBuildFile; fileRef = 19FAB03C12A81B6EF289F49C; }; /* JWAN_PoseSnapShotLogic.cpp */
+		60A0DD6F4922A9DE3E33D611 = {isa = PBXBuildFile; fileRef = 35FD68C535EF95AFB9BB4609; }; /* JakubAnimNodesTool.cpp */
+		E5DDC9D731D24825F6C20643 = {isa = PBXBuildFile; fileRef = B8CE35AECB2109AFAF439FF4; }; /* MyAnimNode.cpp */
+		57473E585E6C10ACCF524A5A = {isa = PBXBuildFile; fileRef = 437373878C70D056EA468A67; }; /* PoseSnapshotLibrary.cpp */
+		FF2F91395A5EFE0E88895E44 = {isa = PBXBuildFile; fileRef = CA8BB5DF9467B89AEACC9E4C; }; /* HandleForItemCpp.cpp */
+		F17992483B0B838928606E97 = {isa = PBXBuildFile; fileRef = C6C3F68B64B339DCF0E3F108; }; /* JakubCableComponent.cpp */
+		EAF641F7D449CB07DE2CD829 = {isa = PBXBuildFile; fileRef = EC18AFC18FDE3E060DC27F7D; }; /* JakubCableComponentBPLibrary.cpp */
+		9B1A1BCAA37E61EBCC136867 = {isa = PBXBuildFile; fileRef = 667C594641F5BBF6ED943BEF; }; /* JakubCablePhysic.cpp */
+		285E71A60AE49232914535E1 = {isa = PBXBuildFile; fileRef = 11EB689D8F36CD0693112803; }; /* JakubCableStats.cpp */
+		BA376C202B3B92998149E946 = {isa = PBXBuildFile; fileRef = 79531D9230C613725CCB6F42; }; /* JakubSimpleParticleComponent.cpp */
+		E5B9BEAAA96B3DA285B3FC67 = {isa = PBXBuildFile; fileRef = 7F34795B4A64DADDF12BA62A; }; /* AGLS.cpp */
+		78E86334981BFD0659BA7480 = {isa = PBXBuildFile; fileRef = D2698C540D2C6EDCC5EA69D9; }; /* BaseBuilder.cpp */
+		36F0075D056E7E0909F99367 = {isa = PBXBuildFile; fileRef = E60406A3EF4238DE7A6CECA2; }; /* AGLS.png */
+		61261919F6D2CA4D789929AB = {isa = PBXBuildFile; fileRef = F2B870E99E8773AC710FC9BC; }; /* Icon128.png */
+		B0AFC837F63A6A525C5C2281 = {isa = PBXBuildFile; fileRef = 04F689867FBC120990EBD369; }; /* Icon128.png */
+		46B48BBBC41A57D516011A8D = {isa = PBXBuildFile; fileRef = A4F65316705E37CB98417F95; }; /* Icon128.png */
+		3229BC763D90040535F6AD02 = {isa = PBXBuildFile; fileRef = C1CAFE977B28EAEF37BF78C6; }; /* Icon128.png */
+		768662A64FD13373B1F518C7 = {isa = PBXBuildFile; fileRef = CBE1E19430D901D57150D46B; }; /* Icon128.png */
+		D7CA7723FC2BCB26B1F63176 = {isa = PBXBuildFile; fileRef = 93B412E02CB8524334445510; }; /* Icon128.png */
+		54D21B8B54077488926FA695 = {isa = PBXBuildFile; fileRef = 59A56349BC86EB48EE0E9B04; }; /* JakubSimpleParticleComponent_64x.png */
+		BAD1E36C850ECECE62ACC578 = {isa = PBXBuildFile; fileRef = 69B8B574043AF28E3E6C0ACE; }; /* Assets.xcassets */
+		19F4B0635E298B48422655A9 = {isa = PBXBuildFile; fileRef = DEBC46E5BADDCFA0FEF1EB51; }; /* LaunchScreen.storyboardc */
+		22452FCA308C80D7183129AE = {isa = PBXBuildFile; fileRef = B99184457EED09D1B3F92D4A; }; /* UEMetadata */
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E60406A3EF4238DE7A6CECA2 = {isa = PBXFileReference; explicitFileType = image.png; name = "AGLS.png"; path = "../../AGLS.png"; sourceTree = SOURCE_ROOT; };
+		6EF1EB4E659A8BF798C986A9 = {isa = PBXFileReference; explicitFileType = file.txt; name = "AGLS.uproject"; path = "../../AGLS.uproject"; sourceTree = SOURCE_ROOT; };
+		6BEA0626AE209966BF69E6DB = {isa = PBXFileReference; explicitFileType = file.txt; name = "ClimbingNavigation.uplugin"; path = "../../Plugins/ClimbingNavigation/ClimbingNavigation.uplugin"; sourceTree = SOURCE_ROOT; };
+		F2B870E99E8773AC710FC9BC = {isa = PBXFileReference; explicitFileType = image.png; name = "Icon128.png"; path = "../../Plugins/ClimbingNavigation/Resources/Icon128.png"; sourceTree = SOURCE_ROOT; };
+		1677B3E6DC465771E1B25249 = {isa = PBXFileReference; explicitFileType = file.txt; name = "ClimbingNavigation.Build.cs"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/ClimbingNavigation.Build.cs"; sourceTree = SOURCE_ROOT; };
+		C7B00C34A7FE9B7DF45D58D9 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AGLS_NavLinkCustomComponent.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/AGLS_NavLinkCustomComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		4DACFEEE64C1055C94684C5D = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AISense_BetterSight.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/AISense_BetterSight.cpp"; sourceTree = SOURCE_ROOT; };
+		E296D07B7B914EFF65586941 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AdvancedAI_TasksAndFunctions.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/AdvancedAI_TasksAndFunctions.cpp"; sourceTree = SOURCE_ROOT; };
+		40311AE3B7565EA5EC0BA576 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BTService_BlueprintCustom.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/BTService_BlueprintCustom.cpp"; sourceTree = SOURCE_ROOT; };
+		9FFB45640DD8D50C72EAA022 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ClimbNavigationStorageActor.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/ClimbNavigationStorageActor.cpp"; sourceTree = SOURCE_ROOT; };
+		FBBDD153D1F80765E4D53BB3 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ClimbingNavigation.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/ClimbingNavigation.cpp"; sourceTree = SOURCE_ROOT; };
+		6D2F10ABAF362C4FF804F066 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ClimbingNavigationBPLibrary.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/ClimbingNavigationBPLibrary.cpp"; sourceTree = SOURCE_ROOT; };
+		4C4B62D51F2851B5E16B717D = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DynamicNavLinkComponent.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/DynamicNavLinkComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		E729803695F7E85FD4E1358B = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnvQueryGenerator_NavCoverPoints.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/EnvQueryGenerator_NavCoverPoints.cpp"; sourceTree = SOURCE_ROOT; };
+		A4A36ECBE05E849DCF166287 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnvQueryTest_Composite.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/EnvQueryTest_Composite.cpp"; sourceTree = SOURCE_ROOT; };
+		568017D9C4D886475C604577 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnvQueryTest_CustomScore.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/EnvQueryTest_CustomScore.cpp"; sourceTree = SOURCE_ROOT; };
+		D571A64C6BBC62D9B4787206 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnvQueryTest_DotToContextRot.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/EnvQueryTest_DotToContextRot.cpp"; sourceTree = SOURCE_ROOT; };
+		A7F53BAA7242F76A0BB83C76 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnvQueryTest_PathsOverlapping.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/EnvQueryTest_PathsOverlapping.cpp"; sourceTree = SOURCE_ROOT; };
+		29AC33E4B3C870C930F917C2 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnvQueryTest_PointInsideCylinder.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/EnvQueryTest_PointInsideCylinder.cpp"; sourceTree = SOURCE_ROOT; };
+		534609BCEEBC7D2236550639 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnvQuery_CSD_CheckPath.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/EnvQuery_CSD_CheckPath.cpp"; sourceTree = SOURCE_ROOT; };
+		7AA3C320759361D8383BB1CA = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnvQuery_CSD_Distance.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/EnvQuery_CSD_Distance.cpp"; sourceTree = SOURCE_ROOT; };
+		E937E71A74EF10DC2AEAF19B = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnvQuery_CSD_DistanceToVector.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/EnvQuery_CSD_DistanceToVector.cpp"; sourceTree = SOURCE_ROOT; };
+		7F52AC117897660FB339503C = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnvQuery_CompositeScoreDefine.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/EnvQuery_CompositeScoreDefine.cpp"; sourceTree = SOURCE_ROOT; };
+		98656F11E78043A29D94B668 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnvQuery_CustomScoreDefine.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/EnvQuery_CustomScoreDefine.cpp"; sourceTree = SOURCE_ROOT; };
+		2065F06C1C68A9D8C92172D8 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HidingLocSearch_EnemyProperties.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/HidingLocSearch_EnemyProperties.cpp"; sourceTree = SOURCE_ROOT; };
+		75427244AC2B8FC8A64C0021 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MyEnvQueryTest_PointsNearEdges.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/MyEnvQueryTest_PointsNearEdges.cpp"; sourceTree = SOURCE_ROOT; };
+		E2D76D0B6C8BA1D6E508BC14 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "NavClimbingComponentCore.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/NavClimbingComponentCore.cpp"; sourceTree = SOURCE_ROOT; };
+		B3B01B41E8F26AB72623CCC7 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "NavLinksAutoGenerator.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/NavLinksAutoGenerator.cpp"; sourceTree = SOURCE_ROOT; };
+		9F3B448C0B1A8747F6FEAC72 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "NavLinksStorage.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/NavLinksStorage.cpp"; sourceTree = SOURCE_ROOT; };
+		52D660AD8B6E5AC117914FBE = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "NavQuery_FullNavPathFinding.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/NavQuery_FullNavPathFinding.cpp"; sourceTree = SOURCE_ROOT; };
+		E0F83427E1D9265F5B70452A = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "NavQuery_HidingLocSearchParams.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/NavQuery_HidingLocSearchParams.cpp"; sourceTree = SOURCE_ROOT; };
+		B008D0993FD8C91B3714067B = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SmoothPathFollowingComponent.cpp"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/SmoothPathFollowingComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		23052284044CED093ECEA06C = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AGLS_NavLinkCustomComponent.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/AGLS_NavLinkCustomComponent.h"; sourceTree = SOURCE_ROOT; };
+		20EF4203A83EBBFF01476ADC = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AISense_BetterSight.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/AISense_BetterSight.h"; sourceTree = SOURCE_ROOT; };
+		F4F7E7C065884E73B3E30012 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AdvancedAI_TasksAndFunctions.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/AdvancedAI_TasksAndFunctions.h"; sourceTree = SOURCE_ROOT; };
+		00A06B4EBC9DBCFE60D9F3D3 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BTService_BlueprintCustom.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/BTService_BlueprintCustom.h"; sourceTree = SOURCE_ROOT; };
+		D90E521B1D9627044A95679F = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ClimbNavigationStorageActor.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/ClimbNavigationStorageActor.h"; sourceTree = SOURCE_ROOT; };
+		EEF7EDCBC86AD942349E1548 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ClimbingNavigation.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/ClimbingNavigation.h"; sourceTree = SOURCE_ROOT; };
+		AD500431EC7991EB17E3C858 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ClimbingNavigationBPLibrary.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/ClimbingNavigationBPLibrary.h"; sourceTree = SOURCE_ROOT; };
+		0DB542C8F96ABF8776878AE0 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DynamicNavLinkComponent.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/DynamicNavLinkComponent.h"; sourceTree = SOURCE_ROOT; };
+		0198F783E60B14F3F83BDCE2 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnvQueryGenerator_NavCoverPoints.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/EnvQueryGenerator_NavCoverPoints.h"; sourceTree = SOURCE_ROOT; };
+		F9385AB027155380A2C06AC5 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnvQueryTest_Composite.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/EnvQueryTest_Composite.h"; sourceTree = SOURCE_ROOT; };
+		CD53DE03FD9F519E21D2759C = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnvQueryTest_CustomScore.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/EnvQueryTest_CustomScore.h"; sourceTree = SOURCE_ROOT; };
+		A91E8ED1EAF5F8EE0060DF54 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnvQueryTest_DotToContextRot.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/EnvQueryTest_DotToContextRot.h"; sourceTree = SOURCE_ROOT; };
+		6D5CF135F3741CDF4E51FA85 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnvQueryTest_PathsOverlapping.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/EnvQueryTest_PathsOverlapping.h"; sourceTree = SOURCE_ROOT; };
+		0D9C1146A4D5FF20D0E64149 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnvQueryTest_PointInsideCylinder.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/EnvQueryTest_PointInsideCylinder.h"; sourceTree = SOURCE_ROOT; };
+		B3C57B556D50ECF3C5351356 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnvQuery_CSD_CheckPath.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/EnvQuery_CSD_CheckPath.h"; sourceTree = SOURCE_ROOT; };
+		5D4386E5760C3998E9300DE7 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnvQuery_CSD_Distance.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/EnvQuery_CSD_Distance.h"; sourceTree = SOURCE_ROOT; };
+		EDBE76BEEA849007D68FD44E = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnvQuery_CSD_DistanceToVector.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/EnvQuery_CSD_DistanceToVector.h"; sourceTree = SOURCE_ROOT; };
+		C8C849D0DACC52FBE956D8C0 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnvQuery_CompositeScoreDefine.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/EnvQuery_CompositeScoreDefine.h"; sourceTree = SOURCE_ROOT; };
+		A492A663543AD8FC42FFBECC = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnvQuery_CustomScoreDefine.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/EnvQuery_CustomScoreDefine.h"; sourceTree = SOURCE_ROOT; };
+		7A9A0E5B592E1260969526C1 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HidingLocSearch_EnemyProperties.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/HidingLocSearch_EnemyProperties.h"; sourceTree = SOURCE_ROOT; };
+		DBD9862E07B0AB3329922348 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MyEnvQueryTest_PointsNearEdges.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/MyEnvQueryTest_PointsNearEdges.h"; sourceTree = SOURCE_ROOT; };
+		5CFB1700885E5314D7BEAF93 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "NavClimbingComponentCore.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/NavClimbingComponentCore.h"; sourceTree = SOURCE_ROOT; };
+		315B77941E18B9B287D2B14E = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "NavLinksAutoGenerator.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/NavLinksAutoGenerator.h"; sourceTree = SOURCE_ROOT; };
+		2BE79AC9DAD9C0500BD43A69 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "NavLinksStorage.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/NavLinksStorage.h"; sourceTree = SOURCE_ROOT; };
+		D764F0E3F843821038B6BA36 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "NavQuery_FullNavPathFinding.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/NavQuery_FullNavPathFinding.h"; sourceTree = SOURCE_ROOT; };
+		B8713C164DBF8E02A34FA626 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "NavQuery_HidingLocSearchParams.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/NavQuery_HidingLocSearchParams.h"; sourceTree = SOURCE_ROOT; };
+		B157131C81B750410BEB29EF = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SmoothPathFollowingComponent.h"; path = "../../Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public/SmoothPathFollowingComponent.h"; sourceTree = SOURCE_ROOT; };
+		163499B050F084D1C15B34F6 = {isa = PBXFileReference; explicitFileType = file.txt; name = "GraphDebbuger.uplugin"; path = "../../Plugins/GraphDebbuger/GraphDebbuger.uplugin"; sourceTree = SOURCE_ROOT; };
+		04F689867FBC120990EBD369 = {isa = PBXFileReference; explicitFileType = image.png; name = "Icon128.png"; path = "../../Plugins/GraphDebbuger/Resources/Icon128.png"; sourceTree = SOURCE_ROOT; };
+		F8F273CE6AACC139054F5983 = {isa = PBXFileReference; explicitFileType = file.txt; name = "GraphDebbuger.Build.cs"; path = "../../Plugins/GraphDebbuger/Source/GraphDebbuger/GraphDebbuger.Build.cs"; sourceTree = SOURCE_ROOT; };
+		F0CF226B1E21DE8047D00EF0 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AGLS_EditorCommands.cpp"; path = "../../Plugins/GraphDebbuger/Source/GraphDebbuger/Private/AGLS_EditorCommands.cpp"; sourceTree = SOURCE_ROOT; };
+		D2CA30C335EC5F6852678C53 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "GraphDebbuger.cpp"; path = "../../Plugins/GraphDebbuger/Source/GraphDebbuger/Private/GraphDebbuger.cpp"; sourceTree = SOURCE_ROOT; };
+		B545F99F6000C873DC08A11B = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "GraphDebbugerBPLibrary.cpp"; path = "../../Plugins/GraphDebbuger/Source/GraphDebbuger/Private/GraphDebbugerBPLibrary.cpp"; sourceTree = SOURCE_ROOT; };
+		91E55B3FA14A70FEE70FAF91 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "GraphDebuggerCore.cpp"; path = "../../Plugins/GraphDebbuger/Source/GraphDebbuger/Private/GraphDebuggerCore.cpp"; sourceTree = SOURCE_ROOT; };
+		D22F3373E5A2F5D748357603 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AGLS_EditorCommands.h"; path = "../../Plugins/GraphDebbuger/Source/GraphDebbuger/Public/AGLS_EditorCommands.h"; sourceTree = SOURCE_ROOT; };
+		08C5E49CDB70DA8C42B7548D = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "GraphDebbuger.h"; path = "../../Plugins/GraphDebbuger/Source/GraphDebbuger/Public/GraphDebbuger.h"; sourceTree = SOURCE_ROOT; };
+		79DCCF154F4B603094B54B3E = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "GraphDebbugerBPLibrary.h"; path = "../../Plugins/GraphDebbuger/Source/GraphDebbuger/Public/GraphDebbugerBPLibrary.h"; sourceTree = SOURCE_ROOT; };
+		25D7CF5F828C20A52F580C8A = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "GraphDebuggerCore.h"; path = "../../Plugins/GraphDebbuger/Source/GraphDebbuger/Public/GraphDebuggerCore.h"; sourceTree = SOURCE_ROOT; };
+		DFE9C7656186402DD4755B9C = {isa = PBXFileReference; explicitFileType = file.txt; name = "FilterPlugin.ini"; path = "../../Plugins/HelpfulFunctions/Config/FilterPlugin.ini"; sourceTree = SOURCE_ROOT; };
+		2AE2755E7ED527B91218AC59 = {isa = PBXFileReference; explicitFileType = file.txt; name = "HelpfulFunctions.uplugin"; path = "../../Plugins/HelpfulFunctions/HelpfulFunctions.uplugin"; sourceTree = SOURCE_ROOT; };
+		A4F65316705E37CB98417F95 = {isa = PBXFileReference; explicitFileType = image.png; name = "Icon128.png"; path = "../../Plugins/HelpfulFunctions/Resources/Icon128.png"; sourceTree = SOURCE_ROOT; };
+		08F87D245398BC5BA281FE1E = {isa = PBXFileReference; explicitFileType = file.txt; name = "HelpfulFunctions.Build.cs"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/HelpfulFunctions.Build.cs"; sourceTree = SOURCE_ROOT; };
+		3BCACFEDC48A46628E10D5F8 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AGLS_AI_AnimInstanceBase.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_AI_AnimInstanceBase.cpp"; sourceTree = SOURCE_ROOT; };
+		38EF619AE4BDF12E402C0D0D = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AGLS_AI_CharacterInterface.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_AI_CharacterInterface.cpp"; sourceTree = SOURCE_ROOT; };
+		C42B1E7B87265A8BA8853997 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AGLS_AI_HumanCharInterface.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_AI_HumanCharInterface.cpp"; sourceTree = SOURCE_ROOT; };
+		F76BF9D467542F4ED89B7F10 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AGLS_AIsMeleeFightCore.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_AIsMeleeFightCore.cpp"; sourceTree = SOURCE_ROOT; };
+		1D13A66926C05F5D5987DA4C = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AGLS_CharacterMovementComponent.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_CharacterMovementComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		9FA9121F88F14FD538B6AFEF = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AGLS_HumanAI_CharacterBase.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_HumanAI_CharacterBase.cpp"; sourceTree = SOURCE_ROOT; };
+		69A2D6310C1F7B6E4127CFB0 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AGLS_ZombieAttacksComponentCore.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_ZombieAttacksComponentCore.cpp"; sourceTree = SOURCE_ROOT; };
+		97D54C527A9C0E48B2308E0C = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AGLS_ZombieCharacterCore.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_ZombieCharacterCore.cpp"; sourceTree = SOURCE_ROOT; };
+		06445AE2BD317793BFA0BB31 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AGLS_Zombie_ControllerAI.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_Zombie_ControllerAI.cpp"; sourceTree = SOURCE_ROOT; };
+		2665E693BE6CAC5FED177284 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AI_MeleeFightSequencesData.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AI_MeleeFightSequencesData.cpp"; sourceTree = SOURCE_ROOT; };
+		6ACAEE4BE35193F20C2CEEB0 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ALS_BaseAI_CharacterCpp.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/ALS_BaseAI_CharacterCpp.cpp"; sourceTree = SOURCE_ROOT; };
+		D97ED2FC983F924D89B52382 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ALS_BaseComponentsInterfaceCpp.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/ALS_BaseComponentsInterfaceCpp.cpp"; sourceTree = SOURCE_ROOT; };
+		242F4F51CE49F10588B8CB06 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ALS_DamageConfigData.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/ALS_DamageConfigData.cpp"; sourceTree = SOURCE_ROOT; };
+		DB7610F7BF63A39E46091941 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ALS_HookActorInterface.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/ALS_HookActorInterface.cpp"; sourceTree = SOURCE_ROOT; };
+		F1F6343887DEC5A5AE1D146A = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ALS_HumanAI_ControllerCpp.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/ALS_HumanAI_ControllerCpp.cpp"; sourceTree = SOURCE_ROOT; };
+		7E4CF18F5953F389FF69256D = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ALS_HumanAI_InterfaceCpp.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/ALS_HumanAI_InterfaceCpp.cpp"; sourceTree = SOURCE_ROOT; };
+		9D45A77A972B69495CA6258E = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ALS_StructuresAndEnumsCpp.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/ALS_StructuresAndEnumsCpp.cpp"; sourceTree = SOURCE_ROOT; };
+		1C3910FDFB49B28FCF859D33 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AsyncFunctionsPlayer.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AsyncFunctionsPlayer.cpp"; sourceTree = SOURCE_ROOT; };
+		DE97587D2C7C4DAF749AD2EA = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AsyncLoadAssetsNode.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AsyncLoadAssetsNode.cpp"; sourceTree = SOURCE_ROOT; };
+		483DCE67590DEA9FF983F9DA = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Cpp_CoverSystemV2.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/Cpp_CoverSystemV2.cpp"; sourceTree = SOURCE_ROOT; };
+		CE82AE5A595C6BB192EE0E10 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Cpp_DynamicClimbingComponent.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/Cpp_DynamicClimbingComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		00F95FB4044CEE3634A2863E = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Cpp_FallDamageAndSliding.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/Cpp_FallDamageAndSliding.cpp"; sourceTree = SOURCE_ROOT; };
+		BF291D78B5850A837445324E = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Cpp_LadderClimbingComponent.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/Cpp_LadderClimbingComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		9648EB8554F820BEC7E7E1DF = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Cpp_MatchedMontageComponent.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/Cpp_MatchedMontageComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		87768949E3936DD92F12776E = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Cpp_TraversalActionComponent.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/Cpp_TraversalActionComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		3731D6BAC20AC82513BBFF84 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HelpfulFunctions.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/HelpfulFunctions.cpp"; sourceTree = SOURCE_ROOT; };
+		CEAFB6AE3F95811F444BDD85 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HelpfulFunctionsBPLibrary.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/HelpfulFunctionsBPLibrary.cpp"; sourceTree = SOURCE_ROOT; };
+		CB8F8A15643BD9A4EEEEAAB5 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "InteractionWidgetCondition.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/InteractionWidgetCondition.cpp"; sourceTree = SOURCE_ROOT; };
+		7FFD8F9A89BFFD99D8E11DA2 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "InteractionWidgetDisplay.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/InteractionWidgetDisplay.cpp"; sourceTree = SOURCE_ROOT; };
+		C4EB42161733634CB3E1E799 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "InteractionWidgetInterface.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/InteractionWidgetInterface.cpp"; sourceTree = SOURCE_ROOT; };
+		4839344E362A57F4EC3F84B8 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "InteractiveActor.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/InteractiveActor.cpp"; sourceTree = SOURCE_ROOT; };
+		E3B95D48C231F99B3304962E = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "InteractiveActorsInterface.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/InteractiveActorsInterface.cpp"; sourceTree = SOURCE_ROOT; };
+		6B87F8F2046CBDB1D8E0AD9E = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "InteractiveStaticMeshActor.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/InteractiveStaticMeshActor.cpp"; sourceTree = SOURCE_ROOT; };
+		256C77CFE4ED3425CEEE67EE = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JacobMotionWarpingComponent.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/JacobMotionWarpingComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		741BFC6CFC0BDB05B7DFFE2F = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JakubW_ASyncFunctions.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/JakubW_ASyncFunctions.cpp"; sourceTree = SOURCE_ROOT; };
+		C1193EC00D58B19C6A95C30D = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MantleAssetData.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/MantleAssetData.cpp"; sourceTree = SOURCE_ROOT; };
+		5F648AB2687848C77DF180DA = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ModifyClimbingParamsVolume.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/ModifyClimbingParamsVolume.cpp"; sourceTree = SOURCE_ROOT; };
+		8FD08DF072EE35FE1BE06D4B = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SimpleMovementParamsData.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/SimpleMovementParamsData.cpp"; sourceTree = SOURCE_ROOT; };
+		C0D4DDFB3A1BE2905A4C40F3 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "TraversalActionsParamsData.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/TraversalActionsParamsData.cpp"; sourceTree = SOURCE_ROOT; };
+		F6E2B2AD034A53A616DDEB51 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "TraversalInteractionInterface.cpp"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/TraversalInteractionInterface.cpp"; sourceTree = SOURCE_ROOT; };
+		825DA0781E25B1A7512B54B1 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AGLS_AI_AnimInstanceBase.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_AI_AnimInstanceBase.h"; sourceTree = SOURCE_ROOT; };
+		350911936542EDD3C37F1068 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AGLS_AI_CharacterInterface.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_AI_CharacterInterface.h"; sourceTree = SOURCE_ROOT; };
+		F72D61932197E3652E74DB17 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AGLS_AI_HumanCharInterface.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_AI_HumanCharInterface.h"; sourceTree = SOURCE_ROOT; };
+		E6DA028ABA4E200A0DDDAB11 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AGLS_AIsMeleeFightCore.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_AIsMeleeFightCore.h"; sourceTree = SOURCE_ROOT; };
+		737541A544A2C61EDC8ED243 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AGLS_CharacterMovementComponent.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_CharacterMovementComponent.h"; sourceTree = SOURCE_ROOT; };
+		1F1FE8BC6607DD9D19496F15 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AGLS_HumanAI_CharacterBase.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_HumanAI_CharacterBase.h"; sourceTree = SOURCE_ROOT; };
+		2A9F8CACB76645F00AABE4C6 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AGLS_ZombieAttacksComponentCore.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_ZombieAttacksComponentCore.h"; sourceTree = SOURCE_ROOT; };
+		B9AA0E08AECF7585DE8EB059 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AGLS_ZombieCharacterCore.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_ZombieCharacterCore.h"; sourceTree = SOURCE_ROOT; };
+		4A6FD14E55181842DCD1E197 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AGLS_Zombie_ControllerAI.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_Zombie_ControllerAI.h"; sourceTree = SOURCE_ROOT; };
+		8B1761DA8E58AC2B4C2593ED = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AI_MeleeFightSequencesData.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AI_MeleeFightSequencesData.h"; sourceTree = SOURCE_ROOT; };
+		222EEC94702919666E825E05 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ALS_BaseAI_CharacterCpp.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/ALS_BaseAI_CharacterCpp.h"; sourceTree = SOURCE_ROOT; };
+		A28F87289CA74FF8993E51A1 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ALS_BaseComponentsInterfaceCpp.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/ALS_BaseComponentsInterfaceCpp.h"; sourceTree = SOURCE_ROOT; };
+		50E15E173655C66D292ACA02 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ALS_DamageConfigData.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/ALS_DamageConfigData.h"; sourceTree = SOURCE_ROOT; };
+		EB808834ECFC27A5673062F4 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ALS_HookActorInterface.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/ALS_HookActorInterface.h"; sourceTree = SOURCE_ROOT; };
+		08095B0154AF428087051107 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ALS_HumanAI_ControllerCpp.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/ALS_HumanAI_ControllerCpp.h"; sourceTree = SOURCE_ROOT; };
+		1574A00A4CBE4182F66D98B5 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ALS_HumanAI_InterfaceCpp.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/ALS_HumanAI_InterfaceCpp.h"; sourceTree = SOURCE_ROOT; };
+		69C36A38A9BC689ACE18776D = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ALS_StructuresAndEnumsCpp.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/ALS_StructuresAndEnumsCpp.h"; sourceTree = SOURCE_ROOT; };
+		070EBAF4719EC79417AA9849 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AsyncFunctionsPlayer.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AsyncFunctionsPlayer.h"; sourceTree = SOURCE_ROOT; };
+		C67973D9A0F1368FAF4511BD = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AsyncLoadAssetsNode.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AsyncLoadAssetsNode.h"; sourceTree = SOURCE_ROOT; };
+		AD06752CD4B5BC8B364ECE2A = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Cpp_CoverSystemV2.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/Cpp_CoverSystemV2.h"; sourceTree = SOURCE_ROOT; };
+		0C86106552EAAA5A57D918B1 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Cpp_DynamicClimbingComponent.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/Cpp_DynamicClimbingComponent.h"; sourceTree = SOURCE_ROOT; };
+		3B1FCAF5669F74E997B8322F = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Cpp_FallDamageAndSliding.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/Cpp_FallDamageAndSliding.h"; sourceTree = SOURCE_ROOT; };
+		8DA7CD82108A420CFA54E729 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Cpp_LadderClimbingComponent.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/Cpp_LadderClimbingComponent.h"; sourceTree = SOURCE_ROOT; };
+		C1DDE9B6EBBB638C554BFD38 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Cpp_MatchedMontageComponent.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/Cpp_MatchedMontageComponent.h"; sourceTree = SOURCE_ROOT; };
+		540F421DAA7A0092BFA96FFE = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Cpp_TraversalActionComponent.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/Cpp_TraversalActionComponent.h"; sourceTree = SOURCE_ROOT; };
+		538EA500FCDBE7A5286B8CDA = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HelpfulFunctions.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/HelpfulFunctions.h"; sourceTree = SOURCE_ROOT; };
+		83E096CD214006A1CCE9D23A = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HelpfulFunctionsBPLibrary.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/HelpfulFunctionsBPLibrary.h"; sourceTree = SOURCE_ROOT; };
+		6C546AD455A90B47D43E4C44 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "InteractionWidgetCondition.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/InteractionWidgetCondition.h"; sourceTree = SOURCE_ROOT; };
+		B554EC35A762F611CC08AE93 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "InteractionWidgetDisplay.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/InteractionWidgetDisplay.h"; sourceTree = SOURCE_ROOT; };
+		23B1ACC6CDBB7893139EE235 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "InteractionWidgetInterface.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/InteractionWidgetInterface.h"; sourceTree = SOURCE_ROOT; };
+		86002FF8DF2A7C24B8ADCA75 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "InteractiveActor.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/InteractiveActor.h"; sourceTree = SOURCE_ROOT; };
+		95AECF6FDE82745385FD651E = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "InteractiveActorsInterface.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/InteractiveActorsInterface.h"; sourceTree = SOURCE_ROOT; };
+		697FBAFA4AA8FFB0D0E6E4F2 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "InteractiveStaticMeshActor.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/InteractiveStaticMeshActor.h"; sourceTree = SOURCE_ROOT; };
+		DF2D88AF03DC7E66BFE64720 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JacobMotionWarpingComponent.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/JacobMotionWarpingComponent.h"; sourceTree = SOURCE_ROOT; };
+		7261C94985F8EE05D931C080 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JakubW_ASyncFunctions.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/JakubW_ASyncFunctions.h"; sourceTree = SOURCE_ROOT; };
+		196952EBD79A8203C32D4276 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MantleAssetData.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/MantleAssetData.h"; sourceTree = SOURCE_ROOT; };
+		981BA23F04D3BD509651F8EE = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ModifyClimbingParamsVolume.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/ModifyClimbingParamsVolume.h"; sourceTree = SOURCE_ROOT; };
+		7D29C958A9AD6E190741A27D = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SimpleMovementParamsData.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/SimpleMovementParamsData.h"; sourceTree = SOURCE_ROOT; };
+		C897394DB6E9239AAB0F5C56 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TraversalActionsParamsData.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/TraversalActionsParamsData.h"; sourceTree = SOURCE_ROOT; };
+		2E8FF7F642B6BCE1816ACEF6 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TraversalInteractionInterface.h"; path = "../../Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/TraversalInteractionInterface.h"; sourceTree = SOURCE_ROOT; };
+		9EAA00C207741DDDCE39C06B = {isa = PBXFileReference; explicitFileType = file.txt; name = "IWALS_AbilitySystem.uplugin"; path = "../../Plugins/IWALS_AbilitySystem/IWALS_AbilitySystem.uplugin"; sourceTree = SOURCE_ROOT; };
+		C1CAFE977B28EAEF37BF78C6 = {isa = PBXFileReference; explicitFileType = image.png; name = "Icon128.png"; path = "../../Plugins/IWALS_AbilitySystem/Resources/Icon128.png"; sourceTree = SOURCE_ROOT; };
+		F35F7AA375590A3654F62F82 = {isa = PBXFileReference; explicitFileType = file.txt; name = "IWALS_AbilitySystem.Build.cs"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/IWALS_AbilitySystem.Build.cs"; sourceTree = SOURCE_ROOT; };
+		7F2370DE6C2E3D33F018BBE7 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AbilityTask_DelayWithTick.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/AbilityTask_DelayWithTick.cpp"; sourceTree = SOURCE_ROOT; };
+		B0A2DC048E23378C5FA31841 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AbilityTask_MoveByInputWithRot.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/AbilityTask_MoveByInputWithRot.cpp"; sourceTree = SOURCE_ROOT; };
+		C2EAA6F6C648F00E2106883B = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AbilityTask_MovePawnByInput.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/AbilityTask_MovePawnByInput.cpp"; sourceTree = SOURCE_ROOT; };
+		D50EFC2398A0B3DA6D1B026C = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AbilityTask_TimerFunction.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/AbilityTask_TimerFunction.cpp"; sourceTree = SOURCE_ROOT; };
+		B4990BF2FD5B9A9525B3422A = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AsyncAnimInstance.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/AsyncAnimInstance.cpp"; sourceTree = SOURCE_ROOT; };
+		FA3E58785BE943D2FB6BE63E = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "GAS_InteractionsComponent.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/GAS_InteractionsComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		939A353AC399D16A474F4403 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "GAS_MainCharacterCpp.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/GAS_MainCharacterCpp.cpp"; sourceTree = SOURCE_ROOT; };
+		10697591F5452551D3217B81 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IWALS_AbilityInterface.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_AbilityInterface.cpp"; sourceTree = SOURCE_ROOT; };
+		FDDAD313D50E1141873CBD29 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IWALS_AbilitySystem.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_AbilitySystem.cpp"; sourceTree = SOURCE_ROOT; };
+		E153D3E7AA76739B831F41BA = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IWALS_AnimInstanceCpp.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_AnimInstanceCpp.cpp"; sourceTree = SOURCE_ROOT; };
+		5CD451A7817DEF6E75C30BED = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IWALS_AnimLayersClassData.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_AnimLayersClassData.cpp"; sourceTree = SOURCE_ROOT; };
+		C14201B8672A6FC864BC4F0C = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IWALS_BaseAttributeSet.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_BaseAttributeSet.cpp"; sourceTree = SOURCE_ROOT; };
+		A6088C5B60ACA20F19533F7C = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IWALS_EnumsAndStruct.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_EnumsAndStruct.cpp"; sourceTree = SOURCE_ROOT; };
+		B1C29BD5C4D5E97700969876 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IWALS_GameplayAbility.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_GameplayAbility.cpp"; sourceTree = SOURCE_ROOT; };
+		E70F2AABE08612E366DE8529 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IWALS_GameplayAbilitySet.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_GameplayAbilitySet.cpp"; sourceTree = SOURCE_ROOT; };
+		A72E282F4339C987E5A50E85 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IWALS_OverlayLayerInterface.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_OverlayLayerInterface.cpp"; sourceTree = SOURCE_ROOT; };
+		C2D346EFD8954A7F660FA38E = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "InteractionAbilitiesSet.cpp"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/InteractionAbilitiesSet.cpp"; sourceTree = SOURCE_ROOT; };
+		0419D05BB05DF7913826DE26 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AbilityTask_DelayWithTick.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/AbilityTask_DelayWithTick.h"; sourceTree = SOURCE_ROOT; };
+		3296E800DC4B58B9CC6CFC84 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AbilityTask_MoveByInputWithRot.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/AbilityTask_MoveByInputWithRot.h"; sourceTree = SOURCE_ROOT; };
+		92B6C9EBCF51DFDBF24FC8B2 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AbilityTask_MovePawnByInput.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/AbilityTask_MovePawnByInput.h"; sourceTree = SOURCE_ROOT; };
+		9CFC6194539B0887299D1344 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AbilityTask_TimerFunction.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/AbilityTask_TimerFunction.h"; sourceTree = SOURCE_ROOT; };
+		1BE3DA545D6342A7B7F06BC9 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AsyncAnimInstance.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/AsyncAnimInstance.h"; sourceTree = SOURCE_ROOT; };
+		98CF168084B081F93BC5B861 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "GAS_InteractionsComponent.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/GAS_InteractionsComponent.h"; sourceTree = SOURCE_ROOT; };
+		DE34EDED5B5C19D40D51C2EE = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "GAS_MainCharacterCpp.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/GAS_MainCharacterCpp.h"; sourceTree = SOURCE_ROOT; };
+		24A9A94CB417137BA184268B = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "IWALS_AbilityInterface.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/IWALS_AbilityInterface.h"; sourceTree = SOURCE_ROOT; };
+		87757EDFA08B25CB74CB874A = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "IWALS_AbilitySystem.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/IWALS_AbilitySystem.h"; sourceTree = SOURCE_ROOT; };
+		E186CF04BFA18505EC7B10E8 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "IWALS_AnimInstanceCpp.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/IWALS_AnimInstanceCpp.h"; sourceTree = SOURCE_ROOT; };
+		426E0C5431EDD4E20DA0E730 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "IWALS_AnimLayersClassData.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/IWALS_AnimLayersClassData.h"; sourceTree = SOURCE_ROOT; };
+		BE2975D843AD572A55774EEE = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "IWALS_BaseAttributeSet.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/IWALS_BaseAttributeSet.h"; sourceTree = SOURCE_ROOT; };
+		84BC08EB4A58662E9C3CD3D6 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "IWALS_EnumsAndStruct.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/IWALS_EnumsAndStruct.h"; sourceTree = SOURCE_ROOT; };
+		7F06312F2829027A3F86B9FD = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "IWALS_GameplayAbility.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/IWALS_GameplayAbility.h"; sourceTree = SOURCE_ROOT; };
+		FC1A1CF62545E4EF9115F71D = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "IWALS_GameplayAbilitySet.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/IWALS_GameplayAbilitySet.h"; sourceTree = SOURCE_ROOT; };
+		E025668364F0AA77BB5141B2 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "IWALS_OverlayLayerInterface.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/IWALS_OverlayLayerInterface.h"; sourceTree = SOURCE_ROOT; };
+		0CC93F63E23A5C90002E6EB0 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "InteractionAbilitiesSet.h"; path = "../../Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/InteractionAbilitiesSet.h"; sourceTree = SOURCE_ROOT; };
+		C20FB412B0B95EA7FCFD003C = {isa = PBXFileReference; explicitFileType = file.txt; name = "JakubAnimNodes.uplugin"; path = "../../Plugins/JakubAnimNodes/JakubAnimNodes.uplugin"; sourceTree = SOURCE_ROOT; };
+		CBE1E19430D901D57150D46B = {isa = PBXFileReference; explicitFileType = image.png; name = "Icon128.png"; path = "../../Plugins/JakubAnimNodes/Resources/Icon128.png"; sourceTree = SOURCE_ROOT; };
+		743E0CEB958BB75C98B0A6D6 = {isa = PBXFileReference; explicitFileType = file.txt; name = "JakubAnimNodes.Build.cs"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodes/JakubAnimNodes.Build.cs"; sourceTree = SOURCE_ROOT; };
+		7CEBB438F4839C27422865E7 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JWAN_CurveSmootherGraph.cpp"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodes/Private/JWAN_CurveSmootherGraph.cpp"; sourceTree = SOURCE_ROOT; };
+		7E23430E4F6BD68322C62794 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JWAN_LayerBlendingGraph.cpp"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodes/Private/JWAN_LayerBlendingGraph.cpp"; sourceTree = SOURCE_ROOT; };
+		7DEC55B02BB50F6E36593024 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JWAN_ModifyLayeringGraph.cpp"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodes/Private/JWAN_ModifyLayeringGraph.cpp"; sourceTree = SOURCE_ROOT; };
+		52E4693824A69D55E58D9263 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JWAN_PoseSnapShotGraph.cpp"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodes/Private/JWAN_PoseSnapShotGraph.cpp"; sourceTree = SOURCE_ROOT; };
+		07FF19F89EBE05FE0B92E50F = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JakubAnimNodes.cpp"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodes/Private/JakubAnimNodes.cpp"; sourceTree = SOURCE_ROOT; };
+		FBB69E01E27F481CF3CA7BB1 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JakubAnimNodesBPLibrary.cpp"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodes/Private/JakubAnimNodesBPLibrary.cpp"; sourceTree = SOURCE_ROOT; };
+		0EEFCBE40AFF689E2EC390AE = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MyAnimGraphNode.cpp"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodes/Private/MyAnimGraphNode.cpp"; sourceTree = SOURCE_ROOT; };
+		7F758979EE8086B12E245662 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JWAN_CurveSmootherGraph.h"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodes/Public/JWAN_CurveSmootherGraph.h"; sourceTree = SOURCE_ROOT; };
+		C679F236831E5BD568D3F5F1 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JWAN_LayerBlendingGraph.h"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodes/Public/JWAN_LayerBlendingGraph.h"; sourceTree = SOURCE_ROOT; };
+		459EB101DF4E890D662BBBA2 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JWAN_ModifyLayeringGraph.h"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodes/Public/JWAN_ModifyLayeringGraph.h"; sourceTree = SOURCE_ROOT; };
+		694A26F7FA2D65CBC337A5F7 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JWAN_PoseSnapShotGraph.h"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodes/Public/JWAN_PoseSnapShotGraph.h"; sourceTree = SOURCE_ROOT; };
+		0DE7EF5628380D9653F3F3B6 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JakubAnimNodes.h"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodes/Public/JakubAnimNodes.h"; sourceTree = SOURCE_ROOT; };
+		A097C4A4E8CAC2E77E379894 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JakubAnimNodesBPLibrary.h"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodes/Public/JakubAnimNodesBPLibrary.h"; sourceTree = SOURCE_ROOT; };
+		8637D802D8B8EC00BC992473 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MyAnimGraphNode.h"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodes/Public/MyAnimGraphNode.h"; sourceTree = SOURCE_ROOT; };
+		9A6675A2350537B193B47D6C = {isa = PBXFileReference; explicitFileType = file.txt; name = "JakubAnimNodesTool.Build.cs"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/JakubAnimNodesTool.Build.cs"; sourceTree = SOURCE_ROOT; };
+		83450AB8E5E18A74C1B48B48 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JWAN_CurveSmootherLogic.cpp"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Private/JWAN_CurveSmootherLogic.cpp"; sourceTree = SOURCE_ROOT; };
+		18F089423569551E370541F0 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JWAN_LayerBlendingLogic.cpp"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Private/JWAN_LayerBlendingLogic.cpp"; sourceTree = SOURCE_ROOT; };
+		93EFC689B15A736683DB6A57 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JWAN_ModifyLayeringLogic.cpp"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Private/JWAN_ModifyLayeringLogic.cpp"; sourceTree = SOURCE_ROOT; };
+		19FAB03C12A81B6EF289F49C = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JWAN_PoseSnapShotLogic.cpp"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Private/JWAN_PoseSnapShotLogic.cpp"; sourceTree = SOURCE_ROOT; };
+		35FD68C535EF95AFB9BB4609 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JakubAnimNodesTool.cpp"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Private/JakubAnimNodesTool.cpp"; sourceTree = SOURCE_ROOT; };
+		B8CE35AECB2109AFAF439FF4 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MyAnimNode.cpp"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Private/MyAnimNode.cpp"; sourceTree = SOURCE_ROOT; };
+		437373878C70D056EA468A67 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PoseSnapshotLibrary.cpp"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Private/PoseSnapshotLibrary.cpp"; sourceTree = SOURCE_ROOT; };
+		C7FDE02AD63589D18BFEE72D = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JWAN_CurveSmootherLogic.h"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Public/JWAN_CurveSmootherLogic.h"; sourceTree = SOURCE_ROOT; };
+		D701B73F1B0CAE6DE5362B42 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JWAN_LayerBlendingLogic.h"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Public/JWAN_LayerBlendingLogic.h"; sourceTree = SOURCE_ROOT; };
+		3E7884EFA09E434FD32B741D = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JWAN_ModifyLayeringLogic.h"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Public/JWAN_ModifyLayeringLogic.h"; sourceTree = SOURCE_ROOT; };
+		63623EFB7DE48F7E0E8C727C = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JWAN_PoseSnapShotLogic.h"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Public/JWAN_PoseSnapShotLogic.h"; sourceTree = SOURCE_ROOT; };
+		B85A2AD77F7974970A93DFC2 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JakubAnimNodesTool.h"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Public/JakubAnimNodesTool.h"; sourceTree = SOURCE_ROOT; };
+		58EE0BA7BFC178E2FF04CA33 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MyAnimNode.h"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Public/MyAnimNode.h"; sourceTree = SOURCE_ROOT; };
+		A897C5C0451AD7781FCDBD04 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PoseSnapshotLibrary.h"; path = "../../Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Public/PoseSnapshotLibrary.h"; sourceTree = SOURCE_ROOT; };
+		3F20842FB9E6FCCCF7EC46CF = {isa = PBXFileReference; explicitFileType = file.txt; name = "JakubCableComponent.uplugin"; path = "../../Plugins/JakubCableComponent/JakubCableComponent.uplugin"; sourceTree = SOURCE_ROOT; };
+		93B412E02CB8524334445510 = {isa = PBXFileReference; explicitFileType = image.png; name = "Icon128.png"; path = "../../Plugins/JakubCableComponent/Resources/Icon128.png"; sourceTree = SOURCE_ROOT; };
+		59A56349BC86EB48EE0E9B04 = {isa = PBXFileReference; explicitFileType = image.png; name = "JakubSimpleParticleComponent_64x.png"; path = "../../Plugins/JakubCableComponent/Resources/JakubSimpleParticleComponent_64x.png"; sourceTree = SOURCE_ROOT; };
+		3471DCCDF32F557D4499E7C8 = {isa = PBXFileReference; explicitFileType = file.txt; name = "JakubCableComponent.Build.cs"; path = "../../Plugins/JakubCableComponent/Source/JakubCableComponent/JakubCableComponent.Build.cs"; sourceTree = SOURCE_ROOT; };
+		CA8BB5DF9467B89AEACC9E4C = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HandleForItemCpp.cpp"; path = "../../Plugins/JakubCableComponent/Source/JakubCableComponent/Private/HandleForItemCpp.cpp"; sourceTree = SOURCE_ROOT; };
+		C6C3F68B64B339DCF0E3F108 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JakubCableComponent.cpp"; path = "../../Plugins/JakubCableComponent/Source/JakubCableComponent/Private/JakubCableComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		EC18AFC18FDE3E060DC27F7D = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JakubCableComponentBPLibrary.cpp"; path = "../../Plugins/JakubCableComponent/Source/JakubCableComponent/Private/JakubCableComponentBPLibrary.cpp"; sourceTree = SOURCE_ROOT; };
+		667C594641F5BBF6ED943BEF = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JakubCablePhysic.cpp"; path = "../../Plugins/JakubCableComponent/Source/JakubCableComponent/Private/JakubCablePhysic.cpp"; sourceTree = SOURCE_ROOT; };
+		11EB689D8F36CD0693112803 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JakubCableStats.cpp"; path = "../../Plugins/JakubCableComponent/Source/JakubCableComponent/Private/JakubCableStats.cpp"; sourceTree = SOURCE_ROOT; };
+		B791AC802ECAA162B96AF703 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JakubCableStats.h"; path = "../../Plugins/JakubCableComponent/Source/JakubCableComponent/Private/JakubCableStats.h"; sourceTree = SOURCE_ROOT; };
+		79531D9230C613725CCB6F42 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "JakubSimpleParticleComponent.cpp"; path = "../../Plugins/JakubCableComponent/Source/JakubCableComponent/Private/JakubSimpleParticleComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		F0594A5884433C82ED8F3FB9 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HandleForItemCpp.h"; path = "../../Plugins/JakubCableComponent/Source/JakubCableComponent/Public/HandleForItemCpp.h"; sourceTree = SOURCE_ROOT; };
+		21DADDDEEE6D655F3FF64695 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JakubCableComponent.h"; path = "../../Plugins/JakubCableComponent/Source/JakubCableComponent/Public/JakubCableComponent.h"; sourceTree = SOURCE_ROOT; };
+		BC8C9A2B483CD1168C788D71 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JakubCableComponentBPLibrary.h"; path = "../../Plugins/JakubCableComponent/Source/JakubCableComponent/Public/JakubCableComponentBPLibrary.h"; sourceTree = SOURCE_ROOT; };
+		517D54FC46364563077595EE = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JakubCablePhysic.h"; path = "../../Plugins/JakubCableComponent/Source/JakubCableComponent/Public/JakubCablePhysic.h"; sourceTree = SOURCE_ROOT; };
+		865E1FB6C9413972EE35DFC5 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "JakubSimpleParticleComponent.h"; path = "../../Plugins/JakubCableComponent/Source/JakubCableComponent/Public/JakubSimpleParticleComponent.h"; sourceTree = SOURCE_ROOT; };
+		0EF3B0E51B92786D7733EC37 = {isa = PBXFileReference; explicitFileType = file.txt; name = "AGLS.Build.cs"; path = "../../Source/AGLS/AGLS.Build.cs"; sourceTree = SOURCE_ROOT; };
+		7F34795B4A64DADDF12BA62A = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AGLS.cpp"; path = "../../Source/AGLS/AGLS.cpp"; sourceTree = SOURCE_ROOT; };
+		ED6FE4134C41955BF64865E7 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AGLS.h"; path = "../../Source/AGLS/AGLS.h"; sourceTree = SOURCE_ROOT; };
+		D2698C540D2C6EDCC5EA69D9 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BaseBuilder.cpp"; path = "../../Source/AGLS/BaseBuilder.cpp"; sourceTree = SOURCE_ROOT; };
+		67D547B51D1B41FD9BADF759 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BaseBuilder.h"; path = "../../Source/AGLS/BaseBuilder.h"; sourceTree = SOURCE_ROOT; };
+		9F1A6E3CBDFC1C4D72A426E5 = {isa = PBXFileReference; explicitFileType = file.txt; name = "AGLSEditor.Target.cs"; path = "../../Source/AGLSEditor.Target.cs"; sourceTree = SOURCE_ROOT; };
+		6C37B0F19A49A39937D8FB20 = {isa = PBXFileReference; explicitFileType = wrapper.application; name = "AGLSEditor"; path = "AGLSEditor"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B8B574043AF28E3E6C0ACE = {isa = PBXFileReference; explicitFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "/Users/Shared/Epic Games/UE_5.5/Engine/Build/Mac/Resources/Assets.xcassets"; sourceTree = "<absolute>"; };
+		DEBC46E5BADDCFA0FEF1EB51 = {isa = PBXFileReference; explicitFileType = wrapper.storyboardc; name = "LaunchScreen.storyboardc"; path = "/Users/Shared/Epic Games/UE_5.5/Engine/Build/IOS/Resources/Interface/LaunchScreen.storyboardc"; sourceTree = "<absolute>"; };
+		B99184457EED09D1B3F92D4A = {isa = PBXFileReference; explicitFileType = file.txt; name = "UEMetadata"; path = "/Users/Shared/Epic Games/UE_5.5/Engine/Build/Mac/Resources/UEMetadata"; sourceTree = "<absolute>"; };
+		732036A53787E5793FF373C5 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "AGLSEditor.xcconfig"; path = "XcconfigsMac/AGLSEditor.xcconfig"; sourceTree = "<group>"; };
+		5A9F3106A85273CA68848835 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "AGLSEditor_DebugGame.xcconfig"; path = "XcconfigsMac/AGLSEditor_DebugGame.xcconfig"; sourceTree = "<group>"; };
+		51E1454E1364F836DAE7D30A = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "AGLSEditor_Development.xcconfig"; path = "XcconfigsMac/AGLSEditor_Development.xcconfig"; sourceTree = "<group>"; };
+		A00096D748FC5ED34D59A76D = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info-Editor.Template.plist"; path = "../../../../../../Users/Shared/Epic Games/UE_5.5/Engine/Intermediate/Build/Mac/Resources/Info-Editor.Template.plist"; sourceTree = "<group>"; };
+		9718D36FAA9EB0EE31C5383A = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info.Template.plist"; path = "../../Build/Mac/Resources/Info.Template.plist"; sourceTree = "<group>"; };
+		1B53D4EEC29EF027086A16A2 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Sandbox.Server.entitlements"; path = "../../Build/Mac/Resources/Sandbox.Server.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		937DD922C8601D568D445496 = {
+			isa = PBXGroup;
+			children = (
+				735453249B9EAC5704402608 /* Plugins */,
+				BB01E7AA8259870C119A0A6C /* Source */,
+				E60406A3EF4238DE7A6CECA2 /* AGLS.png */,
+				6EF1EB4E659A8BF798C986A9 /* AGLS.uproject */,
+				EC95A0658A9C07F9C2F70E9A /* Products */,
+				9D7BF4707910FF24E88C9445 /* Resources */,
+				E6416A34870510BD3ED668B8 /* Xcconfigs */,
+				BB6884D026A6C5503F919F5E /* Metadata */,
+			);
+			sourceTree = "<group>";
+		};
+		735453249B9EAC5704402608 = {
+			isa = PBXGroup;
+			children = (
+				01DE01C9A5EC78C7B4FAB03B /* ClimbingNavigation */,
+				6E708FB902B42126FB03D076 /* GraphDebbuger */,
+				46D4E1404971A4BE852E1E38 /* HelpfulFunctions */,
+				65649BE4F471D65877AA94A9 /* IWALS_AbilitySystem */,
+				14D20E92A159A23A89C46661 /* JakubAnimNodes */,
+				860C487ACE987E85F2D4C720 /* JakubCableComponent */,
+			);
+			name = "Plugins";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins";
+			sourceTree = "<absolute>";
+		};
+		01DE01C9A5EC78C7B4FAB03B = {
+			isa = PBXGroup;
+			children = (
+				571A96A63EA519F9352CCA00 /* Resources */,
+				1FF8391F8854B88B2362660B /* Source */,
+				6BEA0626AE209966BF69E6DB /* ClimbingNavigation.uplugin */,
+			);
+			name = "ClimbingNavigation";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/ClimbingNavigation";
+			sourceTree = "<absolute>";
+		};
+		571A96A63EA519F9352CCA00 = {
+			isa = PBXGroup;
+			children = (
+				F2B870E99E8773AC710FC9BC /* Icon128.png */,
+			);
+			name = "Resources";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/ClimbingNavigation/Resources";
+			sourceTree = "<absolute>";
+		};
+		1FF8391F8854B88B2362660B = {
+			isa = PBXGroup;
+			children = (
+				77856E72AE515D58AE4B7787 /* ClimbingNavigation */,
+			);
+			name = "Source";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/ClimbingNavigation/Source";
+			sourceTree = "<absolute>";
+		};
+		77856E72AE515D58AE4B7787 = {
+			isa = PBXGroup;
+			children = (
+				1F6293004128307411DBE94F /* Private */,
+				FC5D99D986A012D6BA7B2FFD /* Public */,
+				1677B3E6DC465771E1B25249 /* ClimbingNavigation.Build.cs */,
+			);
+			name = "ClimbingNavigation";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/ClimbingNavigation/Source/ClimbingNavigation";
+			sourceTree = "<absolute>";
+		};
+		1F6293004128307411DBE94F = {
+			isa = PBXGroup;
+			children = (
+				C7B00C34A7FE9B7DF45D58D9 /* AGLS_NavLinkCustomComponent.cpp */,
+				4DACFEEE64C1055C94684C5D /* AISense_BetterSight.cpp */,
+				E296D07B7B914EFF65586941 /* AdvancedAI_TasksAndFunctions.cpp */,
+				40311AE3B7565EA5EC0BA576 /* BTService_BlueprintCustom.cpp */,
+				9FFB45640DD8D50C72EAA022 /* ClimbNavigationStorageActor.cpp */,
+				FBBDD153D1F80765E4D53BB3 /* ClimbingNavigation.cpp */,
+				6D2F10ABAF362C4FF804F066 /* ClimbingNavigationBPLibrary.cpp */,
+				4C4B62D51F2851B5E16B717D /* DynamicNavLinkComponent.cpp */,
+				E729803695F7E85FD4E1358B /* EnvQueryGenerator_NavCoverPoints.cpp */,
+				A4A36ECBE05E849DCF166287 /* EnvQueryTest_Composite.cpp */,
+				568017D9C4D886475C604577 /* EnvQueryTest_CustomScore.cpp */,
+				D571A64C6BBC62D9B4787206 /* EnvQueryTest_DotToContextRot.cpp */,
+				A7F53BAA7242F76A0BB83C76 /* EnvQueryTest_PathsOverlapping.cpp */,
+				29AC33E4B3C870C930F917C2 /* EnvQueryTest_PointInsideCylinder.cpp */,
+				534609BCEEBC7D2236550639 /* EnvQuery_CSD_CheckPath.cpp */,
+				7AA3C320759361D8383BB1CA /* EnvQuery_CSD_Distance.cpp */,
+				E937E71A74EF10DC2AEAF19B /* EnvQuery_CSD_DistanceToVector.cpp */,
+				7F52AC117897660FB339503C /* EnvQuery_CompositeScoreDefine.cpp */,
+				98656F11E78043A29D94B668 /* EnvQuery_CustomScoreDefine.cpp */,
+				2065F06C1C68A9D8C92172D8 /* HidingLocSearch_EnemyProperties.cpp */,
+				75427244AC2B8FC8A64C0021 /* MyEnvQueryTest_PointsNearEdges.cpp */,
+				E2D76D0B6C8BA1D6E508BC14 /* NavClimbingComponentCore.cpp */,
+				B3B01B41E8F26AB72623CCC7 /* NavLinksAutoGenerator.cpp */,
+				9F3B448C0B1A8747F6FEAC72 /* NavLinksStorage.cpp */,
+				52D660AD8B6E5AC117914FBE /* NavQuery_FullNavPathFinding.cpp */,
+				E0F83427E1D9265F5B70452A /* NavQuery_HidingLocSearchParams.cpp */,
+				B008D0993FD8C91B3714067B /* SmoothPathFollowingComponent.cpp */,
+			);
+			name = "Private";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private";
+			sourceTree = "<absolute>";
+		};
+		FC5D99D986A012D6BA7B2FFD = {
+			isa = PBXGroup;
+			children = (
+				23052284044CED093ECEA06C /* AGLS_NavLinkCustomComponent.h */,
+				20EF4203A83EBBFF01476ADC /* AISense_BetterSight.h */,
+				F4F7E7C065884E73B3E30012 /* AdvancedAI_TasksAndFunctions.h */,
+				00A06B4EBC9DBCFE60D9F3D3 /* BTService_BlueprintCustom.h */,
+				D90E521B1D9627044A95679F /* ClimbNavigationStorageActor.h */,
+				EEF7EDCBC86AD942349E1548 /* ClimbingNavigation.h */,
+				AD500431EC7991EB17E3C858 /* ClimbingNavigationBPLibrary.h */,
+				0DB542C8F96ABF8776878AE0 /* DynamicNavLinkComponent.h */,
+				0198F783E60B14F3F83BDCE2 /* EnvQueryGenerator_NavCoverPoints.h */,
+				F9385AB027155380A2C06AC5 /* EnvQueryTest_Composite.h */,
+				CD53DE03FD9F519E21D2759C /* EnvQueryTest_CustomScore.h */,
+				A91E8ED1EAF5F8EE0060DF54 /* EnvQueryTest_DotToContextRot.h */,
+				6D5CF135F3741CDF4E51FA85 /* EnvQueryTest_PathsOverlapping.h */,
+				0D9C1146A4D5FF20D0E64149 /* EnvQueryTest_PointInsideCylinder.h */,
+				B3C57B556D50ECF3C5351356 /* EnvQuery_CSD_CheckPath.h */,
+				5D4386E5760C3998E9300DE7 /* EnvQuery_CSD_Distance.h */,
+				EDBE76BEEA849007D68FD44E /* EnvQuery_CSD_DistanceToVector.h */,
+				C8C849D0DACC52FBE956D8C0 /* EnvQuery_CompositeScoreDefine.h */,
+				A492A663543AD8FC42FFBECC /* EnvQuery_CustomScoreDefine.h */,
+				7A9A0E5B592E1260969526C1 /* HidingLocSearch_EnemyProperties.h */,
+				DBD9862E07B0AB3329922348 /* MyEnvQueryTest_PointsNearEdges.h */,
+				5CFB1700885E5314D7BEAF93 /* NavClimbingComponentCore.h */,
+				315B77941E18B9B287D2B14E /* NavLinksAutoGenerator.h */,
+				2BE79AC9DAD9C0500BD43A69 /* NavLinksStorage.h */,
+				D764F0E3F843821038B6BA36 /* NavQuery_FullNavPathFinding.h */,
+				B8713C164DBF8E02A34FA626 /* NavQuery_HidingLocSearchParams.h */,
+				B157131C81B750410BEB29EF /* SmoothPathFollowingComponent.h */,
+			);
+			name = "Public";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/ClimbingNavigation/Source/ClimbingNavigation/Public";
+			sourceTree = "<absolute>";
+		};
+		6E708FB902B42126FB03D076 = {
+			isa = PBXGroup;
+			children = (
+				0C8432A333B35A7FE7858320 /* Resources */,
+				1963417CB70E51553F59A68F /* Source */,
+				163499B050F084D1C15B34F6 /* GraphDebbuger.uplugin */,
+			);
+			name = "GraphDebbuger";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/GraphDebbuger";
+			sourceTree = "<absolute>";
+		};
+		0C8432A333B35A7FE7858320 = {
+			isa = PBXGroup;
+			children = (
+				04F689867FBC120990EBD369 /* Icon128.png */,
+			);
+			name = "Resources";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/GraphDebbuger/Resources";
+			sourceTree = "<absolute>";
+		};
+		1963417CB70E51553F59A68F = {
+			isa = PBXGroup;
+			children = (
+				8915D9DDE88B8777B5650610 /* GraphDebbuger */,
+			);
+			name = "Source";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/GraphDebbuger/Source";
+			sourceTree = "<absolute>";
+		};
+		8915D9DDE88B8777B5650610 = {
+			isa = PBXGroup;
+			children = (
+				E57F4CC1246624B2DDA2191E /* Private */,
+				48471F50D09C59A7791BF769 /* Public */,
+				F8F273CE6AACC139054F5983 /* GraphDebbuger.Build.cs */,
+			);
+			name = "GraphDebbuger";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/GraphDebbuger/Source/GraphDebbuger";
+			sourceTree = "<absolute>";
+		};
+		E57F4CC1246624B2DDA2191E = {
+			isa = PBXGroup;
+			children = (
+				F0CF226B1E21DE8047D00EF0 /* AGLS_EditorCommands.cpp */,
+				D2CA30C335EC5F6852678C53 /* GraphDebbuger.cpp */,
+				B545F99F6000C873DC08A11B /* GraphDebbugerBPLibrary.cpp */,
+				91E55B3FA14A70FEE70FAF91 /* GraphDebuggerCore.cpp */,
+			);
+			name = "Private";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/GraphDebbuger/Source/GraphDebbuger/Private";
+			sourceTree = "<absolute>";
+		};
+		48471F50D09C59A7791BF769 = {
+			isa = PBXGroup;
+			children = (
+				D22F3373E5A2F5D748357603 /* AGLS_EditorCommands.h */,
+				08C5E49CDB70DA8C42B7548D /* GraphDebbuger.h */,
+				79DCCF154F4B603094B54B3E /* GraphDebbugerBPLibrary.h */,
+				25D7CF5F828C20A52F580C8A /* GraphDebuggerCore.h */,
+			);
+			name = "Public";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/GraphDebbuger/Source/GraphDebbuger/Public";
+			sourceTree = "<absolute>";
+		};
+		46D4E1404971A4BE852E1E38 = {
+			isa = PBXGroup;
+			children = (
+				7208FDB959A01666F8A3912F /* Config */,
+				B6FB77D8C698346AAF194113 /* Resources */,
+				03417AB0EB441405960BF2A8 /* Source */,
+				2AE2755E7ED527B91218AC59 /* HelpfulFunctions.uplugin */,
+			);
+			name = "HelpfulFunctions";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/HelpfulFunctions";
+			sourceTree = "<absolute>";
+		};
+		7208FDB959A01666F8A3912F = {
+			isa = PBXGroup;
+			children = (
+				DFE9C7656186402DD4755B9C /* FilterPlugin.ini */,
+			);
+			name = "Config";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/HelpfulFunctions/Config";
+			sourceTree = "<absolute>";
+		};
+		B6FB77D8C698346AAF194113 = {
+			isa = PBXGroup;
+			children = (
+				A4F65316705E37CB98417F95 /* Icon128.png */,
+			);
+			name = "Resources";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/HelpfulFunctions/Resources";
+			sourceTree = "<absolute>";
+		};
+		03417AB0EB441405960BF2A8 = {
+			isa = PBXGroup;
+			children = (
+				9CA47A7668BFBFD51B638DB8 /* HelpfulFunctions */,
+			);
+			name = "Source";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/HelpfulFunctions/Source";
+			sourceTree = "<absolute>";
+		};
+		9CA47A7668BFBFD51B638DB8 = {
+			isa = PBXGroup;
+			children = (
+				F574AE6F380742AD6EF06EF1 /* Private */,
+				07657A538F3723E240D25849 /* Public */,
+				08F87D245398BC5BA281FE1E /* HelpfulFunctions.Build.cs */,
+			);
+			name = "HelpfulFunctions";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions";
+			sourceTree = "<absolute>";
+		};
+		F574AE6F380742AD6EF06EF1 = {
+			isa = PBXGroup;
+			children = (
+				3BCACFEDC48A46628E10D5F8 /* AGLS_AI_AnimInstanceBase.cpp */,
+				38EF619AE4BDF12E402C0D0D /* AGLS_AI_CharacterInterface.cpp */,
+				C42B1E7B87265A8BA8853997 /* AGLS_AI_HumanCharInterface.cpp */,
+				F76BF9D467542F4ED89B7F10 /* AGLS_AIsMeleeFightCore.cpp */,
+				1D13A66926C05F5D5987DA4C /* AGLS_CharacterMovementComponent.cpp */,
+				9FA9121F88F14FD538B6AFEF /* AGLS_HumanAI_CharacterBase.cpp */,
+				69A2D6310C1F7B6E4127CFB0 /* AGLS_ZombieAttacksComponentCore.cpp */,
+				97D54C527A9C0E48B2308E0C /* AGLS_ZombieCharacterCore.cpp */,
+				06445AE2BD317793BFA0BB31 /* AGLS_Zombie_ControllerAI.cpp */,
+				2665E693BE6CAC5FED177284 /* AI_MeleeFightSequencesData.cpp */,
+				6ACAEE4BE35193F20C2CEEB0 /* ALS_BaseAI_CharacterCpp.cpp */,
+				D97ED2FC983F924D89B52382 /* ALS_BaseComponentsInterfaceCpp.cpp */,
+				242F4F51CE49F10588B8CB06 /* ALS_DamageConfigData.cpp */,
+				DB7610F7BF63A39E46091941 /* ALS_HookActorInterface.cpp */,
+				F1F6343887DEC5A5AE1D146A /* ALS_HumanAI_ControllerCpp.cpp */,
+				7E4CF18F5953F389FF69256D /* ALS_HumanAI_InterfaceCpp.cpp */,
+				9D45A77A972B69495CA6258E /* ALS_StructuresAndEnumsCpp.cpp */,
+				1C3910FDFB49B28FCF859D33 /* AsyncFunctionsPlayer.cpp */,
+				DE97587D2C7C4DAF749AD2EA /* AsyncLoadAssetsNode.cpp */,
+				483DCE67590DEA9FF983F9DA /* Cpp_CoverSystemV2.cpp */,
+				CE82AE5A595C6BB192EE0E10 /* Cpp_DynamicClimbingComponent.cpp */,
+				00F95FB4044CEE3634A2863E /* Cpp_FallDamageAndSliding.cpp */,
+				BF291D78B5850A837445324E /* Cpp_LadderClimbingComponent.cpp */,
+				9648EB8554F820BEC7E7E1DF /* Cpp_MatchedMontageComponent.cpp */,
+				87768949E3936DD92F12776E /* Cpp_TraversalActionComponent.cpp */,
+				3731D6BAC20AC82513BBFF84 /* HelpfulFunctions.cpp */,
+				CEAFB6AE3F95811F444BDD85 /* HelpfulFunctionsBPLibrary.cpp */,
+				CB8F8A15643BD9A4EEEEAAB5 /* InteractionWidgetCondition.cpp */,
+				7FFD8F9A89BFFD99D8E11DA2 /* InteractionWidgetDisplay.cpp */,
+				C4EB42161733634CB3E1E799 /* InteractionWidgetInterface.cpp */,
+				4839344E362A57F4EC3F84B8 /* InteractiveActor.cpp */,
+				E3B95D48C231F99B3304962E /* InteractiveActorsInterface.cpp */,
+				6B87F8F2046CBDB1D8E0AD9E /* InteractiveStaticMeshActor.cpp */,
+				256C77CFE4ED3425CEEE67EE /* JacobMotionWarpingComponent.cpp */,
+				741BFC6CFC0BDB05B7DFFE2F /* JakubW_ASyncFunctions.cpp */,
+				C1193EC00D58B19C6A95C30D /* MantleAssetData.cpp */,
+				5F648AB2687848C77DF180DA /* ModifyClimbingParamsVolume.cpp */,
+				8FD08DF072EE35FE1BE06D4B /* SimpleMovementParamsData.cpp */,
+				C0D4DDFB3A1BE2905A4C40F3 /* TraversalActionsParamsData.cpp */,
+				F6E2B2AD034A53A616DDEB51 /* TraversalInteractionInterface.cpp */,
+			);
+			name = "Private";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private";
+			sourceTree = "<absolute>";
+		};
+		07657A538F3723E240D25849 = {
+			isa = PBXGroup;
+			children = (
+				825DA0781E25B1A7512B54B1 /* AGLS_AI_AnimInstanceBase.h */,
+				350911936542EDD3C37F1068 /* AGLS_AI_CharacterInterface.h */,
+				F72D61932197E3652E74DB17 /* AGLS_AI_HumanCharInterface.h */,
+				E6DA028ABA4E200A0DDDAB11 /* AGLS_AIsMeleeFightCore.h */,
+				737541A544A2C61EDC8ED243 /* AGLS_CharacterMovementComponent.h */,
+				1F1FE8BC6607DD9D19496F15 /* AGLS_HumanAI_CharacterBase.h */,
+				2A9F8CACB76645F00AABE4C6 /* AGLS_ZombieAttacksComponentCore.h */,
+				B9AA0E08AECF7585DE8EB059 /* AGLS_ZombieCharacterCore.h */,
+				4A6FD14E55181842DCD1E197 /* AGLS_Zombie_ControllerAI.h */,
+				8B1761DA8E58AC2B4C2593ED /* AI_MeleeFightSequencesData.h */,
+				222EEC94702919666E825E05 /* ALS_BaseAI_CharacterCpp.h */,
+				A28F87289CA74FF8993E51A1 /* ALS_BaseComponentsInterfaceCpp.h */,
+				50E15E173655C66D292ACA02 /* ALS_DamageConfigData.h */,
+				EB808834ECFC27A5673062F4 /* ALS_HookActorInterface.h */,
+				08095B0154AF428087051107 /* ALS_HumanAI_ControllerCpp.h */,
+				1574A00A4CBE4182F66D98B5 /* ALS_HumanAI_InterfaceCpp.h */,
+				69C36A38A9BC689ACE18776D /* ALS_StructuresAndEnumsCpp.h */,
+				070EBAF4719EC79417AA9849 /* AsyncFunctionsPlayer.h */,
+				C67973D9A0F1368FAF4511BD /* AsyncLoadAssetsNode.h */,
+				AD06752CD4B5BC8B364ECE2A /* Cpp_CoverSystemV2.h */,
+				0C86106552EAAA5A57D918B1 /* Cpp_DynamicClimbingComponent.h */,
+				3B1FCAF5669F74E997B8322F /* Cpp_FallDamageAndSliding.h */,
+				8DA7CD82108A420CFA54E729 /* Cpp_LadderClimbingComponent.h */,
+				C1DDE9B6EBBB638C554BFD38 /* Cpp_MatchedMontageComponent.h */,
+				540F421DAA7A0092BFA96FFE /* Cpp_TraversalActionComponent.h */,
+				538EA500FCDBE7A5286B8CDA /* HelpfulFunctions.h */,
+				83E096CD214006A1CCE9D23A /* HelpfulFunctionsBPLibrary.h */,
+				6C546AD455A90B47D43E4C44 /* InteractionWidgetCondition.h */,
+				B554EC35A762F611CC08AE93 /* InteractionWidgetDisplay.h */,
+				23B1ACC6CDBB7893139EE235 /* InteractionWidgetInterface.h */,
+				86002FF8DF2A7C24B8ADCA75 /* InteractiveActor.h */,
+				95AECF6FDE82745385FD651E /* InteractiveActorsInterface.h */,
+				697FBAFA4AA8FFB0D0E6E4F2 /* InteractiveStaticMeshActor.h */,
+				DF2D88AF03DC7E66BFE64720 /* JacobMotionWarpingComponent.h */,
+				7261C94985F8EE05D931C080 /* JakubW_ASyncFunctions.h */,
+				196952EBD79A8203C32D4276 /* MantleAssetData.h */,
+				981BA23F04D3BD509651F8EE /* ModifyClimbingParamsVolume.h */,
+				7D29C958A9AD6E190741A27D /* SimpleMovementParamsData.h */,
+				C897394DB6E9239AAB0F5C56 /* TraversalActionsParamsData.h */,
+				2E8FF7F642B6BCE1816ACEF6 /* TraversalInteractionInterface.h */,
+			);
+			name = "Public";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public";
+			sourceTree = "<absolute>";
+		};
+		65649BE4F471D65877AA94A9 = {
+			isa = PBXGroup;
+			children = (
+				AEFD837CA78F3194669AB31F /* Resources */,
+				AD6106A77208E673ED102955 /* Source */,
+				9EAA00C207741DDDCE39C06B /* IWALS_AbilitySystem.uplugin */,
+			);
+			name = "IWALS_AbilitySystem";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/IWALS_AbilitySystem";
+			sourceTree = "<absolute>";
+		};
+		AEFD837CA78F3194669AB31F = {
+			isa = PBXGroup;
+			children = (
+				C1CAFE977B28EAEF37BF78C6 /* Icon128.png */,
+			);
+			name = "Resources";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/IWALS_AbilitySystem/Resources";
+			sourceTree = "<absolute>";
+		};
+		AD6106A77208E673ED102955 = {
+			isa = PBXGroup;
+			children = (
+				1644C5BCD3DC5E5CD1D1A492 /* IWALS_AbilitySystem */,
+			);
+			name = "Source";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/IWALS_AbilitySystem/Source";
+			sourceTree = "<absolute>";
+		};
+		1644C5BCD3DC5E5CD1D1A492 = {
+			isa = PBXGroup;
+			children = (
+				6A2EE56FC320BB9ED32E6663 /* Private */,
+				AB3C3F64AE8912D397F74EE3 /* Public */,
+				F35F7AA375590A3654F62F82 /* IWALS_AbilitySystem.Build.cs */,
+			);
+			name = "IWALS_AbilitySystem";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem";
+			sourceTree = "<absolute>";
+		};
+		6A2EE56FC320BB9ED32E6663 = {
+			isa = PBXGroup;
+			children = (
+				7F2370DE6C2E3D33F018BBE7 /* AbilityTask_DelayWithTick.cpp */,
+				B0A2DC048E23378C5FA31841 /* AbilityTask_MoveByInputWithRot.cpp */,
+				C2EAA6F6C648F00E2106883B /* AbilityTask_MovePawnByInput.cpp */,
+				D50EFC2398A0B3DA6D1B026C /* AbilityTask_TimerFunction.cpp */,
+				B4990BF2FD5B9A9525B3422A /* AsyncAnimInstance.cpp */,
+				FA3E58785BE943D2FB6BE63E /* GAS_InteractionsComponent.cpp */,
+				939A353AC399D16A474F4403 /* GAS_MainCharacterCpp.cpp */,
+				10697591F5452551D3217B81 /* IWALS_AbilityInterface.cpp */,
+				FDDAD313D50E1141873CBD29 /* IWALS_AbilitySystem.cpp */,
+				E153D3E7AA76739B831F41BA /* IWALS_AnimInstanceCpp.cpp */,
+				5CD451A7817DEF6E75C30BED /* IWALS_AnimLayersClassData.cpp */,
+				C14201B8672A6FC864BC4F0C /* IWALS_BaseAttributeSet.cpp */,
+				A6088C5B60ACA20F19533F7C /* IWALS_EnumsAndStruct.cpp */,
+				B1C29BD5C4D5E97700969876 /* IWALS_GameplayAbility.cpp */,
+				E70F2AABE08612E366DE8529 /* IWALS_GameplayAbilitySet.cpp */,
+				A72E282F4339C987E5A50E85 /* IWALS_OverlayLayerInterface.cpp */,
+				C2D346EFD8954A7F660FA38E /* InteractionAbilitiesSet.cpp */,
+			);
+			name = "Private";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private";
+			sourceTree = "<absolute>";
+		};
+		AB3C3F64AE8912D397F74EE3 = {
+			isa = PBXGroup;
+			children = (
+				0419D05BB05DF7913826DE26 /* AbilityTask_DelayWithTick.h */,
+				3296E800DC4B58B9CC6CFC84 /* AbilityTask_MoveByInputWithRot.h */,
+				92B6C9EBCF51DFDBF24FC8B2 /* AbilityTask_MovePawnByInput.h */,
+				9CFC6194539B0887299D1344 /* AbilityTask_TimerFunction.h */,
+				1BE3DA545D6342A7B7F06BC9 /* AsyncAnimInstance.h */,
+				98CF168084B081F93BC5B861 /* GAS_InteractionsComponent.h */,
+				DE34EDED5B5C19D40D51C2EE /* GAS_MainCharacterCpp.h */,
+				24A9A94CB417137BA184268B /* IWALS_AbilityInterface.h */,
+				87757EDFA08B25CB74CB874A /* IWALS_AbilitySystem.h */,
+				E186CF04BFA18505EC7B10E8 /* IWALS_AnimInstanceCpp.h */,
+				426E0C5431EDD4E20DA0E730 /* IWALS_AnimLayersClassData.h */,
+				BE2975D843AD572A55774EEE /* IWALS_BaseAttributeSet.h */,
+				84BC08EB4A58662E9C3CD3D6 /* IWALS_EnumsAndStruct.h */,
+				7F06312F2829027A3F86B9FD /* IWALS_GameplayAbility.h */,
+				FC1A1CF62545E4EF9115F71D /* IWALS_GameplayAbilitySet.h */,
+				E025668364F0AA77BB5141B2 /* IWALS_OverlayLayerInterface.h */,
+				0CC93F63E23A5C90002E6EB0 /* InteractionAbilitiesSet.h */,
+			);
+			name = "Public";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public";
+			sourceTree = "<absolute>";
+		};
+		14D20E92A159A23A89C46661 = {
+			isa = PBXGroup;
+			children = (
+				A29666CF53B22D3EC2179F8A /* Resources */,
+				EBF2F569D4A1C3BD3AAA81BC /* Source */,
+				C20FB412B0B95EA7FCFD003C /* JakubAnimNodes.uplugin */,
+			);
+			name = "JakubAnimNodes";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubAnimNodes";
+			sourceTree = "<absolute>";
+		};
+		A29666CF53B22D3EC2179F8A = {
+			isa = PBXGroup;
+			children = (
+				CBE1E19430D901D57150D46B /* Icon128.png */,
+			);
+			name = "Resources";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubAnimNodes/Resources";
+			sourceTree = "<absolute>";
+		};
+		EBF2F569D4A1C3BD3AAA81BC = {
+			isa = PBXGroup;
+			children = (
+				4EBD3744B5AD62E7D5DEC217 /* JakubAnimNodes */,
+				7BE88914B4B8B40D30DE4691 /* JakubAnimNodesTool */,
+			);
+			name = "Source";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubAnimNodes/Source";
+			sourceTree = "<absolute>";
+		};
+		4EBD3744B5AD62E7D5DEC217 = {
+			isa = PBXGroup;
+			children = (
+				234280E4C90F21FD3283A6AE /* Private */,
+				633866E800A926F715AA8196 /* Public */,
+				743E0CEB958BB75C98B0A6D6 /* JakubAnimNodes.Build.cs */,
+			);
+			name = "JakubAnimNodes";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodes";
+			sourceTree = "<absolute>";
+		};
+		234280E4C90F21FD3283A6AE = {
+			isa = PBXGroup;
+			children = (
+				7CEBB438F4839C27422865E7 /* JWAN_CurveSmootherGraph.cpp */,
+				7E23430E4F6BD68322C62794 /* JWAN_LayerBlendingGraph.cpp */,
+				7DEC55B02BB50F6E36593024 /* JWAN_ModifyLayeringGraph.cpp */,
+				52E4693824A69D55E58D9263 /* JWAN_PoseSnapShotGraph.cpp */,
+				07FF19F89EBE05FE0B92E50F /* JakubAnimNodes.cpp */,
+				FBB69E01E27F481CF3CA7BB1 /* JakubAnimNodesBPLibrary.cpp */,
+				0EEFCBE40AFF689E2EC390AE /* MyAnimGraphNode.cpp */,
+			);
+			name = "Private";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodes/Private";
+			sourceTree = "<absolute>";
+		};
+		633866E800A926F715AA8196 = {
+			isa = PBXGroup;
+			children = (
+				7F758979EE8086B12E245662 /* JWAN_CurveSmootherGraph.h */,
+				C679F236831E5BD568D3F5F1 /* JWAN_LayerBlendingGraph.h */,
+				459EB101DF4E890D662BBBA2 /* JWAN_ModifyLayeringGraph.h */,
+				694A26F7FA2D65CBC337A5F7 /* JWAN_PoseSnapShotGraph.h */,
+				0DE7EF5628380D9653F3F3B6 /* JakubAnimNodes.h */,
+				A097C4A4E8CAC2E77E379894 /* JakubAnimNodesBPLibrary.h */,
+				8637D802D8B8EC00BC992473 /* MyAnimGraphNode.h */,
+			);
+			name = "Public";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodes/Public";
+			sourceTree = "<absolute>";
+		};
+		7BE88914B4B8B40D30DE4691 = {
+			isa = PBXGroup;
+			children = (
+				21DFF42A888489CA1689E17C /* Private */,
+				477AE62CB7CA0179C0E969E0 /* Public */,
+				9A6675A2350537B193B47D6C /* JakubAnimNodesTool.Build.cs */,
+			);
+			name = "JakubAnimNodesTool";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodesTool";
+			sourceTree = "<absolute>";
+		};
+		21DFF42A888489CA1689E17C = {
+			isa = PBXGroup;
+			children = (
+				83450AB8E5E18A74C1B48B48 /* JWAN_CurveSmootherLogic.cpp */,
+				18F089423569551E370541F0 /* JWAN_LayerBlendingLogic.cpp */,
+				93EFC689B15A736683DB6A57 /* JWAN_ModifyLayeringLogic.cpp */,
+				19FAB03C12A81B6EF289F49C /* JWAN_PoseSnapShotLogic.cpp */,
+				35FD68C535EF95AFB9BB4609 /* JakubAnimNodesTool.cpp */,
+				B8CE35AECB2109AFAF439FF4 /* MyAnimNode.cpp */,
+				437373878C70D056EA468A67 /* PoseSnapshotLibrary.cpp */,
+			);
+			name = "Private";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Private";
+			sourceTree = "<absolute>";
+		};
+		477AE62CB7CA0179C0E969E0 = {
+			isa = PBXGroup;
+			children = (
+				C7FDE02AD63589D18BFEE72D /* JWAN_CurveSmootherLogic.h */,
+				D701B73F1B0CAE6DE5362B42 /* JWAN_LayerBlendingLogic.h */,
+				3E7884EFA09E434FD32B741D /* JWAN_ModifyLayeringLogic.h */,
+				63623EFB7DE48F7E0E8C727C /* JWAN_PoseSnapShotLogic.h */,
+				B85A2AD77F7974970A93DFC2 /* JakubAnimNodesTool.h */,
+				58EE0BA7BFC178E2FF04CA33 /* MyAnimNode.h */,
+				A897C5C0451AD7781FCDBD04 /* PoseSnapshotLibrary.h */,
+			);
+			name = "Public";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Public";
+			sourceTree = "<absolute>";
+		};
+		860C487ACE987E85F2D4C720 = {
+			isa = PBXGroup;
+			children = (
+				B5FB6F9121B77FF2070CCD3A /* Resources */,
+				D1885665DCCDD0377613A47B /* Source */,
+				3F20842FB9E6FCCCF7EC46CF /* JakubCableComponent.uplugin */,
+			);
+			name = "JakubCableComponent";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubCableComponent";
+			sourceTree = "<absolute>";
+		};
+		B5FB6F9121B77FF2070CCD3A = {
+			isa = PBXGroup;
+			children = (
+				93B412E02CB8524334445510 /* Icon128.png */,
+				59A56349BC86EB48EE0E9B04 /* JakubSimpleParticleComponent_64x.png */,
+			);
+			name = "Resources";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubCableComponent/Resources";
+			sourceTree = "<absolute>";
+		};
+		D1885665DCCDD0377613A47B = {
+			isa = PBXGroup;
+			children = (
+				3B0EFB7D0A5C8973B2C576BB /* JakubCableComponent */,
+			);
+			name = "Source";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubCableComponent/Source";
+			sourceTree = "<absolute>";
+		};
+		3B0EFB7D0A5C8973B2C576BB = {
+			isa = PBXGroup;
+			children = (
+				5B7058096A77D9793F0DA845 /* Private */,
+				4218A8250390AAA257F35612 /* Public */,
+				3471DCCDF32F557D4499E7C8 /* JakubCableComponent.Build.cs */,
+			);
+			name = "JakubCableComponent";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubCableComponent/Source/JakubCableComponent";
+			sourceTree = "<absolute>";
+		};
+		5B7058096A77D9793F0DA845 = {
+			isa = PBXGroup;
+			children = (
+				CA8BB5DF9467B89AEACC9E4C /* HandleForItemCpp.cpp */,
+				C6C3F68B64B339DCF0E3F108 /* JakubCableComponent.cpp */,
+				EC18AFC18FDE3E060DC27F7D /* JakubCableComponentBPLibrary.cpp */,
+				667C594641F5BBF6ED943BEF /* JakubCablePhysic.cpp */,
+				11EB689D8F36CD0693112803 /* JakubCableStats.cpp */,
+				B791AC802ECAA162B96AF703 /* JakubCableStats.h */,
+				79531D9230C613725CCB6F42 /* JakubSimpleParticleComponent.cpp */,
+			);
+			name = "Private";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubCableComponent/Source/JakubCableComponent/Private";
+			sourceTree = "<absolute>";
+		};
+		4218A8250390AAA257F35612 = {
+			isa = PBXGroup;
+			children = (
+				F0594A5884433C82ED8F3FB9 /* HandleForItemCpp.h */,
+				21DADDDEEE6D655F3FF64695 /* JakubCableComponent.h */,
+				BC8C9A2B483CD1168C788D71 /* JakubCableComponentBPLibrary.h */,
+				517D54FC46364563077595EE /* JakubCablePhysic.h */,
+				865E1FB6C9413972EE35DFC5 /* JakubSimpleParticleComponent.h */,
+			);
+			name = "Public";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubCableComponent/Source/JakubCableComponent/Public";
+			sourceTree = "<absolute>";
+		};
+		BB01E7AA8259870C119A0A6C = {
+			isa = PBXGroup;
+			children = (
+				75C7CCFF392A3B2D66B63BF1 /* AGLS */,
+				9F1A6E3CBDFC1C4D72A426E5 /* AGLSEditor.Target.cs */,
+			);
+			name = "Source";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Source";
+			sourceTree = "<absolute>";
+		};
+		75C7CCFF392A3B2D66B63BF1 = {
+			isa = PBXGroup;
+			children = (
+				0EF3B0E51B92786D7733EC37 /* AGLS.Build.cs */,
+				7F34795B4A64DADDF12BA62A /* AGLS.cpp */,
+				ED6FE4134C41955BF64865E7 /* AGLS.h */,
+				D2698C540D2C6EDCC5EA69D9 /* BaseBuilder.cpp */,
+				67D547B51D1B41FD9BADF759 /* BaseBuilder.h */,
+			);
+			name = "AGLS";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Source/AGLS";
+			sourceTree = "<absolute>";
+		};
+		EC95A0658A9C07F9C2F70E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C37B0F19A49A39937D8FB20 /* AGLSEditor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D7BF4707910FF24E88C9445 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69B8B574043AF28E3E6C0ACE /* Assets.xcassets */,
+				DEBC46E5BADDCFA0FEF1EB51 /* LaunchScreen.storyboardc */,
+				B99184457EED09D1B3F92D4A /* UEMetadata */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E6416A34870510BD3ED668B8 /* Xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				732036A53787E5793FF373C5 /* AGLSEditor.xcconfig */,
+				5A9F3106A85273CA68848835 /* AGLSEditor_DebugGame.xcconfig */,
+				51E1454E1364F836DAE7D30A /* AGLSEditor_Development.xcconfig */,
+			);
+			name = Xcconfigs;
+			sourceTree = "<group>";
+		};
+		BB6884D026A6C5503F919F5E /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				A00096D748FC5ED34D59A76D /* Info-Editor.Template.plist */,
+				9718D36FAA9EB0EE31C5383A /* Info.Template.plist */,
+				1B53D4EEC29EF027086A16A2 /* Sandbox.Server.entitlements */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+/* Begin PBXProject section */
+		B3646F221AD4636719454E69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					ABF6706BEA81C4603C5DF861 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 40D89C5A61AEF83FCA5DBF44 /* Build configuration list for PBXProject "AGLSEditor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 937DD922C8601D568D445496;
+			productRefGroup = EC95A0658A9C07F9C2F70E9A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF6706BEA81C4603C5DF861 /* AGLSEditor */,
+				8F2EF6E5859C34A70E3CB03C /* AGLSEditor_Build */,
+			);
+		};
+/* End PBXProject section */
+/* Begin Run_App section */
+		ABF6706BEA81C4603C5DF861 /* AGLSEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E18231128069B60681D1FF /* Build configuration list for PBXNativeTarget "AGLSEditor" */;
+			buildPhases = (
+				F43646064EC2C0A4F0DB674E /* Resources */,
+				751F2A9566B213FADD33B190 /* Copy Executable into .app */,
+			);
+			dependencies = (
+				3BDDE33C9E8E845F0EFBF049 /* AGLSEditor_Build */,
+			);
+			name = "AGLSEditor";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.application";
+			productReference = 6C37B0F19A49A39937D8FB20;
+			productName = "AGLSEditor";
+		};
+/* End Run_App section */
+		80E18231128069B60681D1FF /* Build configuration list for target AGLSEditor */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F261942EBFD6D35C59871F8B /* DebugGame */,
+				23788C336FFF330E3F4E70B8 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		F261942EBFD6D35C59871F8B /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A9F3106A85273CA68848835 /* AGLSEditor_DebugGame.xcconfig */;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		23788C336FFF330E3F4E70B8 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E1454E1364F836DAE7D30A /* AGLSEditor_Development.xcconfig */;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+/* Begin PBXResourcesBuildPhase section */
+		F43646064EC2C0A4F0DB674E = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD1E36C850ECECE62ACC578 /* Assets.xcassets in Resources */,
+				19F4B0635E298B48422655A9 /* LaunchScreen.storyboardc in Resources */,
+				22452FCA308C80D7183129AE /* UEMetadata in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		751F2A9566B213FADD33B190 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Executable into .app";
+			inputPaths = (
+			);
+			outputPaths = (
+				"/dev/null"
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -eo pipefail\nSRC_EXE=\"${UE_BINARIES_DIR}/${UE_UBT_BINARY_SUBPATH}\"\nDEST_EXE=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nDEST_EXE_DIR=`dirname \"${DEST_EXE}\"`\n\necho Copying executable and any standalone dylibs into ${DEST_EXE_DIR} but do not overwrite unless src is newer\nmkdir -p \"${DEST_EXE_DIR}\"\nrsync -au \"${SRC_EXE}\" \"${DEST_EXE}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		11EFDA87514E3DA997C29DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3646F221AD4636719454E69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F2EF6E5859C34A70E3CB03C;
+			remoteInfo = "AGLSEditor_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		3BDDE33C9E8E845F0EFBF049 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F2EF6E5859C34A70E3CB03C /* AGLSEditor_Build */;
+			targetProxy = 11EFDA87514E3DA997C29DF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+/* Begin Build section */
+		8F2EF6E5859C34A70E3CB03C /* AGLSEditor_Build */ = {
+			isa = PBXLegacyTarget;
+			buildConfigurationList = C3AB682CB728AB05C5F6F71E /* Build configuration list for PBXLegacyTarget "AGLSEditor_Build" */;
+			buildArgumentsString = "$(ACTION) AGLSEditor $(PLATFORM_NAME) $(CONFIGURATION) /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/AGLS.uproject";
+			buildToolPath = "/Users/Shared/Epic Games/UE_5.5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/Shared/Epic Games/UE_5.5";
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "AGLSEditor_Build";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End Build section */
+		C3AB682CB728AB05C5F6F71E /* Build configuration list for target AGLSEditor_Build */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA65F13D37A2522F78636F0A /* DebugGame */,
+				3455A7CA8293E376B4335F6F /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		EA65F13D37A2522F78636F0A /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		3455A7CA8293E376B4335F6F /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+		40D89C5A61AEF83FCA5DBF44 /* Build configuration list for target AGLSEditor */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6ACB78F614A289F34F3F6F /* DebugGame */,
+				E27F49B5BA35519B012784A8 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		7F6ACB78F614A289F34F3F6F /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "DebugGame";
+		};
+		E27F49B5BA35519B012784A8 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "Development";
+		};
+	};
+	rootObject = B3646F221AD4636719454E69 /* Project object */;
+}

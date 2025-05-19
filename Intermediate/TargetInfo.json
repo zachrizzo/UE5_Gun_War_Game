@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "AGLS",
+			"Path": "../Source/AGLS.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "AGLSEditor",
+			"Path": "../Source/AGLSEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

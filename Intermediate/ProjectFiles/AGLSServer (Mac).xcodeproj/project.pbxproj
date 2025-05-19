@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		E103FFADB1B6FF9BEE96736F = {isa = PBXBuildFile; fileRef = B7AAC089B1E55EA7B1CDE8C7; }; /* AGLS.png */
+		C67075F48CEE1BD103221685 = {isa = PBXBuildFile; fileRef = 22F1A02CFB9AC65281C20700; }; /* Assets.xcassets */
+		9F659F1AAFC9EFA05E2C857C = {isa = PBXBuildFile; fileRef = 528BFA3A6E76F6D7DDE088A0; }; /* LaunchScreen.storyboardc */
+		705AC57D4D24B5E39B9B97F5 = {isa = PBXBuildFile; fileRef = 073B57482D87891C757F8ABC; }; /* UEMetadata */
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7AAC089B1E55EA7B1CDE8C7 = {isa = PBXFileReference; explicitFileType = image.png; name = "AGLS.png"; path = "../../AGLS.png"; sourceTree = SOURCE_ROOT; };
+		CEDBC2E8B849B360A801E011 = {isa = PBXFileReference; explicitFileType = file.txt; name = "AGLS.uproject"; path = "../../AGLS.uproject"; sourceTree = SOURCE_ROOT; };
+		6BB943E2C40AE476452D4EE3 = {isa = PBXFileReference; explicitFileType = file.txt; name = "AGLSServer.Target.cs"; path = "../Source/AGLSServer.Target.cs"; sourceTree = SOURCE_ROOT; };
+		E5E7D8904F020191210CF3EF = {isa = PBXFileReference; explicitFileType = wrapper.application; name = "AGLSServer"; path = "AGLSServer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F1A02CFB9AC65281C20700 = {isa = PBXFileReference; explicitFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "/Users/Shared/Epic Games/UE_5.5/Engine/Build/Mac/Resources/Assets.xcassets"; sourceTree = "<absolute>"; };
+		528BFA3A6E76F6D7DDE088A0 = {isa = PBXFileReference; explicitFileType = wrapper.storyboardc; name = "LaunchScreen.storyboardc"; path = "/Users/Shared/Epic Games/UE_5.5/Engine/Build/IOS/Resources/Interface/LaunchScreen.storyboardc"; sourceTree = "<absolute>"; };
+		073B57482D87891C757F8ABC = {isa = PBXFileReference; explicitFileType = file.txt; name = "UEMetadata"; path = "/Users/Shared/Epic Games/UE_5.5/Engine/Build/Mac/Resources/UEMetadata"; sourceTree = "<absolute>"; };
+		03991AD7E99E9C8F1F90272C = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "AGLSServer.xcconfig"; path = "XcconfigsMac/AGLSServer.xcconfig"; sourceTree = "<group>"; };
+		721C1E10F2C9EB54CB6F395D = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "AGLSServer_DebugGame.xcconfig"; path = "XcconfigsMac/AGLSServer_DebugGame.xcconfig"; sourceTree = "<group>"; };
+		1BFD5F92A2DAF7AB2AEC030E = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "AGLSServer_Development.xcconfig"; path = "XcconfigsMac/AGLSServer_Development.xcconfig"; sourceTree = "<group>"; };
+		22A32B4E572D89EC0A6CDB54 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "AGLSServer_Shipping.xcconfig"; path = "XcconfigsMac/AGLSServer_Shipping.xcconfig"; sourceTree = "<group>"; };
+		D33959ECEF2CC2FFDF7516F7 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info-Editor.Template.plist"; path = "../../../../../../Users/Shared/Epic Games/UE_5.5/Engine/Intermediate/Build/Mac/Resources/Info-Editor.Template.plist"; sourceTree = "<group>"; };
+		DCDEE558A67E644F8A88E3E8 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info.Template.plist"; path = "../../Build/Mac/Resources/Info.Template.plist"; sourceTree = "<group>"; };
+		32661E1560011CF002D950EC = {isa = PBXFileReference; explicitFileType = text.plist; name = "Sandbox.Server.entitlements"; path = "../../Build/Mac/Resources/Sandbox.Server.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8A98BF05761375C368C96DBF = {
+			isa = PBXGroup;
+			children = (
+				1945D2226EF0158FA8A69EA7 /* Intermediate */,
+				B7AAC089B1E55EA7B1CDE8C7 /* AGLS.png */,
+				CEDBC2E8B849B360A801E011 /* AGLS.uproject */,
+				5E5AF7B2A748728CA9E5BDE3 /* Products */,
+				78A2E12AE4F5B986DF897633 /* Resources */,
+				84249016A65845269A14FC94 /* Xcconfigs */,
+				2ECA35335E11FE429516C197 /* Metadata */,
+			);
+			sourceTree = "<group>";
+		};
+		1945D2226EF0158FA8A69EA7 = {
+			isa = PBXGroup;
+			children = (
+				93814D0C2C13582441A5D117 /* Source */,
+			);
+			name = "Intermediate";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Intermediate";
+			sourceTree = "<absolute>";
+		};
+		93814D0C2C13582441A5D117 = {
+			isa = PBXGroup;
+			children = (
+				6BB943E2C40AE476452D4EE3 /* AGLSServer.Target.cs */,
+			);
+			name = "Source";
+			path = "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Intermediate/Source";
+			sourceTree = "<absolute>";
+		};
+		5E5AF7B2A748728CA9E5BDE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7D8904F020191210CF3EF /* AGLSServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78A2E12AE4F5B986DF897633 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22F1A02CFB9AC65281C20700 /* Assets.xcassets */,
+				528BFA3A6E76F6D7DDE088A0 /* LaunchScreen.storyboardc */,
+				073B57482D87891C757F8ABC /* UEMetadata */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		84249016A65845269A14FC94 /* Xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				03991AD7E99E9C8F1F90272C /* AGLSServer.xcconfig */,
+				721C1E10F2C9EB54CB6F395D /* AGLSServer_DebugGame.xcconfig */,
+				1BFD5F92A2DAF7AB2AEC030E /* AGLSServer_Development.xcconfig */,
+				22A32B4E572D89EC0A6CDB54 /* AGLSServer_Shipping.xcconfig */,
+			);
+			name = Xcconfigs;
+			sourceTree = "<group>";
+		};
+		2ECA35335E11FE429516C197 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				D33959ECEF2CC2FFDF7516F7 /* Info-Editor.Template.plist */,
+				DCDEE558A67E644F8A88E3E8 /* Info.Template.plist */,
+				32661E1560011CF002D950EC /* Sandbox.Server.entitlements */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+/* Begin PBXProject section */
+		6949F9A94E91FE16D25B1B43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					ADB2E3BEECDC71D3A2365632 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D6DF140F9C59A4241B6D47C /* Build configuration list for PBXProject "AGLSServer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 8A98BF05761375C368C96DBF;
+			productRefGroup = 5E5AF7B2A748728CA9E5BDE3;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADB2E3BEECDC71D3A2365632 /* AGLSServer */,
+				0904C508C34272FBE20C3E9D /* AGLSServer_Build */,
+			);
+		};
+/* End PBXProject section */
+/* Begin Run_App section */
+		ADB2E3BEECDC71D3A2365632 /* AGLSServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B340021597295A4E9215578F /* Build configuration list for PBXNativeTarget "AGLSServer" */;
+			buildPhases = (
+				1469454B148E11C07661CC3E /* Resources */,
+				81B327CD67BD0BE54B1B250C /* Copy Executable and Staged Data into .app */,
+				AF2E9B9B283876810AD1EABF /* Generate dsym for archive, and strip */,
+			);
+			dependencies = (
+				BCB27279CD486A0B31192189 /* AGLSServer_Build */,
+			);
+			name = "AGLSServer";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.application";
+			productReference = E5E7D8904F020191210CF3EF;
+			productName = "AGLSServer";
+		};
+/* End Run_App section */
+		B340021597295A4E9215578F /* Build configuration list for target AGLSServer */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				296D9ABFC73663B3F642BBB6 /* DebugGame */,
+				098493C4B69D53633D918090 /* Development */,
+				5BF12878CFFB12975B53947F /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		296D9ABFC73663B3F642BBB6 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721C1E10F2C9EB54CB6F395D /* AGLSServer_DebugGame.xcconfig */;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		098493C4B69D53633D918090 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BFD5F92A2DAF7AB2AEC030E /* AGLSServer_Development.xcconfig */;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+		5BF12878CFFB12975B53947F /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A32B4E572D89EC0A6CDB54 /* AGLSServer_Shipping.xcconfig */;
+			buildSettings = {
+			};
+			name = "Shipping";
+		};
+/* Begin PBXResourcesBuildPhase section */
+		1469454B148E11C07661CC3E = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67075F48CEE1BD103221685 /* Assets.xcassets in Resources */,
+				9F659F1AAFC9EFA05E2C857C /* LaunchScreen.storyboardc in Resources */,
+				705AC57D4D24B5E39B9B97F5 /* UEMetadata in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		81B327CD67BD0BE54B1B250C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Executable and Staged Data into .app";
+			inputPaths = (
+			);
+			outputPaths = (
+				"/dev/null"
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -eo pipefail\nSRC_EXE=\"${UE_BINARIES_DIR}/${UE_UBT_BINARY_SUBPATH}\"\nDEST_EXE=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nDEST_EXE_DIR=`dirname \"${DEST_EXE}\"`\n\necho Copying executable and any standalone dylibs into ${DEST_EXE_DIR} but do not overwrite unless src is newer\nmkdir -p \"${DEST_EXE_DIR}\"\nrsync -au \"${SRC_EXE}\" \"${DEST_EXE}\"\n\n# Skip syncing if desired\nif [[ ${UE_SKIP_STAGEDDATA_SYNC} -eq 1 ]]; then exit 0; fi\n\n# When building engine projects, like UnrealGame, we don't have data to stage unless something has specified UE_OVERRIDE_STAGE_DIR\nif [[ -z ${UE_OVERRIDE_STAGE_DIR} ]]; then \nSTAGED_DIR=\"${UE_PROJECT_DIR}/Saved/StagedBuilds/${UE_TARGET_PLATFORM_NAME}\"\nelse\n  STAGED_DIR=\"${UE_OVERRIDE_STAGE_DIR}\"\nfi\nif [[ -z ${STAGED_DIR} ]]; then exit 0; fi\n# Make sure the staged directory exists and has files in it\nif [[ ! -e \"${STAGED_DIR}\" || ! $(ls -A \"${STAGED_DIR}\") ]]; then \n  echo =========================================================================================\n  echo \"WARNING: To run, you must have a valid staged build directory. The Staged location is:\"\n  echo \"  ${STAGED_DIR}\"\n  echo \"Use the editor's Platforms menu, or run a command like::\"\n  echo \"./RunUAT.sh BuildCookRun -platform=Mac -project=<project> -build -cook -stage -pak\"\n  echo =========================================================================================\n  exit -0 \nfi\n\necho \"Syncing ${STAGED_DIR} to ${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/UE\"\nif [[ -e  \"${STAGED_DIR}\" ]]; then\nrsync -a --delete --exclude=\"/Info.plist\" --exclude=\"/Manifest_*\" --exclude=\"/*.app\" \"${STAGED_DIR}/\" \"${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/UE\"\nelse\n  echo =========================================================================================\n  echo \"WARNING: To run, you must have a valid staged sync source directory. The Staged SyncSource location is:\"\n  echo \"${STAGED_DIR}\"\n  echo \"Use the editor's Platforms menu, or run a command like::\"\n  echo \"./RunUAT.sh BuildCookRun -platform=Mac -project=<project> -build -cook -stage -pak\"\n  echo =========================================================================================\n  exit -0 \nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		AF2E9B9B283876810AD1EABF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Generate dsym for archive, and strip";
+			inputPaths = (
+				"\"$(CONFIGURATION_BUILD_DIR)/$(EXECUTABLE_PATH)\""
+			);
+			outputPaths = (
+				"\"$(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)\""
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# Run the wrapper dsym generator\n\"${UE_ENGINE_DIR}/Build/BatchFiles/Mac/GenerateUniversalDSYM.sh\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\" \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\nstrip -no_code_signature_warning -D \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\n\n# Remove any unused architectures from dylibs in the .app (param1) that don't match the executable (param2). Also error if a dylib is missing arches\n\"${UE_ENGINE_DIR}/Build/BatchFiles/Mac/ThinApp.sh\" \"${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		8A1CA040F13B77315FC350D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6949F9A94E91FE16D25B1B43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0904C508C34272FBE20C3E9D;
+			remoteInfo = "AGLSServer_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		BCB27279CD486A0B31192189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0904C508C34272FBE20C3E9D /* AGLSServer_Build */;
+			targetProxy = 8A1CA040F13B77315FC350D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+/* Begin Build section */
+		0904C508C34272FBE20C3E9D /* AGLSServer_Build */ = {
+			isa = PBXLegacyTarget;
+			buildConfigurationList = 48A3FE5750A1FECABFB4DD68 /* Build configuration list for PBXLegacyTarget "AGLSServer_Build" */;
+			buildArgumentsString = "$(ACTION) AGLSServer $(PLATFORM_NAME) $(CONFIGURATION) /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/AGLS.uproject";
+			buildToolPath = "/Users/Shared/Epic Games/UE_5.5/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/Shared/Epic Games/UE_5.5";
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "AGLSServer_Build";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End Build section */
+		48A3FE5750A1FECABFB4DD68 /* Build configuration list for target AGLSServer_Build */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546B9AC251A73FDCC549D786 /* DebugGame */,
+				EA8D7D36B327AEA111E02973 /* Development */,
+				85CA12108E95A8C760A8F314 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		546B9AC251A73FDCC549D786 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		EA8D7D36B327AEA111E02973 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+		85CA12108E95A8C760A8F314 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "Shipping";
+		};
+		3D6DF140F9C59A4241B6D47C /* Build configuration list for target AGLSServer */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC53B5683D104EF58804AF88 /* DebugGame */,
+				CA4E5F8363C9D856FFD436C9 /* Development */,
+				9A515CE8E270C21918204E83 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		DC53B5683D104EF58804AF88 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "DebugGame";
+		};
+		CA4E5F8363C9D856FFD436C9 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "Development";
+		};
+		9A515CE8E270C21918204E83 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "Shipping";
+		};
+	};
+	rootObject = 6949F9A94E91FE16D25B1B43 /* Project object */;
+}

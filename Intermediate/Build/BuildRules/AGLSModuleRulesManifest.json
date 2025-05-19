@@ -1,0 +1,15 @@
+{
+	"SourceFiles": [
+		"/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Source/AGLS/AGLS.Build.cs",
+		"/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/ClimbingNavigation/Source/ClimbingNavigation/ClimbingNavigation.Build.cs",
+		"/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/GraphDebbuger/Source/GraphDebbuger/GraphDebbuger.Build.cs",
+		"/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/HelpfulFunctions.Build.cs",
+		"/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/IWALS_AbilitySystem.Build.cs",
+		"/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodes/JakubAnimNodes.Build.cs",
+		"/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/JakubAnimNodesTool.Build.cs",
+		"/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/JakubCableComponent/Source/JakubCableComponent/JakubCableComponent.Build.cs",
+		"/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Source/AGLS.Target.cs",
+		"/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Source/AGLSEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
