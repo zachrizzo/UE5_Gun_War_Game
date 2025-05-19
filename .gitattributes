@@ -1,2 +1,6 @@
 *.bin filter=lfs diff=lfs merge=lfs -text
 *.gch filter=lfs diff=lfs merge=lfs -text
+Binaries/Mac/AGLS filter=lfs diff=lfs merge=lfs -text
+Binaries/Mac/AGLS.app/** filter=lfs diff=lfs merge=lfs -text
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.ushaderbytecode filter=lfs diff=lfs merge=lfs -text
