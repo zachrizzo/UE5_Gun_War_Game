@@ -20,12 +20,12 @@
 #define KML UKismetMathLibrary
 #define KSL UKismetSystemLibrary
 #define HFL UHelpfulFunctionsBPLibrary
-#define CapHeight GetCapsuleComponent()->GetScaledCapsuleHalfHeight()
+#define AGLS_HumanAI_CapHeight_Macro GetCapsuleComponent()->GetScaledCapsuleHalfHeight()
 #define CapRadius GetCapsuleComponent()->GetScaledCapsuleRadius()
 #define Cap GetCapsuleComponent
 #define NormToYawVector UHelpfulFunctionsBPLibrary::NormalToVector
 #define VecEqual UKismetMathLibrary::EqualEqual_VectorVector
-#define AnimInst GetMesh()->GetAnimInstance
+#define AGLS_HumanAI_AnimInst_Macro GetMesh()->GetAnimInstance()
 
 FVector AAGLS_HumanAI_CharacterBase::N_to_R_Vector(FVector In)
 {
@@ -212,7 +212,7 @@ void AAGLS_HumanAI_CharacterBase::FindCoverFast(bool& CanCover, float& WallHeigh
 	if (DebugIndex == 2) { DebugTrace = EDrawDebugTrace::ForDuration; }
 	FHitResult TraceResult;
 
-	FVector TraceStart = BasePosition - FVector(0, 0, CapHeight) + FVector(0, 0, GroundOffset);
+	FVector TraceStart = BasePosition - FVector(0, 0, AGLS_HumanAI_CapHeight_Macro) + FVector(0, 0, GroundOffset);
 	FVector TraceEnd = TraceStart + (BaseDirection * ForwardTraceLenght);
 
 	const bool LineTraceValid = KSL::LineTraceSingle(this, TraceStart, TraceEnd, TraceTypeQuery, false, ActorsToIgnore, DebugTrace, TraceResult, true, FColor::Orange, FColor::Yellow, 0.5);
@@ -249,7 +249,7 @@ void AAGLS_HumanAI_CharacterBase::FindCoverFast(bool& CanCover, float& WallHeigh
 		}
 	}
 	CanCover = LineTraceValid && WallHeightValid;
-	WallHeigh = WallHitResult.ImpactPoint.Z - (GetActorLocation().Z - CapHeight);
+	WallHeigh = WallHitResult.ImpactPoint.Z - (GetActorLocation().Z - AGLS_HumanAI_CapHeight_Macro);
 	Impact = WallHitResult.ImpactPoint;
 	Normal = TraceResult.ImpactNormal;
 }
@@ -300,9 +300,9 @@ void AAGLS_HumanAI_CharacterBase::RagdollStart_Implementation()
 void AAGLS_HumanAI_CharacterBase::RagdollEnd_Implementation()
 {
 	//Step 1: Save a snapshot of the current Ragdoll Pose for use in AnimGraph to blend out of the ragdoll
-	if (AnimInst())
+	if (AGLS_HumanAI_AnimInst_Macro)
 	{
-		AnimInst()->SavePoseSnapshot(TEXT("RagdollPose"));
+		AGLS_HumanAI_AnimInst_Macro->SavePoseSnapshot(TEXT("RagdollPose"));
 	}
 
 	//Step 2: If the ragdoll is on the ground, set the movement mode to walking and play a Get Up animation. 
@@ -310,9 +310,9 @@ void AAGLS_HumanAI_CharacterBase::RagdollEnd_Implementation()
 	if (RagdollOnGround)
 	{
 		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Walking);
-		if (AsyncFunctionsComponent && AnimInst())
+		if (AsyncFunctionsComponent && AGLS_HumanAI_AnimInst_Macro)
 		{
-			AsyncFunctionsComponent->MontagePlayAsync(AnimInst(), GetGetUpAnimation(), 1.0, 0.0, false);
+			AsyncFunctionsComponent->MontagePlayAsync(AGLS_HumanAI_AnimInst_Macro, GetGetUpAnimation(), 1.0, 0.0, false);
 		}
 
 	}
@@ -364,11 +364,11 @@ void AAGLS_HumanAI_CharacterBase::RagdollUpdate(float OutSpringRange, float InDa
 	if (DebugIndex == 2) { DebugTrace = EDrawDebugTrace::ForDuration; }
 	FHitResult TraceResult;
 
-	RagdollOnGround = KSL::LineTraceSingle(this, TargetRagdollLocation, TargetRagdollLocation - FVector(0, 0, CapHeight), TraceTypeQuery, false, ActorsToIgnore, DebugTrace, TraceResult, true);
+	RagdollOnGround = KSL::LineTraceSingle(this, TargetRagdollLocation, TargetRagdollLocation - FVector(0, 0, AGLS_HumanAI_CapHeight_Macro), TraceTypeQuery, false, ActorsToIgnore, DebugTrace, TraceResult, true);
 	if (RagdollOnGround)
 	{
 		const float TraceDiff = abs(TraceResult.ImpactPoint.Z - TraceResult.TraceStart.Z);
-		SetActorLocationAndRotation(TargetRagdollLocation + FVector(0,0,(CapHeight - TraceDiff) + 2.0), TargetRagdollRotation, false);
+		SetActorLocationAndRotation(TargetRagdollLocation + FVector(0,0,(AGLS_HumanAI_CapHeight_Macro - TraceDiff) + 2.0), TargetRagdollRotation, false);
 		TargetRotationC = TargetRagdollRotation;
 	}
 	else
@@ -398,12 +398,12 @@ bool AAGLS_HumanAI_CharacterBase::IsAlive()
 
 FVector AAGLS_HumanAI_CharacterBase::GetCalpsuleBaseLocation(float ZOffset)
 {
-	return Cap()->GetComponentLocation() - (Cap()->GetUpVector() * (CapHeight + ZOffset));
+	return Cap()->GetComponentLocation() - (Cap()->GetUpVector() * (AGLS_HumanAI_CapHeight_Macro + ZOffset));
 }
 
 FVector AAGLS_HumanAI_CharacterBase::GetCapsuleLocationFromBase(FVector BaseLocation, float ZOffset)
 {
-	return BaseLocation + FVector(0, 0, CapHeight + ZOffset);
+	return BaseLocation + FVector(0, 0, AGLS_HumanAI_CapHeight_Macro + ZOffset);
 }
 
 void AAGLS_HumanAI_CharacterBase::GetControlForwardRightVector(FVector& ReturnForward, FVector& ReturnRight)
@@ -621,7 +621,7 @@ float AAGLS_HumanAI_CharacterBase::GetMappedSpeedStrafe(float SpeedScale)
 
 void AAGLS_HumanAI_CharacterBase::UpdateGroundedMoveSettingsStrafe(CALS_Gait AllowedGait, FCALSMovementSettingsStrafe CurrentMovement)
 {
-	//This function is used to set the max speed for the character’s movement. Because the forwards, strafes, and backwards animations move 
+	//This function is used to set the max speed for the characterï¿½s movement. Because the forwards, strafes, and backwards animations move 
 	// at different speeds, we need to change the max speed of the character based on its movement direction. We use a simple curve to map 
 	// different speed values to the different directions. 0 = forward, 1 = strafe L or R, 2 = Backwards.
 	float MaxSpeed = 300.0;
@@ -635,10 +635,10 @@ void AAGLS_HumanAI_CharacterBase::UpdateGroundedMoveSettingsStrafe(CALS_Gait All
 
 	//Get From Anim Instance Character Movement Parameters Modify
 	float DecelerationBias = 0.0; float FrictionBias = 0.0;
-	if (IsValid(AnimInst()))
+	if (IsValid(AGLS_HumanAI_AnimInst_Macro))
 	{
-		DecelerationBias = AnimInst()->GetCurveValue(TEXT("Modify_Deceleration")) * DecelerationBiasScale;
-		FrictionBias = AnimInst()->GetCurveValue(TEXT("Modify_GroundFriction")) * GroundFrictionBiasScale;
+		DecelerationBias = AGLS_HumanAI_AnimInst_Macro->GetCurveValue(TEXT("Modify_Deceleration")) * DecelerationBiasScale;
+		FrictionBias = AGLS_HumanAI_AnimInst_Macro->GetCurveValue(TEXT("Modify_GroundFriction")) * GroundFrictionBiasScale;
 	}
 
 	//Update the Acceleration, Deceleration, and Ground Friction using the Movement Curve. 
@@ -731,9 +731,9 @@ bool AAGLS_HumanAI_CharacterBase::CheckFallDamage_Implementation(FHitResult Land
 	else if (MappedVelocityZ > DamageTresholds.Y)
 	{
 		const float PlayRateRandom = KML::RandomFloatInRange(0.85, 1.1);
-		if (AnimInst())
+		if (AGLS_HumanAI_AnimInst_Macro)
 		{
-			AsyncFunctionsComponent->PlayDynamicMontageAsync(AnimInst(), HardLandMontage, TEXT("BaseLayer"), 0.15, 0.3, PlayRateRandom);
+			AsyncFunctionsComponent->PlayDynamicMontageAsync(AGLS_HumanAI_AnimInst_Macro, HardLandMontage, TEXT("BaseLayer"), 0.15, 0.3, PlayRateRandom);
 			ApplyDamageValue(nullptr, LandHitResult, 40.0, 3, -1.0);
 			return true;
 		}
@@ -741,9 +741,9 @@ bool AAGLS_HumanAI_CharacterBase::CheckFallDamage_Implementation(FHitResult Land
 	else if (MappedVelocityZ > DamageTresholds.Z)
 	{
 		const float PlayRateRandom = KML::RandomFloatInRange(0.85, 1.1);
-		if (AnimInst())
+		if (AGLS_HumanAI_AnimInst_Macro)
 		{
-			AsyncFunctionsComponent->PlayDynamicMontageAsync(AnimInst(), LightLandMontage, TEXT("BaseLayer"), 0.15, 0.3, PlayRateRandom);
+			AsyncFunctionsComponent->PlayDynamicMontageAsync(AGLS_HumanAI_AnimInst_Macro, LightLandMontage, TEXT("BaseLayer"), 0.15, 0.3, PlayRateRandom);
 			ApplyDamageValue(nullptr, LandHitResult, 25.0, 3, -1.0);
 			return true;
 		}

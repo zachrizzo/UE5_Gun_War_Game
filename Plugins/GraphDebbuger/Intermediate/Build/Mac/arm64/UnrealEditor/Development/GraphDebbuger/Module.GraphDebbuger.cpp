@@ -4,3 +4,7 @@
 #include "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/GraphDebbuger/Intermediate/Build/Mac/UnrealEditor/Inc/GraphDebbuger/UHT/GraphDebbuger.init.gen.cpp"
 #include "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/GraphDebbuger/Intermediate/Build/Mac/UnrealEditor/Inc/GraphDebbuger/UHT/GraphDebbugerBPLibrary.gen.cpp"
 #include "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/GraphDebbuger/Intermediate/Build/Mac/UnrealEditor/Inc/GraphDebbuger/UHT/GraphDebuggerCore.gen.cpp"
+#include "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/GraphDebbuger/Source/GraphDebbuger/Private/AGLS_EditorCommands.cpp"
+#include "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/GraphDebbuger/Source/GraphDebbuger/Private/GraphDebbuger.cpp"
+#include "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/GraphDebbuger/Source/GraphDebbuger/Private/GraphDebbugerBPLibrary.cpp"
+#include "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/GraphDebbuger/Source/GraphDebbuger/Private/GraphDebuggerCore.cpp"

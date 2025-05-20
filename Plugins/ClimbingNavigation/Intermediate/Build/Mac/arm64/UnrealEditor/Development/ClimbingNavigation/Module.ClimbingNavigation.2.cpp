@@ -11,3 +11,4 @@
 #include "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/ClimbingNavigation/Intermediate/Build/Mac/UnrealEditor/Inc/ClimbingNavigation/UHT/NavQuery_FullNavPathFinding.gen.cpp"
 #include "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/ClimbingNavigation/Intermediate/Build/Mac/UnrealEditor/Inc/ClimbingNavigation/UHT/NavQuery_HidingLocSearchParams.gen.cpp"
 #include "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/ClimbingNavigation/Intermediate/Build/Mac/UnrealEditor/Inc/ClimbingNavigation/UHT/SmoothPathFollowingComponent.gen.cpp"
+#include "/Volumes/4TB-Z/unreal_engine/AGLS v1.4/Plugins/ClimbingNavigation/Source/ClimbingNavigation/Private/AdvancedAI_TasksAndFunctions.cpp"

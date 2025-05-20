@@ -4199,4 +4199,50 @@
   /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/GraphDebbuger/Intermediate/Build/Mac/UnrealEditor/Inc/GraphDebbuger/UHT/GraphDebbugerBPLibrary.generated.h \
   /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/GraphDebbuger/Intermediate/Build/Mac/UnrealEditor/Inc/GraphDebbuger/UHT/GraphDebuggerCore.gen.cpp \
   /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/GraphDebbuger/Source/GraphDebbuger/Public/GraphDebuggerCore.h \
-  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/GraphDebbuger/Intermediate/Build/Mac/UnrealEditor/Inc/GraphDebbuger/UHT/GraphDebuggerCore.generated.h
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/GraphDebbuger/Intermediate/Build/Mac/UnrealEditor/Inc/GraphDebbuger/UHT/GraphDebuggerCore.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/GraphDebbuger/Source/GraphDebbuger/Private/AGLS_EditorCommands.cpp \
+  Runtime/Engine/Public/EngineUtils.h \
+  Runtime/CoreUObject/Public/Templates/SubclassOf.h \
+  Runtime/Engine/Classes/Engine/EngineTypes.h \
+  Runtime/Engine/Classes/GameFramework/Actor.h \
+  Runtime/Engine/Public/HitProxies.h \
+  Runtime/Engine/Classes/Engine/Level.h \
+  Runtime/Engine/Classes/Engine/World.h \
+  Runtime/CoreUObject/Public/UObject/UObjectHash.h \
+  Runtime/Core/Public/ProfilingDebugging/ProfilingHelpers.h \
+  Runtime/Engine/Classes/GameFramework/WorldSettings.h \
+  Runtime/Core/Public/Algo/Accumulate.h Runtime/Core/Public/Algo/Copy.h \
+  Runtime/Engine/Classes/Engine/Engine.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/GraphDebbuger/Source/GraphDebbuger/Private/GraphDebbuger.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/GraphDebbuger/Source/GraphDebbuger/Public/GraphDebbuger.h \
+  Runtime/Core/Public/Modules/ModuleManager.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/GraphDebbuger/Source/GraphDebbuger/Private/GraphDebbugerBPLibrary.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/GraphDebbuger/Source/GraphDebbuger/Private/GraphDebuggerCore.cpp \
+  Runtime/Engine/Classes/Engine/Canvas.h \
+  Runtime/CoreUObject/Public/UObject/Object.h \
+  Runtime/Engine/Public/CanvasItem.h \
+  Runtime/SlateCore/Public/Fonts/ShapedTextFwd.h \
+  Runtime/CoreUObject/Public/Templates/Casts.h \
+  Runtime/SlateCore/Public/Fonts/SlateFontInfo.h \
+  Runtime/Engine/Classes/Engine/Font.h \
+  Runtime/CoreUObject/Public/UObject/Class.h \
+  Runtime/SlateCore/Public/Fonts/CompositeFont.h \
+  Runtime/Engine/Classes/Engine/FontImportOptions.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/FontImportOptions.generated.h \
+  Runtime/SlateCore/Public/Fonts/FontProviderInterface.h \
+  Runtime/CoreUObject/Public/UObject/Interface.h \
+  Runtime/CoreUObject/Public/UObject/UObjectGlobals.h \
+  Runtime/SlateCore/Public/Fonts/FontRasterizationMode.h \
+  Runtime/SlateCore/Public/Fonts/FontSdfSettings.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/SlateCore/UHT/FontProviderInterface.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/Font.generated.h \
+  Runtime/Engine/Public/SceneTypes.h Runtime/Engine/Public/CanvasTypes.h \
+  Runtime/Engine/Public/GameTime.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/CanvasTypes.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/Canvas.generated.h \
+  Runtime/Engine/Classes/Kismet/KismetMathLibrary.h \
+  Runtime/CoreUObject/Public/UObject/Script.h \
+  Runtime/CoreUObject/Public/UObject/Stack.h \
+  Runtime/Engine/Classes/Engine/NetSerialization.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/KismetMathLibrary.generated.h \
+  Runtime/Engine/Classes/Kismet/KismetMathLibrary.inl

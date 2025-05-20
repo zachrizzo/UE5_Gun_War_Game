@@ -1,4 +1,4 @@
-﻿#include "AGLS_ZombieCharacterCore.h"
+#include "AGLS_ZombieCharacterCore.h"
 #include "Components/CapsuleComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Kismet/KismetSystemLibrary.h"
@@ -16,9 +16,9 @@
 #define AIMING CALS_RotationMode::Aiming
 #define MOVEMENT GetCharacterMovement()
 #define KML UKismetMathLibrary
-#define CapHeight GetCapsuleComponent()->GetScaledCapsuleHalfHeight()
+#define AGLS_Zombie_CapHeight_Macro GetCapsuleComponent()->GetScaledCapsuleHalfHeight()
+#define AGLS_Zombie_AnimInst_Macro GetMesh()->GetAnimInstance()
 #define CapRadius GetCapsuleComponent()->GetScaledCapsuleRadius()
-#define AnimInst GetMesh()->GetAnimInstance
 
 // Sets default values
 AAGLS_ZombieCharacterCore::AAGLS_ZombieCharacterCore()
@@ -103,9 +103,9 @@ void AAGLS_ZombieCharacterCore::BeginPlay()
 
 float AAGLS_ZombieCharacterCore::GetAnimCurveValue(FName CurveName)
 {
-	if (GetMesh()->GetAnimInstance())
+	if (AGLS_Zombie_AnimInst_Macro)
 	{
-		return GetMesh()->GetAnimInstance()->GetCurveValue(CurveName);
+		return AGLS_Zombie_AnimInst_Macro->GetCurveValue(CurveName);
 	}
 	return 0.0f;
 }
@@ -127,7 +127,7 @@ void AAGLS_ZombieCharacterCore::Tick(float DeltaTime)
 	else
 	{
 		FloorVelocityC = FVector(0, 0, 0);
-		PrevFloorLocation = GetActorLocation() - FVector(0, 0, GetCapsuleComponent()->GetScaledCapsuleHalfHeight());
+		PrevFloorLocation = GetActorLocation() - FVector(0, 0, AGLS_Zombie_CapHeight_Macro);
 	}
 
 	/* Experimental function. Improves the behavior of the capsule in a non-inertial reference frame (the floor moves relative to the world space) */
@@ -499,7 +499,7 @@ void AAGLS_ZombieCharacterCore::OnStartedCrawling_Implementation()
 }
 
 //⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷
-//⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷
+//⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷
 
 
 AGLS_LOD_State AAGLS_ZombieCharacterCore::GetCurrentRequiredLOD_Implementation()
@@ -513,8 +513,8 @@ void AAGLS_ZombieCharacterCore::UpdateCurrentLOD_State_Implementation()
 }
 
 // ▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒
-// ▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒ Physic [S] [E] [C] [T] [I] [O] [N]  ░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒
-// ▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒
+// ▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒ Physic [S] [E] [C] [T] [I] [O] [N]  ░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒
+// ▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒░░░▒
 
 bool AAGLS_ZombieCharacterCore::UpdateCurrentBodiesPhysicStats()
 {
@@ -546,7 +546,7 @@ bool AAGLS_ZombieCharacterCore::DisableEnableRequiredBodies(bool bEnableSimulati
 
 //⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆
 //⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆ H E A L T H  ,  D A M A G E  ,  D E A T H  ,  H I T ⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆
-//⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆
+//⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆⛆
 
 void AAGLS_ZombieCharacterCore::HitReactionAndDamage_Implementation(bool& OutDeath, FVector& OutHitLocation, FVector& OutHitNormal, FName& OutBoneName,
 	float& Outamage, AActor* DamageCauser, float DamagePoints, FHitResult HitInfo, ECALS_WeaponType WeaponType, bool InstantDeath)
@@ -574,10 +574,10 @@ bool AAGLS_ZombieCharacterCore::CheckFallDamage_Implementation(FHitResult LandHi
 	else if (MappedVelocityZ > DamageTresholds.Y)
 	{
 		const float PlayRateRandom = KML::RandomFloatInRange(0.85, 1.1);
-		if (AnimInst())
+		if (AGLS_Zombie_AnimInst_Macro)
 		{
 			//AsyncFunctionsComponent->PlayDynamicMontageAsync(AnimInst(), HardLandMontage, TEXT("BaseLayer"), 0.15, 0.3, PlayRateRandom);
-			AsyncFunctionsComponent->MontagePlayAsync(AnimInst(), HardLandMontage, PlayRateRandom, 0.0, false);
+			AsyncFunctionsComponent->MontagePlayAsync(AGLS_Zombie_AnimInst_Macro, HardLandMontage, PlayRateRandom, 0.0, false);
 			ApplyDamageValue(nullptr, LandHitResult, 40.0, 3, -1.0);
 			return true;
 		}
@@ -585,10 +585,10 @@ bool AAGLS_ZombieCharacterCore::CheckFallDamage_Implementation(FHitResult LandHi
 	else if (MappedVelocityZ > DamageTresholds.Z)
 	{
 		const float PlayRateRandom = KML::RandomFloatInRange(0.85, 1.1);
-		if (AnimInst())
+		if (AGLS_Zombie_AnimInst_Macro)
 		{
 			//AsyncFunctionsComponent->PlayDynamicMontageAsync(AnimInst(), LightLandMontage, TEXT("BaseLayer"), 0.15, 0.3, PlayRateRandom);
-			AsyncFunctionsComponent->MontagePlayAsync(AnimInst(), LightLandMontage, PlayRateRandom, 0.0, false);
+			AsyncFunctionsComponent->MontagePlayAsync(AGLS_Zombie_AnimInst_Macro, LightLandMontage, PlayRateRandom, 0.0, false);
 			ApplyDamageValue(nullptr, LandHitResult, 25.0, 3, -1.0);
 			return true;
 		}
@@ -607,7 +607,7 @@ bool AAGLS_ZombieCharacterCore::ApplyDamageValue_Implementation(AActor* DamageCa
 
 bool AAGLS_ZombieCharacterCore::IsAlive()
 {
-	return IsDeathC == false && GetMesh()->GetAnimInstance()->GetCurveValue(TEXT("DeathAnim_Alpha")) < 0.2;
+	return IsDeathC == false && AGLS_Zombie_AnimInst_Macro->GetCurveValue(TEXT("DeathAnim_Alpha")) < 0.2;
 }
 
 FVector AAGLS_ZombieCharacterCore::CalculateHitDirection(FHitResult InHitResult, FVector2D RangeX, FVector2D RangeZ)
@@ -653,245 +653,10 @@ FVector AAGLS_ZombieCharacterCore::CalculateHitDirection(FHitResult InHitResult,
 	return HitCoords3D;
 }
 
-// ▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░
-// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ R A G D O L L   S Y S T E M ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-// ▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░
-
-void AAGLS_ZombieCharacterCore::RagdollStart_Implementation()
-{
-	//Step 1: Clear the Character Movement Mode and set teh Movement State to Ragdoll
-	GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_None);
-	Execute_BPI_AI_Set_MovementState(this, CALS_MovementState::Ragdoll);
-
-	//Step 2: Disable capsule collision and enable mesh physics simulation starting from the pelvis.
-	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-	GetMesh()->SetCollisionObjectType(ECollisionChannel::ECC_PhysicsBody);
-	GetMesh()->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
-	GetMesh()->SetAllBodiesBelowSimulatePhysics(TEXT("pelvis"), true, true);
-
-	//Step 3: Stop any active montages.
-	if (GetMesh()->GetAnimInstance())
-	{
-		GetMesh()->GetAnimInstance()->StopAllMontages(0.2);
-	}
-}
-
-
-void AAGLS_ZombieCharacterCore::RagdollEnd_Implementation()
-{
-	//Step 1: Save a snapshot of the current Ragdoll Pose for use in AnimGraph to blend out of the ragdoll
-	if (GetMesh()->GetAnimInstance())
-	{
-		GetMesh()->GetAnimInstance()->SavePoseSnapshot(TEXT("RagdollPose"));
-	}
-
-	//Step 2: If the ragdoll is on the ground, set the movement mode to walking and play a Get Up animation. 
-	// If not, set the movement mode to falling and update teh character movement velocity to match the last ragdoll velocity.
-	if (bRagdollOnGround)
-	{
-		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Walking);
-		if (AsyncFunctionsComponent && GetMesh()->GetAnimInstance())
-		{
-			AsyncFunctionsComponent->MontagePlayAsync(GetMesh()->GetAnimInstance(), GetGetUpAnimation(), 1.0, 0.0, false);
-		}
-
-	}
-	else
-	{
-		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Falling);
-		GetCharacterMovement()->Velocity = LastRagdollVelocity;
-	}
-	//Step 3: Re-Enable capsule collision, and disable physics simulation on the mesh.
-	if (UseBodyDismemberment)
-	{
-		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
-		GetMesh()->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
-		GetMesh()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
-		GetMesh()->SetAllBodiesSimulatePhysics(false);
-		GetMesh()->SetAllBodiesBelowSimulatePhysics(TEXT("spine_01"), true, true);
-	}
-	else
-	{
-		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
-		GetMesh()->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
-		GetMesh()->SetAllBodiesSimulatePhysics(false);
-	}
-}
-
-
-void AAGLS_ZombieCharacterCore::RagdollUpdate_Implementation(float OutSpringRange, float InDamping, float InForceLimit, int DebugIndex)
-{
-	//Set the Last Ragdoll Velocity.
-	LastRagdollVelocity = GetMesh()->GetPhysicsLinearVelocity();
-
-	//Use the Ragdoll Velocity to scale the ragdoll's joint strength for physical animation.
-	if (GetMesh() && InDamping > -0.1 && InForceLimit > -0.1)
-	{
-		GetMesh()->SetAllMotorsAngularDriveParams(KML::MapRangeClamped(LastRagdollVelocity.Length(), 0.0, 1000, 0.0, OutSpringRange), InDamping, InForceLimit, false);
-	}
-
-	//Disable Gravity if falling faster than -4000 to prevent continual acceleration. This also prevents the ragdoll from going through the floor.
-	if (GetMesh())
-	{
-		GetMesh()->SetEnableGravity(LastRagdollVelocity.Z > -4000.0);
-	}
-	else
-	{
-		return;
-	}
-
-	//Update the Actor location to follow the ragdoll.
-	// 3.1 Set the pelvis as the target location.
-	FVector TargetRagdollLocation = GetMesh()->GetSocketLocation(TEXT("pelvis"));
-
-	// 3.2 Determine wether the ragdoll is facing up or down and set the target rotation accordingly.
-	bRagdollFaceUp = GetMesh()->GetSocketRotation(TEXT("pelvis")).Roll < 0.0;
-	const float PelvisYaw = GetMesh()->GetSocketRotation(TEXT("pelvis")).Yaw;
-	FRotator TargetRagdollRotation = FRotator(0, KML::SelectFloat(PelvisYaw - 180, PelvisYaw, bRagdollFaceUp), 0);
-
-	// 3.3 Trace downward from the target location to offset the target location, preventing the lower half of the capsule from 
-	// going through the floor when the ragdoll is laying on the ground.
-	ETraceTypeQuery TraceTypeQuery = UEngineTypes::ConvertToTraceType(ECollisionChannel::ECC_Visibility);
-	TArray<AActor*> ActorsToIgnore = {};
-	EDrawDebugTrace::Type DebugTrace = EDrawDebugTrace::None;
-	if (DebugIndex == 1) { DebugTrace = EDrawDebugTrace::ForOneFrame; }
-	if (DebugIndex == 2) { DebugTrace = EDrawDebugTrace::ForDuration; }
-	FHitResult TraceResult;
-
-	bRagdollOnGround = UKismetSystemLibrary::LineTraceSingle(this, TargetRagdollLocation, TargetRagdollLocation - FVector(0, 0, CapHeight), TraceTypeQuery, false, ActorsToIgnore, DebugTrace, TraceResult, true);
-	if (bRagdollOnGround)
-	{
-		const float TraceDiff = abs(TraceResult.ImpactPoint.Z - TraceResult.TraceStart.Z);
-		SetActorLocationAndRotation(TargetRagdollLocation + FVector(0, 0, (CapHeight - TraceDiff) + 2.0), TargetRagdollRotation, false);
-		DesiredActorRotation = TargetRagdollRotation;
-	}
-	else
-	{
-		SetActorLocationAndRotation(TargetRagdollLocation, TargetRagdollRotation, false);
-		DesiredActorRotation = TargetRagdollRotation;
-	}
-}
-
-
-TSoftObjectPtr<UAnimMontage> AAGLS_ZombieCharacterCore::GetGetUpAnimation_Implementation()
-{
-	return TSoftObjectPtr<UAnimMontage>();
-}
-
-TArray<FName> AAGLS_ZombieCharacterCore::GetChildBoneNames(FName BoneName, bool bIncludeSelf) const
-{
-	TArray<FName> Result;
-
-	// Upewniamy się, że mamy SkeletalMeshComponent (domyślnie GetMesh() w ACharacter).
-	const USkeletalMeshComponent* SKC = GetMesh();
-	if (!SKC)
-	{
-		return Result; // zwraca pustą tablicę
-	}
-	// Pobieramy indeks kości w SkeletalMesh.
-	const int32 BoneIndex = SKC->GetBoneIndex(BoneName);
-	if (BoneIndex == INDEX_NONE)
-	{
-		// Kość o podanej nazwie nie istnieje w tym mesh-u.
-		return Result;
-	}
-	// Od UE5.1 nazwa funkcji to GetSkeletalMeshAsset():
-	const USkeletalMesh* SkelMesh = SKC->GetSkeletalMeshAsset();
-	// W starszych wersjach: const USkeletalMesh* SkelMesh = SKC->SkeletalMesh;
-	if (!SkelMesh)
-	{ return Result; }
-
-	// Pobieramy referencyjny szkielet, by móc wyłuskać listę dziecka/rodzica.
-	FReferenceSkeleton RefSkeleton = SkelMesh->GetRefSkeleton();
-
-	// Zbierzemy indeksy wszystkich kości-potomków (rekurencyjnie).
-	TArray<int32> ChildIndices;
-	RefSkeleton.GetDirectChildBones(BoneIndex, ChildIndices);
-
-	// Jeśli chcemy dołączyć samą kość źródłową do wyniku.
-	if (bIncludeSelf)
-	{
-		Result.Add(RefSkeleton.GetBoneName(BoneIndex));
-	}
-	// Dodajemy nazwy kości-potomków do wyniku
-	for (int32 ChildBoneIndex : ChildIndices)
-	{
-		const FName ChildBoneName = RefSkeleton.GetBoneName(ChildBoneIndex);
-		Result.Add(ChildBoneName);
-	}
-
-	return Result;
-}
-
-FTransform AAGLS_ZombieCharacterCore::GetRefBoneTransformInLocalSpace(USkeletalMeshComponent* InSkeletalMesh, FName BoneName) const
-{
-	// Jeśli brak poprawnego wskaźnika do komponentu, zwracamy identity
-	if (!InSkeletalMesh)
-	{
-		return FTransform::Identity;
-	}
-
-	// Pobieramy faktyczny SkeletalMesh z komponentu
-	USkeletalMesh* SkelMesh = InSkeletalMesh->GetSkeletalMeshAsset();
-	if (!SkelMesh)
-	{
-		return FTransform::Identity;
-	}
-
-	// Pobieramy referencyjny szkielet
-	const FReferenceSkeleton& RefSkeleton = SkelMesh->GetRefSkeleton();
-
-	// Znajdź indeks kości na podstawie nazwy
-	const int32 BoneIndex = InSkeletalMesh->GetBoneIndex(BoneName);
-	if (BoneIndex == INDEX_NONE)
-	{
-		// Nie znaleziono takiej kości w skeletonie
-		return FTransform::Identity;
-	}
-
-	// Tablica transformów referencyjnych (każdy jest względem rodzica)
-	const TArray<FTransform>& RefBonePoses = RefSkeleton.GetRefBonePose();
-
-	// Akumulacja transform
-	FTransform AccumulatedTransform = FTransform::Identity;
-
-	int32 CurrentIndex = BoneIndex;
-	while (CurrentIndex != INDEX_NONE)
-	{
-		// Mnożymy transform bieżącej kości (relative to parent) do akumulacji
-		AccumulatedTransform = AccumulatedTransform * RefBonePoses[CurrentIndex];
-
-		//GEngine->AddOnScreenDebugMessage(-1, 0.0, FColor::Green, GetMesh()->GetBoneName(CurrentIndex).ToString());
-		// Przechodzimy do rodzica
-		CurrentIndex = RefSkeleton.GetParentIndex(CurrentIndex);
-	}
-
-	// AccumulatedTransform = "global" transform kości (w ref pozie),
-	// liczone od root-a do wskazanej kości.
-	return AccumulatedTransform;
-}
-
-bool AAGLS_ZombieCharacterCore::GetIsStartedAttack() const
-{
-	if (AttacksSystemComponent)
-	{
-		return AttacksSystemComponent->bAttackStarted;
-	}
-	return false;
-}
-
-float AAGLS_ZombieCharacterCore::GetAttackElapsedTime() const
-{
-	if (AttacksSystemComponent)
-	{
-		return AttacksSystemComponent->AttackElapsedTime;
-	}
-	return -999;
-}
-
+// ▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ Update Actor Rotation for property movement state - Section ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ Update Actor Rotation for property movement state - Section ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
 void AAGLS_ZombieCharacterCore::SmoothCharacterRotation(FRotator TargetRotation, float InterpSpeed)
 {
@@ -991,7 +756,7 @@ void AAGLS_ZombieCharacterCore::UpdateCrawlingRotation_Implementation()
 
 // ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 // ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ Overrided Character MAIN Functions ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-// ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+// ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 
 void AAGLS_ZombieCharacterCore::OnMovementModeChanged(EMovementMode PrevMovementMode, uint8 PreviousCustomMode)
 {
@@ -1020,6 +785,100 @@ void AAGLS_ZombieCharacterCore::OnEndCrouch(float HalfHeightAdjust, float Scaled
 
 }
 
+// -----------------------------------------------------------------------------
+// Ragdoll System Implementations
+// -----------------------------------------------------------------------------
+
+void AAGLS_ZombieCharacterCore::RagdollStart_Implementation()
+{
+	// TODO: Implement Ragdoll Start Logic
+	// Example: GetMesh()->SetSimulatePhysics(true);
+}
+
+void AAGLS_ZombieCharacterCore::RagdollEnd_Implementation()
+{
+	// TODO: Implement Ragdoll End Logic
+	// Example: GetMesh()->SetSimulatePhysics(false);
+}
+
+void AAGLS_ZombieCharacterCore::RagdollUpdate_Implementation(float OutSpringRange, float InDamping, float InForceLimit, int DebugIndex)
+{
+	// TODO: Implement Ragdoll Update Logic
+}
+
+TSoftObjectPtr<UAnimMontage> AAGLS_ZombieCharacterCore::GetGetUpAnimation_Implementation()
+{
+	// TODO: Implement Get Get Up Animation Logic
+	// Return the class member RagdollGetUpAnim, which might be set in Blueprints or defaults.
+	// This member was declared in the header: UPROPERTY(BlueprintReadWrite, meta = (AllowPrivateAccess = "True", Category = "Zombie Core|Ragdoll")) UAnimMontage* RagdollGetUpAnim = nullptr;
+	return RagdollGetUpAnim;
+}
+
+// -----------------------------------------------------------------------------
+// Utility Function Implementations
+// -----------------------------------------------------------------------------
+
+TArray<FName> AAGLS_ZombieCharacterCore::GetChildBoneNames(FName BoneName, bool bIncludeSelf) const
+{
+	// TODO: Implement proper Get Child Bone Names Logic. This is a placeholder.
+	if (GetMesh() && GetMesh()->SkeletalMesh)
+	{
+		TArray<FName> ChildBones;
+		const FReferenceSkeleton& RefSkeleton = GetMesh()->SkeletalMesh->GetRefSkeleton();
+		int32 BoneIndex = RefSkeleton.FindBoneIndex(BoneName);
+
+		if (BoneIndex != INDEX_NONE)
+		{
+			if (bIncludeSelf)
+			{
+				ChildBones.Add(BoneName);
+			}
+
+			TArray<int32> ChildBoneIndices;
+			RefSkeleton.GetDirectChildBones(BoneIndex, ChildBoneIndices);
+
+			for (int32 ChildIndex : ChildBoneIndices)
+			{
+				ChildBones.Add(RefSkeleton.GetBoneName(ChildIndex));
+				// Add recursive call here if you need all descendants, not just direct children
+			}
+		}
+		return ChildBones;
+	}
+	return TArray<FName>();
+}
+
+FTransform AAGLS_ZombieCharacterCore::GetRefBoneTransformInLocalSpace(USkeletalMeshComponent* InSkeletalMesh, FName BoneName) const
+{
+	// TODO: Confirm the correct RelativeTransformSpace (RTS_ParentBoneSpace or RTS_ComponentSpace)
+	if (InSkeletalMesh)
+	{
+		// Assuming 'LocalSpace' means local to the parent bone.
+		// If it means local to the SkeletalMeshComponent origin, use RTS_Component.
+		return InSkeletalMesh->GetSocketTransform(BoneName, ERelativeTransformSpace::RTS_ParentBoneSpace);
+	}
+	return FTransform::Identity;
+}
+
+bool AAGLS_ZombieCharacterCore::GetIsStartedAttack() const
+{
+	// TODO: Implement Get Is Started Attack Logic by querying AttacksSystemComponent
+	if (AttacksSystemComponent)
+	{
+		// Example: return AttacksSystemComponent->IsCurrentlyAttacking();
+	}
+	return false;
+}
+
+float AAGLS_ZombieCharacterCore::GetAttackElapsedTime() const
+{
+	// TODO: Implement Get Attack Elapsed Time Logic by querying AttacksSystemComponent
+	if (AttacksSystemComponent)
+	{
+		// Example: return AttacksSystemComponent->GetCurrentAttackElapsedTime();
+	}
+	return 0.0f;
+}
 
 // ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 // █████████████████████████████████████ INTERFACES OVERRIDE SECTION ██████████████████████████████████████████████████████████████████
@@ -1130,4 +989,3 @@ void AAGLS_ZombieCharacterCore::BPI_AI_Set_EnableRagdoll_Implementation(bool Ena
 		RagdollEnd();
 	}
 }
-

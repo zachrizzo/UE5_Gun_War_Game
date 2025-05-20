@@ -4227,4 +4227,316 @@
   Runtime/Engine/Classes/Particles/WorldPSCPool.h \
   ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/GameplayStatics.generated.h \
   /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/Cpp_TraversalActionComponent.generated.h \
-  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/TraversalInteractionInterface.generated.h
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/TraversalInteractionInterface.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_AIsMeleeFightCore.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_AIsMeleeFightCore.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AI_MeleeFightSequencesData.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/AI_MeleeFightSequencesData.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/AGLS_AIsMeleeFightCore.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_AI_AnimInstanceBase.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_AI_AnimInstanceBase.h \
+  Runtime/Engine/Classes/Components/CapsuleComponent.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/CapsuleComponent.generated.h \
+  Runtime/Engine/Classes/GameFramework/CharacterMovementComponent.h \
+  Runtime/Core/Public/Math/RandomStream.h \
+  Runtime/Engine/Classes/Engine/EngineBaseTypes.h \
+  Runtime/Engine/Public/WorldCollision.h \
+  Runtime/Engine/Classes/AI/Navigation/NavigationTypes.h \
+  Runtime/Engine/Classes/Animation/AnimMontage.h \
+  Runtime/Engine/Classes/AI/Navigation/NavigationAvoidanceTypes.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/NavigationAvoidanceTypes.generated.h \
+  Runtime/Engine/Public/AI/RVOAvoidanceInterface.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/RVOAvoidanceInterface.generated.h \
+  Runtime/Engine/Classes/GameFramework/PawnMovementComponent.h \
+  Runtime/Engine/Classes/GameFramework/NavMovementComponent.h \
+  Runtime/Engine/Classes/GameFramework/NavMovementInterface.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/NavMovementInterface.generated.h \
+  Runtime/Engine/Classes/AI/Navigation/NavAgentInterface.h \
+  Runtime/Engine/Classes/AI/Navigation/PathFollowingAgentInterface.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/PathFollowingAgentInterface.generated.h \
+  Runtime/Engine/Classes/GameFramework/MovementComponent.h \
+  Runtime/PhysicsCore/Public/Chaos/ChaosEngineInterface.h \
+  Runtime/Engine/Classes/Components/SceneComponent.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/MovementComponent.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/NavMovementComponent.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/PawnMovementComponent.generated.h \
+  Runtime/Engine/Classes/Interfaces/NetworkPredictionInterface.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/NetworkPredictionInterface.generated.h \
+  Runtime/Engine/Public/CharacterMovementComponentAsync.h \
+  Runtime/Experimental/Chaos/Public/Chaos/SimCallbackObject.h \
+  Runtime/PhysicsCore/Public/CollisionShape.h \
+  Runtime/Engine/Public/Engine/OverlapInfo.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/CharacterMovementComponentAsync.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/CharacterMovementComponent.generated.h \
+  ../Plugins/Animation/PoseSearch/Source/Runtime/Public/PoseSearch/PoseSearchLibrary.h \
+  Runtime/Engine/Classes/Animation/AnimExecutionContext.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/AnimExecutionContext.generated.h \
+  Runtime/Engine/Classes/Animation/AnimNodeReference.h \
+  Runtime/Engine/Public/EngineLogs.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/AnimNodeReference.generated.h \
+  ../Plugins/Animation/PoseSearch/Source/Runtime/Public/PoseSearch/PoseSearchDefines.h \
+  Runtime/Core/Public/Async/ParallelFor.h \
+  Runtime/Core/Public/Logging/LogMacros.h \
+  Runtime/Engine/Public/Animation/AnimTrace.h \
+  Runtime/Core/Public/CoreTypes.h Runtime/Engine/Public/ObjectTrace.h \
+  Runtime/TraceLog/Public/Trace/Config.h \
+  Runtime/Engine/Public/Subsystems/WorldSubsystem.h \
+  Runtime/Engine/Public/TraceFilter.h \
+  Runtime/Core/Public/Templates/EnableIf.h \
+  Runtime/Core/Public/Templates/PointerIsConvertibleFromTo.h \
+  Runtime/Engine/Classes/Components/SkeletalMeshComponent.h \
+  Runtime/Engine/Classes/Animation/AnimInstance.h \
+  Runtime/Core/Public/Templates/UnrealTemplate.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/ObjectTrace.generated.h \
+  Runtime/TraceLog/Public/Trace/Trace.h \
+  Runtime/Engine/Public/Animation/AnimAttributes.h \
+  ../Plugins/Animation/PoseSearch/Source/Runtime/Public/PoseSearch/PoseSearchHistory.h \
+  Runtime/Engine/Public/BonePose.h \
+  Runtime/Core/Public/Containers/RingBuffer.h \
+  Runtime/Core/Public/Misc/AssertionMacros.h \
+  Runtime/Core/Public/Containers/ArrayView.h \
+  Runtime/Core/Public/Templates/IsPODType.h \
+  Runtime/Core/Public/Templates/MemoryOps.h \
+  Runtime/Core/Public/Templates/IsTriviallyDestructible.h \
+  Runtime/Core/Public/Templates/MakeSigned.h \
+  Runtime/Core/Public/Templates/MakeUnsigned.h \
+  ../Plugins/Animation/PoseSearch/Source/Runtime/Public/PoseSearch/PoseHistoryProvider.h \
+  Runtime/Engine/Public/Animation/AnimNodeMessages.h \
+  ../Plugins/Animation/PoseSearch/Source/Runtime/Public/PoseSearch/PoseSearchTrajectoryLibrary.h \
+  ../Plugins/Animation/PoseSearch/Source/Runtime/Public/PoseSearch/PoseSearchTrajectoryTypes.h \
+  Runtime/Engine/Public/Animation/AnimTypes.h \
+  Runtime/Engine/Public/Animation/MotionTrajectoryTypes.h \
+  Runtime/Core/Public/Algo/BinarySearch.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/MotionTrajectoryTypes.generated.h \
+  ../Plugins/Animation/PoseSearch/Intermediate/Build/Mac/UnrealEditor/Inc/PoseSearch/UHT/PoseSearchTrajectoryTypes.generated.h \
+  ../Plugins/Animation/PoseSearch/Intermediate/Build/Mac/UnrealEditor/Inc/PoseSearch/UHT/PoseSearchTrajectoryLibrary.generated.h \
+  Runtime/CoreUObject/Public/UObject/ObjectKey.h \
+  ../Plugins/Animation/PoseSearch/Source/Runtime/Public/PoseSearch/PoseSearchResult.h \
+  ../Plugins/Animation/PoseSearch/Source/Runtime/Public/PoseSearch/PoseSearchCost.h \
+  ../Plugins/Animation/PoseSearch/Intermediate/Build/Mac/UnrealEditor/Inc/PoseSearch/UHT/PoseSearchCost.generated.h \
+  ../Plugins/Animation/PoseSearch/Intermediate/Build/Mac/UnrealEditor/Inc/PoseSearch/UHT/PoseSearchResult.generated.h \
+  ../Plugins/Animation/PoseSearch/Source/Runtime/Public/PoseSearch/PoseSearchRole.h \
+  Runtime/AnimGraphRuntime/Public/SequenceEvaluatorLibrary.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AnimGraphRuntime/UHT/SequenceEvaluatorLibrary.generated.h \
+  Runtime/AnimGraphRuntime/Public/SequencePlayerLibrary.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AnimGraphRuntime/UHT/SequencePlayerLibrary.generated.h \
+  ../Plugins/Animation/PoseSearch/Intermediate/Build/Mac/UnrealEditor/Inc/PoseSearch/UHT/PoseSearchLibrary.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/AGLS_AI_AnimInstanceBase.generated.h \
+  Runtime/Engine/Classes/Kismet/KismetMathLibrary.h \
+  Runtime/CoreUObject/Public/UObject/Script.h \
+  Runtime/CoreUObject/Public/UObject/Stack.h \
+  Runtime/Core/Public/Misc/QualifiedFrameTime.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/KismetMathLibrary.generated.h \
+  Runtime/Engine/Classes/Kismet/KismetMathLibrary.inl \
+  Runtime/Core/Public/Math/Vector.h \
+  ../Plugins/Animation/PoseSearch/Source/Runtime/Public/PoseSearch/MotionMatchingAnimNodeLibrary.h \
+  ../Plugins/Animation/PoseSearch/Intermediate/Build/Mac/UnrealEditor/Inc/PoseSearch/UHT/MotionMatchingAnimNodeLibrary.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_AI_CharacterInterface.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_AI_CharacterInterface.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/AGLS_AI_CharacterInterface.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_AI_HumanCharInterface.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_AI_HumanCharInterface.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/AGLS_AI_HumanCharInterface.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_CharacterMovementComponent.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_CharacterMovementComponent.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/AGLS_CharacterMovementComponent.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_ZombieAttacksComponentCore.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_ZombieAttacksComponentCore.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/AGLS_ZombieAttacksComponentCore.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AGLS_Zombie_ControllerAI.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AGLS_Zombie_ControllerAI.h \
+  Runtime/AIModule/Classes/AIController.h \
+  Runtime/Engine/Public/EngineDefines.h \
+  Runtime/NavigationSystem/Public/NavFilters/NavigationQueryFilter.h \
+  Runtime/AIModule/Classes/AITypes.h Runtime/Core/Public/Stats/Stats.h \
+  Runtime/NavigationSystem/Public/NavigationSystemTypes.h \
+  Runtime/Engine/Classes/AI/NavigationSystemConfig.h \
+  Runtime/Engine/Classes/AI/Navigation/NavAgentSelector.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/NavigationSystemConfig.generated.h \
+  Runtime/Engine/Classes/AI/Navigation/NavLinkDefinition.h \
+  Runtime/Core/Public/Math/GenericOctreePublic.h \
+  Runtime/Engine/Public/AI/NavigationModifier.h \
+  Runtime/CoreUObject/Public/UObject/WeakInterfacePtr.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/AITypes.generated.h \
+  Runtime/GameplayTasks/Classes/GameplayTaskOwnerInterface.h \
+  Runtime/GameplayTasks/Classes/GameplayTask.h \
+  Runtime/Engine/Classes/GameFramework/Controller.h \
+  Runtime/AIModule/Classes/Perception/AIPerceptionListenerInterface.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/AIPerceptionListenerInterface.generated.h \
+  Runtime/AIModule/Classes/GenericTeamAgentInterface.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/GenericTeamAgentInterface.generated.h \
+  Runtime/Engine/Public/VisualLogger/VisualLoggerDebugSnapshotInterface.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/VisualLoggerDebugSnapshotInterface.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/AIController.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/AGLS_Zombie_ControllerAI.generated.h \
+  Runtime/NavigationSystem/Public/NavigationSystem.h \
+  Runtime/CoreUObject/Public/UObject/WeakObjectPtr.h \
+  Runtime/Core/Public/Misc/CoreMisc.h \
+  Runtime/Core/Public/Misc/CoreDelegates.h \
+  Runtime/Engine/Classes/AI/Navigation/NavigationDirtyElement.h \
+  Runtime/Core/Public/Math/Box.h \
+  Runtime/Engine/Classes/AI/Navigation/NavigationInvokerPriority.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/NavigationInvokerPriority.generated.h \
+  Runtime/CoreUObject/Public/Templates/IsUEnumClass.h \
+  Runtime/CoreUObject/Public/UObject/ReflectedTypeAccessors.h \
+  Runtime/NavigationSystem/Public/NavigationData.h \
+  Runtime/Core/Public/Async/TaskGraphInterfaces.h \
+  Runtime/Engine/Classes/AI/Navigation/NavigationDataInterface.h \
+  Runtime/Engine/Public/AI/Navigation/NavQueryFilter.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/NavigationDataInterface.generated.h \
+  Runtime/Core/Public/Misc/TransactionallySafeScopeLock.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/NavigationSystem/UHT/NavigationData.generated.h \
+  Runtime/Engine/Classes/AI/NavigationSystemBase.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/NavigationSystemBase.generated.h \
+  Runtime/NavigationSystem/Public/NavigationOctree.h \
+  Runtime/Engine/Classes/AI/Navigation/NavRelevantInterface.h \
+  Runtime/Engine/Public/EngineStats.h \
+  Runtime/Engine/Classes/AI/Navigation/NavigationElement.h \
+  Runtime/Engine/Classes/AI/Navigation/NavigationRelevantData.h \
+  Runtime/Core/Public/Math/GenericOctree.h \
+  Runtime/Core/Public/HAL/LowLevelMemTracker.h \
+  Runtime/NavigationSystem/Public/NavigationOctreeController.h \
+  Runtime/NavigationSystem/Public/NavigationDirtyAreasController.h \
+  Runtime/Core/Public/UObject/UnrealNames.h \
+  Runtime/Core/Public/Math/MovingWindowAverageFast.h \
+  Runtime/Core/Public/Containers/StaticArray.h \
+  Runtime/Engine/Classes/AI/Navigation/NavigationBounds.h \
+  Runtime/Core/Public/Containers/ContainerAllocationPolicies.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/NavigationSystem/UHT/NavigationSystem.generated.h \
+  Runtime/NavigationSystem/Public/NavigationPath.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/NavigationSystem/UHT/NavigationPath.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AI_MeleeFightSequencesData.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/ALS_BaseAI_CharacterCpp.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/ALS_BaseAI_CharacterCpp.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/ALS_DamageConfigData.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/ALS_DamageConfigData.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/ALS_HumanAI_InterfaceCpp.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/ALS_HumanAI_InterfaceCpp.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/ALS_BaseAI_CharacterCpp.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/ALS_BaseComponentsInterfaceCpp.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/ALS_BaseComponentsInterfaceCpp.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/ALS_BaseComponentsInterfaceCpp.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/ALS_DamageConfigData.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/ALS_HookActorInterface.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/ALS_HumanAI_ControllerCpp.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/ALS_HumanAI_ControllerCpp.h \
+  Runtime/AIModule/Classes/BehaviorTree/BehaviorTreeTypes.h \
+  Runtime/AIModule/Classes/BehaviorTree/Blackboard/BlackboardKey.h \
+  Runtime/InputCore/Classes/InputCoreTypes.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/BehaviorTreeTypes.generated.h \
+  Runtime/AIModule/Classes/Perception/AIPerceptionTypes.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/AIPerceptionTypes.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/ALS_HumanAI_ControllerCpp.generated.h \
+  Runtime/AIModule/Classes/BehaviorTree/BehaviorTree.h \
+  Runtime/Engine/Classes/Engine/Blueprint.h \
+  Runtime/AIModule/Classes/BehaviorTree/BTCompositeNode.h \
+  Runtime/AIModule/Classes/BehaviorTree/BTNode.h \
+  Runtime/AIModule/Classes/BehaviorTree/BehaviorTreeComponent.h \
+  Runtime/GameplayTags/Classes/GameplayTagContainer.h \
+  Runtime/Core/Public/Misc/ComparisonUtility.h \
+  Runtime/Core/Public/Containers/StringFwd.h \
+  Runtime/Core/Public/Containers/StringView.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/GameplayTags/UHT/GameplayTagContainer.generated.h \
+  Runtime/AIModule/Classes/BrainComponent.h \
+  Runtime/AIModule/Classes/AIResourceInterface.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/AIResourceInterface.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/BrainComponent.generated.h \
+  Runtime/Core/Public/ProfilingDebugging/CsvProfiler.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/BehaviorTreeComponent.generated.h \
+  Runtime/AIModule/Classes/BehaviorTree/BlackboardAssetProvider.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/BlackboardAssetProvider.generated.h \
+  Runtime/AIModule/Classes/Tasks/AITask.h \
+  Runtime/CoreUObject/Public/UObject/Package.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/AITask.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/BTNode.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/BTCompositeNode.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/BehaviorTree.generated.h \
+  Runtime/AIModule/Classes/BehaviorTree/BlackboardComponent.h \
+  Runtime/AIModule/Classes/BehaviorTree/Blackboard/BlackboardKeyType.h \
+  Runtime/AIModule/Classes/BehaviorTree/Blackboard/BlackboardKeyEnums.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/BlackboardKeyEnums.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/BlackboardKeyType.generated.h \
+  Runtime/AIModule/Classes/AISystem.h \
+  Runtime/CoreUObject/Public/UObject/SoftObjectPath.h \
+  Runtime/Engine/Classes/AI/AISystemBase.h \
+  Runtime/Core/Public/Modules/ModuleInterface.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/AISystemBase.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/AISystem.generated.h \
+  Runtime/AIModule/Classes/BehaviorTree/BlackboardData.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/BlackboardData.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/BlackboardComponent.generated.h \
+  Runtime/AIModule/Classes/Perception/AIPerceptionComponent.h \
+  Runtime/AIModule/Classes/Perception/AISense.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/AISense.generated.h \
+  Runtime/AIModule/Classes/Perception/AIPerceptionSystem.h \
+  Runtime/AIModule/Classes/AISubsystem.h \
+  Runtime/Engine/Public/Tickable.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/AISubsystem.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/AIPerceptionSystem.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/AIPerceptionComponent.generated.h \
+  Runtime/AIModule/Classes/Perception/AISenseConfig_Sight.h \
+  Runtime/AIModule/Classes/Perception/AISenseConfig.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/AISenseConfig.generated.h \
+  Runtime/AIModule/Classes/Perception/AISense_Sight.h \
+  Runtime/Core/Public/Misc/MTTransactionallySafeAccessDetector.h \
+  Runtime/Core/Public/AutoRTFM/AutoRTFM.h \
+  Runtime/Core/Public/Misc/MTAccessDetector.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/AISense_Sight.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT/AISenseConfig_Sight.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/ALS_HumanAI_InterfaceCpp.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/ALS_StructuresAndEnumsCpp.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AsyncFunctionsPlayer.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AsyncFunctionsPlayer.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/AsyncFunctionsPlayer.generated.h \
+  Runtime/Engine/Classes/Engine/StreamableManager.h \
+  Runtime/Core/Public/Math/NumericLimits.h \
+  Runtime/CoreUObject/Public/Misc/PackageAccessTracking.h \
+  Runtime/Core/Public/Misc/Optional.h \
+  Runtime/CoreUObject/Public/Misc/PackageName.h \
+  Runtime/CoreUObject/Public/UObject/ObjectHandle.h \
+  Runtime/CoreUObject/Public/Templates/Casts.h \
+  Runtime/CoreUObject/Public/UObject/GCObject.h \
+  Runtime/Core/Public/Misc/SourceLocation.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/source_location \
+  Runtime/Core/Public/Misc/SourceLocationUtils.h \
+  Runtime/Core/Public/Misc/StringBuilder.h \
+  Runtime/Engine/Classes/Engine/AssetManager.h \
+  Runtime/Engine/Classes/Engine/AssetManagerTypes.h \
+  Runtime/CoreUObject/Public/AssetRegistry/AssetIdentifier.h \
+  Runtime/Core/Public/Containers/Set.h \
+  Runtime/Core/Public/Delegates/Delegate.h \
+  Runtime/Core/Public/Templates/Tuple.h \
+  Runtime/CoreUObject/Public/UObject/ObjectPtr.h \
+  Runtime/CoreUObject/Public/UObject/PrimaryAssetId.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/AssetManagerTypes.generated.h \
+  Runtime/CoreUObject/Public/Misc/AssetRegistryInterface.h \
+  Runtime/Core/Public/Containers/ContainersFwd.h \
+  Runtime/Core/Public/Modules/ModuleManager.h \
+  Runtime/CoreUObject/Public/AssetRegistry/AssetBundleData.h \
+  Runtime/AssetRegistry/Public/AssetRegistry/AssetRegistryModule.h \
+  Runtime/AssetRegistry/Public/AssetRegistry/IAssetRegistry.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AssetRegistry/UHT/IAssetRegistry.generated.h \
+  Runtime/Core/Public/GenericPlatform/GenericPlatformChunkInstall.h \
+  Runtime/Core/Public/HAL/PlatformCrt.h \
+  Runtime/Engine/Classes/Engine/ContentEncryptionConfig.h \
+  Runtime/Core/Public/Containers/Map.h Runtime/Core/Public/Misc/Guid.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/AssetManager.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/AsyncLoadAssetsNode.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/AsyncLoadAssetsNode.h \
+  Runtime/Engine/Classes/Kismet/BlueprintAsyncActionBase.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/BlueprintAsyncActionBase.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/AsyncLoadAssetsNode.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/Cpp_CoverSystemV2.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/Cpp_CoverSystemV2.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/Cpp_CoverSystemV2.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/Cpp_DynamicClimbingComponent.cpp \
+  Runtime/Engine/Classes/Camera/PlayerCameraManager.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/Cpp_FallDamageAndSliding.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/Cpp_FallDamageAndSliding.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/Cpp_FallDamageAndSliding.generated.h \
+  Runtime/PhysicsCore/Public/PhysicalMaterials/PhysicalMaterial.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/Cpp_LadderClimbingComponent.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/Cpp_MatchedMontageComponent.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/Cpp_MatchedMontageComponent.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/Cpp_MatchedMontageComponent.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Private/Cpp_TraversalActionComponent.cpp

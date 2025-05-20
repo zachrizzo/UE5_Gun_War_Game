@@ -4191,4 +4191,23 @@
   Runtime/Engine/Public/EngineLogs.h \
   ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/AnimNodeReference.generated.h \
   /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Intermediate/Build/Mac/UnrealEditor/Inc/JakubAnimNodesTool/UHT/PoseSnapshotLibrary.generated.h \
-  Runtime/Engine/Public/Animation/PoseSnapshot.h
+  Runtime/Engine/Public/Animation/PoseSnapshot.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Private/JakubAnimNodesTool.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Public/JakubAnimNodesTool.h \
+  Runtime/Core/Public/Modules/ModuleManager.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Private/JWAN_CurveSmootherLogic.cpp \
+  Runtime/Engine/Public/AnimationRuntime.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Private/JWAN_LayerBlendingLogic.cpp \
+  Runtime/Engine/Classes/Animation/AnimNode_Inertialization.h \
+  Runtime/Engine/Public/Animation/AnimCurveTypes.h \
+  Runtime/Engine/Public/Animation/AnimNodeMessages.h \
+  Runtime/Engine/Classes/Interfaces/Interface_BoneReferenceSkeletonProvider.h \
+  Runtime/CoreUObject/Public/UObject/Interface.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/Interface_BoneReferenceSkeletonProvider.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/AnimNode_Inertialization.generated.h \
+  Runtime/Engine/Classes/Animation/Skeleton.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Private/JWAN_ModifyLayeringLogic.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Private/JWAN_PoseSnapShotLogic.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Private/MyAnimNode.cpp \
+  Runtime/Engine/Classes/Components/SkinnedMeshComponent.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Private/PoseSnapshotLibrary.cpp

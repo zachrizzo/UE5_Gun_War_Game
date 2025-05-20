@@ -4211,4 +4211,66 @@
   ../Intermediate/Build/Mac/UnrealEditor/Inc/AnimGraph/UHT/AnimGraphNode_BlendListBase.generated.h \
   /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodesTool/Public/MyAnimNode.h \
   /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Intermediate/Build/Mac/UnrealEditor/Inc/JakubAnimNodesTool/UHT/MyAnimNode.generated.h \
-  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Intermediate/Build/Mac/UnrealEditor/Inc/JakubAnimNodes/UHT/MyAnimGraphNode.generated.h
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Intermediate/Build/Mac/UnrealEditor/Inc/JakubAnimNodes/UHT/MyAnimGraphNode.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodes/Private/JakubAnimNodes.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodes/Public/JakubAnimNodes.h \
+  Runtime/Core/Public/Modules/ModuleManager.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodes/Private/JakubAnimNodesBPLibrary.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodes/Private/JWAN_CurveSmootherGraph.cpp \
+  Runtime/SlateCore/Public/Textures/SlateIcon.h \
+  Editor/GraphEditor/Public/GraphEditorActions.h \
+  Runtime/Core/Public/Containers/Array.h \
+  Runtime/Slate/Public/Framework/Commands/Commands.h \
+  Runtime/Slate/Public/Framework/MultiBox/MultiBoxBuilder.h \
+  Runtime/Core/Public/HAL/Platform.h \
+  Runtime/Core/Public/Internationalization/Internationalization.h \
+  Runtime/SlateCore/Public/Styling/AppStyle.h \
+  Runtime/Core/Public/Templates/SharedPointer.h \
+  Runtime/Core/Public/UObject/NameTypes.h \
+  Runtime/Core/Public/UObject/UnrealNames.h \
+  Editor/UnrealEd/Public/ScopedTransaction.h \
+  Editor/UnrealEd/Public/Kismet2/CompilerResultsLog.h \
+  Editor/AnimGraph/Public/AnimationGraphSchema.h \
+  Runtime/CoreUObject/Public/AssetRegistry/AssetData.h \
+  Runtime/Engine/Classes/EdGraph/EdGraphSchema.h \
+  Editor/BlueprintGraph/Classes/EdGraphSchema_K2.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AnimGraph/UHT/AnimationGraphSchema.generated.h \
+  Editor/BlueprintGraph/Public/BlueprintActionDatabaseRegistrar.h \
+  Editor/BlueprintGraph/Public/BlueprintActionDatabase.h \
+  Runtime/Core/Public/Containers/Map.h \
+  Runtime/Core/Public/Containers/UnrealString.h \
+  Runtime/Core/Public/Delegates/Delegate.h \
+  Runtime/Core/Public/HAL/PlatformCrt.h \
+  Runtime/Core/Public/Misc/NamePermissionList.h \
+  Runtime/Core/Public/Stats/Stats.h Runtime/Core/Public/Stats/Stats2.h \
+  Runtime/Engine/Public/Tickable.h \
+  Editor/UnrealEd/Public/TickableEditorObject.h \
+  Runtime/CoreUObject/Public/UObject/GCObject.h \
+  Runtime/CoreUObject/Public/UObject/ObjectKey.h \
+  Runtime/CoreUObject/Public/UObject/SoftObjectPath.h \
+  Runtime/CoreUObject/Public/UObject/TopLevelAssetPath.h \
+  Runtime/Engine/Classes/EdGraph/EdGraphNode.h \
+  Runtime/CoreUObject/Public/Templates/SubclassOf.h \
+  Runtime/CoreUObject/Public/UObject/Class.h \
+  Runtime/Slate/Public/Framework/Commands/UIAction.h \
+  Developer/ToolMenus/Public/ToolMenus.h \
+  Editor/PropertyEditor/Public/DetailLayoutBuilder.h \
+  Runtime/SlateCore/Public/Fonts/SlateFontInfo.h \
+  Editor/PropertyEditor/Public/PropertyHandle.h \
+  Editor/PropertyEditor/Public/IDetailPropertyRow.h \
+  Runtime/Slate/Public/Framework/SlateDelegates.h \
+  Runtime/SlateCore/Public/Layout/Visibility.h \
+  Editor/UnrealEd/Public/Kismet2/BlueprintEditorUtils.h \
+  Runtime/Core/Public/Misc/Guid.h \
+  Runtime/Engine/Classes/Engine/Blueprint.h \
+  Runtime/SlateCore/Public/Widgets/SWidget.h \
+  Runtime/Engine/Classes/EdGraph/EdGraph.h \
+  Editor/BlueprintGraph/Classes/K2Node_EditablePinBase.h \
+  Editor/ClassViewer/Public/ClassViewerModule.h \
+  Runtime/Core/Public/Internationalization/Text.h \
+  Runtime/Core/Public/Logging/LogMacros.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodes/Private/JWAN_LayerBlendingGraph.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodes/Private/JWAN_ModifyLayeringGraph.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodes/Private/JWAN_PoseSnapShotGraph.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/JakubAnimNodes/Source/JakubAnimNodes/Private/MyAnimGraphNode.cpp \
+  Editor/AnimGraph/Public/AnimGraphCommands.h

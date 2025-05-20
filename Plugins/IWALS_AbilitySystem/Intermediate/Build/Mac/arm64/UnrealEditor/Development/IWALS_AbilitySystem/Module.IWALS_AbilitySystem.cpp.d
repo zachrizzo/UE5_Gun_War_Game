@@ -4417,4 +4417,150 @@
   /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Intermediate/Build/Mac/UnrealEditor/Inc/IWALS_AbilitySystem/UHT/IWALS_GameplayAbilitySet.gen.cpp \
   /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Intermediate/Build/Mac/UnrealEditor/Inc/IWALS_AbilitySystem/UHT/IWALS_OverlayLayerInterface.gen.cpp \
   /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Public/IWALS_OverlayLayerInterface.h \
-  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Intermediate/Build/Mac/UnrealEditor/Inc/IWALS_AbilitySystem/UHT/IWALS_OverlayLayerInterface.generated.h
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Intermediate/Build/Mac/UnrealEditor/Inc/IWALS_AbilitySystem/UHT/IWALS_OverlayLayerInterface.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/AbilityTask_DelayWithTick.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/AbilityTask_MoveByInputWithRot.cpp \
+  Runtime/Engine/Classes/GameFramework/CharacterMovementComponent.h \
+  Runtime/Core/Public/Math/RandomStream.h \
+  Runtime/Engine/Classes/Engine/EngineBaseTypes.h \
+  Runtime/Engine/Public/WorldCollision.h \
+  Runtime/Engine/Classes/AI/Navigation/NavigationTypes.h \
+  Runtime/Engine/Classes/Animation/AnimMontage.h \
+  Runtime/Engine/Classes/AI/Navigation/NavigationAvoidanceTypes.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/NavigationAvoidanceTypes.generated.h \
+  Runtime/Engine/Public/AI/RVOAvoidanceInterface.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/RVOAvoidanceInterface.generated.h \
+  Runtime/Engine/Classes/GameFramework/PawnMovementComponent.h \
+  Runtime/Engine/Classes/GameFramework/NavMovementComponent.h \
+  Runtime/Engine/Classes/GameFramework/NavMovementInterface.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/NavMovementInterface.generated.h \
+  Runtime/Engine/Classes/AI/Navigation/NavAgentInterface.h \
+  Runtime/Engine/Classes/AI/Navigation/PathFollowingAgentInterface.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/PathFollowingAgentInterface.generated.h \
+  Runtime/Engine/Classes/GameFramework/MovementComponent.h \
+  Runtime/PhysicsCore/Public/Chaos/ChaosEngineInterface.h \
+  Runtime/Engine/Classes/Components/SceneComponent.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/MovementComponent.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/NavMovementComponent.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/PawnMovementComponent.generated.h \
+  Runtime/Engine/Classes/Interfaces/NetworkPredictionInterface.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/NetworkPredictionInterface.generated.h \
+  Runtime/Engine/Public/CharacterMovementComponentAsync.h \
+  Runtime/Experimental/Chaos/Public/Chaos/SimCallbackObject.h \
+  Runtime/Engine/Public/CollisionQueryParams.h \
+  Runtime/PhysicsCore/Public/CollisionShape.h \
+  Runtime/Engine/Public/Engine/OverlapInfo.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/CharacterMovementComponentAsync.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/CharacterMovementComponent.generated.h \
+  Runtime/Engine/Classes/Kismet/KismetMathLibrary.h \
+  Runtime/CoreUObject/Public/UObject/Script.h \
+  Runtime/CoreUObject/Public/UObject/Stack.h \
+  Runtime/Engine/Classes/Kismet/BlueprintFunctionLibrary.h \
+  Runtime/Core/Public/Misc/QualifiedFrameTime.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/KismetMathLibrary.generated.h \
+  Runtime/Engine/Classes/Kismet/KismetMathLibrary.inl \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/AbilityTask_MovePawnByInput.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/AbilityTask_TimerFunction.cpp \
+  ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AbilitySystemGlobals.h \
+  Runtime/CoreUObject/Public/UObject/SoftObjectPath.h \
+  ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/GameplayAbilitiesModule.h \
+  ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/AbilitySystemGlobals.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/AsyncAnimInstance.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/GAS_InteractionsComponent.cpp \
+  ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AbilitySystemBlueprintLibrary.h \
+  ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/Abilities/GameplayAbilityTargetDataFilter.h \
+  ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/GameplayAbilityTargetDataFilter.generated.h \
+  ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/AbilitySystemBlueprintLibrary.generated.h \
+  Runtime/GameplayTags/Classes/BlueprintGameplayTagLibrary.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/GameplayTags/UHT/BlueprintGameplayTagLibrary.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/InteractiveActorsInterface.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/ALS_StructuresAndEnumsCpp.h \
+  Runtime/Engine/Classes/Curves/CurveFloat.h \
+  Runtime/Engine/Classes/Curves/CurveVector.h \
+  Runtime/Engine/Classes/Curves/RichCurve.h \
+  Runtime/Engine/Classes/Curves/CurveBase.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/CurveVector.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/ALS_StructuresAndEnumsCpp.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/InteractionWidgetCondition.h \
+  Runtime/CoreUObject/Public/UObject/NoExportTypes.h \
+  Runtime/Core/Public/PixelFormat.h \
+  Runtime/Core/Public/Misc/FallbackStruct.h \
+  Runtime/Core/Public/Misc/DateTime.h \
+  Runtime/Core/Public/Misc/Timespan.h \
+  Runtime/Core/Public/Misc/FrameRate.h \
+  Runtime/Core/Public/Misc/FrameTime.h \
+  Runtime/Core/Public/Misc/FrameNumber.h \
+  Runtime/Core/Public/Misc/Timecode.h \
+  Runtime/CoreUObject/Public/UObject/PropertyAccessUtil.h \
+  Runtime/CoreUObject/Public/Serialization/TestUndeclaredScriptStructObjectReferences.h \
+  Runtime/Core/Public/Math/InterpCurvePoint.h \
+  Runtime/Core/Public/Math/UnitConversion.h \
+  Runtime/Core/Public/Internationalization/Text.h \
+  Runtime/Core/Public/Templates/ValueOrError.h \
+  Runtime/Core/Public/Math/UnitConversion.inl \
+  Runtime/Core/Public/CoreFwd.h Runtime/Core/Public/Misc/OptionalFwd.h \
+  Runtime/Core/Public/Math/Vector.h Runtime/Core/Public/Math/Vector4.h \
+  Runtime/Core/Public/Math/Vector2D.h \
+  Runtime/Core/Public/Math/TwoVectors.h Runtime/Core/Public/Math/Plane.h \
+  Runtime/Core/Public/Math/Rotator.h Runtime/Core/Public/Math/Quat.h \
+  Runtime/Core/Public/Math/IntPoint.h \
+  Runtime/Core/Public/Math/IntVector.h Runtime/Core/Public/Math/Color.h \
+  Runtime/Core/Public/Math/Box.h Runtime/Core/Public/Math/Box2D.h \
+  Runtime/Core/Public/Math/BoxSphereBounds.h \
+  Runtime/Core/Public/Math/OrientedBox.h \
+  Runtime/Core/Public/Math/Matrix.h \
+  Runtime/Core/Public/Math/ScalarRegister.h \
+  Runtime/Core/Public/Math/RangeBound.h \
+  Runtime/Core/Public/Math/Interval.h Runtime/Core/Public/Math/Sphere.h \
+  Runtime/Core/Public/Internationalization/PolyglotTextData.h \
+  Runtime/Core/Public/Internationalization/LocalizedTextSourceTypes.h \
+  Runtime/CoreUObject/Public/AssetRegistry/AssetData.h \
+  Runtime/CoreUObject/Public/UObject/../../../ApplicationCore/Public/GenericPlatform/ICursor.h \
+  Runtime/CoreUObject/Public/UObject/../../../ApplicationCore/Public/GenericPlatform/IInputInterface.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/InteractionWidgetCondition.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/InteractiveActorsInterface.generated.h \
+  Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h \
+  Runtime/Engine/Classes/Engine/LatentActionManager.h \
+  Runtime/Engine/Classes/Engine/CollisionProfile.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/KismetSystemLibrary.generated.h \
+  Runtime/Engine/Classes/Components/CapsuleComponent.h \
+  Runtime/Engine/Classes/Components/ShapeComponent.h \
+  Runtime/Engine/Classes/Components/PrimitiveComponent.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/ShapeComponent.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/CapsuleComponent.generated.h \
+  Runtime/Engine/Classes/Kismet/GameplayStatics.h \
+  Runtime/Engine/Classes/Sound/DialogueTypes.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/DialogueTypes.generated.h \
+  Runtime/Engine/Classes/Kismet/GameplayStaticsTypes.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/GameplayStaticsTypes.generated.h \
+  Runtime/Engine/Classes/Particles/WorldPSCPool.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/GameplayStatics.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Source/HelpfulFunctions/Public/InteractionWidgetInterface.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/HelpfulFunctions/Intermediate/Build/Mac/UnrealEditor/Inc/HelpfulFunctions/UHT/InteractionWidgetInterface.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/GAS_MainCharacterCpp.cpp \
+  Runtime/GameplayTags/Classes/GameplayTagsManager.h \
+  Runtime/Core/Public/Misc/TransactionallySafeScopeLock.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/GameplayTags/UHT/GameplayTagsManager.generated.h \
+  Runtime/AnimGraphRuntime/Public/KismetAnimationLibrary.h \
+  Runtime/AnimGraphRuntime/Public/KismetAnimationTypes.h \
+  Runtime/AnimGraphRuntime/Public/CommonAnimationTypes.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AnimGraphRuntime/UHT/CommonAnimationTypes.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AnimGraphRuntime/UHT/KismetAnimationTypes.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/AnimGraphRuntime/UHT/KismetAnimationLibrary.generated.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/InteractionAbilitiesSet.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_AbilityInterface.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_AbilitySystem.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_AnimInstanceCpp.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_AnimLayersClassData.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_BaseAttributeSet.cpp \
+  Runtime/Engine/Public/Net/UnrealNetwork.h \
+  Runtime/Engine/Public/EngineLogs.h \
+  Runtime/Net/Core/Public/Net/Core/Connection/NetResult.h \
+  Runtime/Net/Core/Public/Net/Core/PropertyConditions/PropertyConditions.h \
+  Runtime/Core/Public/Delegates/IDelegateInstance.h \
+  Runtime/Core/Public/Templates/SharedPointer.h \
+  Runtime/Engine/Public/Net/ReplayResult.h \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_EnumsAndStruct.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_GameplayAbility.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_GameplayAbilitySet.cpp \
+  /Volumes/4TB-Z/unreal_engine/AGLS\ v1.4/Plugins/IWALS_AbilitySystem/Source/IWALS_AbilitySystem/Private/IWALS_OverlayLayerInterface.cpp
